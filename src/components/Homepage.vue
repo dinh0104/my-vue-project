@@ -6,69 +6,69 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
   <primary-template>
     <div class="headshots">
 
-      <div class="elira-box"></div>
+      <div class="elira box"></div>
 
-      <div class="finana-box"></div>
+      <div class="finana box"></div>
 
-      <div class="rosemi-box"></div>
+      <div class="rosemi box"></div>
 
-      <div class="petra-box"></div>
+      <div class="petra box"></div>
 
-      <div class="enna-box"></div>
+      <div class="enna box"></div>
 
-      <div class="millie-box"></div>
+      <div class="millie box"></div>
 
-      <div class="reimu-box"></div>
+      <div class="reimu box"></div>
 
-      <div class="ike-box"></div>
+      <div class="ike box"></div>
 
-      <div class="luca-box"></div>
+      <div class="luca box"></div>
 
-      <div class="shu-box"></div>
+      <div class="shu box"></div>
 
-      <div class="vox-box"></div>
+      <div class="vox box"></div>
 
-      <div class="alban-box"></div>
+      <div class="alban box"></div>
 
-      <div class="fulgur-box"></div>
+      <div class="fulgur box"></div>
 
-      <div class="sonny-box"></div>
+      <div class="sonny box"></div>
 
-      <div class="uki-box"></div>
+      <div class="uki box"></div>
 
-      <div class="aia-box"></div>
+      <div class="aia box"></div>
 
-      <div class="aster-box"></div>
+      <div class="aster box"></div>
 
-      <div class="maria-box"></div>
+      <div class="maria box"></div>
 
-      <div class="ren-box"></div>
+      <div class="ren box"></div>
 
-      <div class="scarle-box"></div>
+      <div class="scarle box"></div>
 
-      <div class="doppio-box"></div>
+      <div class="doppio box"></div>
 
-      <div class="kotoka-box"></div>
+      <div class="kotoka box"></div>
 
-      <div class="meloco-box"></div>
+      <div class="meloco box"></div>
 
-      <div class="ver-box"></div>
+      <div class="ver box"></div>
 
-      <div class="vanta-box"></div>
+      <div class="vanta box"></div>
 
-      <div class="zali-box"></div>
+      <div class="zali box"></div>
 
-      <div class="wilson-box"></div>
+      <div class="wilson box"></div>
 
-      <div class="vivi-box"></div>
+      <div class="vivi box"></div>
 
-      <div class="claude-box"></div>
+      <div class="claude box"></div>
 
-      <div class="klara-box"></div>
+      <div class="klara box"></div>
 
-      <div class="ryoma-box"></div>
+      <div class="ryoma box"></div>
 
-      <div class="twisty-box"></div>
+      <div class="twisty box"></div>
 
     </div>
   </primary-template>
@@ -85,7 +85,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     justify-content: center;
   }
 
-  .elira-box {
+  .elira {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -96,11 +96,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-position: right;
   }
 
-  .elira-box:hover {
-    transform: scale(1.1);
-  }
-
-  .finana-box {
+  .finana {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -111,11 +107,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-position: bottom;
   }
 
-  .finana-box:hover {
-    transform: scale(1.1);
-  }
-
-  .rosemi-box {
+  .rosemi {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -126,11 +118,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-position: bottom;
   }
 
-  .rosemi-box:hover {
-    transform: scale(1.1);
-  }
-
-  .petra-box {
+  .petra {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -141,11 +129,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-position: bottom;
   }
 
-  .petra-box:hover {
-    transform: scale(1.1);
-  }
-
-  .enna-box {
+  .enna {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -155,11 +139,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .enna-box:hover {
-    transform: scale(1.1);
-  }
-
-  .millie-box {
+  .millie {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -170,11 +150,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-position: center;
   }
 
-  .millie-box:hover {
-    transform: scale(1.1);
-  }
-
-  .reimu-box {
+  .reimu {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -184,11 +160,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .reimu-box:hover {
-    transform: scale(1.1);
-  }
-
-  .ike-box {
+  .ike {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -198,11 +170,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .ike-box:hover {
-    transform: scale(1.1);
-  }
-
-  .luca-box {
+  .luca {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -212,11 +180,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .luca-box:hover {
-    transform: scale(1.1);
-  }
-
-  .shu-box {
+  .shu {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -226,11 +190,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .shu-box:hover {
-    transform: scale(1.1);
-  }
-
-  .vox-box {
+  .vox {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -240,11 +200,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .vox-box:hover {
-    transform: scale(1.1);
-  }
-
-  .alban-box {
+  .alban {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -255,11 +211,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-position: center;
   }
 
-  .alban-box:hover {
-    transform: scale(1.1);
-  }
-
-  .fulgur-box {
+  .fulgur {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -270,11 +222,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-position: center;
   }
 
-  .fulgur-box:hover {
-    transform: scale(1.1);
-  }
-
-  .sonny-box {
+  .sonny {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -285,11 +233,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-position: center;
   }
 
-  .sonny-box:hover {
-    transform: scale(1.1);
-  }
-
-  .uki-box {
+  .uki {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -300,11 +244,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-position: center;
   }
 
-  .uki-box:hover {
-    transform: scale(1.1);
-  }
-
-  .aia-box {
+  .aia {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -315,11 +255,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     outline: 1px solid darkgray;
   }
 
-  .aia-box:hover {
-    transform: scale(1.1);
-  }
-
-  .aster-box {
+  .aster {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -329,11 +265,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .aster-box:hover {
-    transform: scale(1.1);
-  }
-
-  .maria-box {
+  .maria {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -343,11 +275,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .maria-box:hover {
-    transform: scale(1.1);
-  }
-
-  .ren-box {
+  .ren {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -357,11 +285,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .ren-box:hover {
-    transform: scale(1.1);
-  }
-
-  .scarle-box {
+  .scarle {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -371,11 +295,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .scarle-box:hover {
-    transform: scale(1.1);
-  }
-
-  .doppio-box {
+  .doppio {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -385,11 +305,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .doppio-box:hover {
-    transform: scale(1.1);
-  }
-
-  .kotoka-box {
+  .kotoka {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -399,11 +315,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .kotoka-box:hover {
-    transform: scale(1.1);
-  }
-
-  .meloco-box {
+  .meloco {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -413,11 +325,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .meloco-box:hover {
-    transform: scale(1.1);
-  }
-
-  .ver-box {
+  .ver {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -427,11 +335,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .ver-box:hover {
-    transform: scale(1.1);
-  }
-
-  .vanta-box {
+  .vanta {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -441,11 +345,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .vanta-box:hover {
-    transform: scale(1.1);
-  }
-
-  .zali-box {
+  .zali {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -455,11 +355,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .zali-box:hover {
-    transform: scale(1.1);
-  }
-
-  .wilson-box {
+  .wilson {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -469,11 +365,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .wilson-box:hover {
-    transform: scale(1.1);
-  }
-
-  .vivi-box {
+  .vivi {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -483,11 +375,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .vivi-box:hover {
-    transform: scale(1.1);
-  }
-
-  .claude-box {
+  .claude {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -497,11 +385,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .claude-box:hover {
-    transform: scale(1.1);
-  }
-
-  .klara-box {
+  .klara {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -511,11 +395,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .klara-box:hover {
-    transform: scale(1.1);
-  }
-
-  .ryoma-box {
+  .ryoma {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -525,11 +405,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .ryoma-box:hover {
-    transform: scale(1.1);
-  }
-
-  .twisty-box {
+  .twisty {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -539,22 +415,42 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .twisty-box:hover {
-    transform: scale(1.1);
+  @media screen and (width > 430px){
+    .headshots {
+      column-count: 4;
+      margin: 10px;
+    }
+
+    .box {
+      width: 148px;
+      height: 143px;
+      margin: 20px 0 ;
+    }
+
+    .box:hover {
+      transform: scale(1.1);
+    }
+
+
+
   }
 
-  @media screen and (max-width: 834px) {
+  @media screen and (width > 1000px) {
     .headshots {
-      display: flex;
-      flex-wrap: wrap;
-      column-count: 4;
-      column-gap: 40px;
-      justify-content: center;
+      column-count: 5;
+      padding: 0 20px 0 20px;
+      margin: 20px;
     }
 
-    body {
-      background-color: #7D3CAF;
+    .box {
+      width: 190px;
+      height: 184px;
     }
+
+    .box:hover {
+      transform: scale(1.1);
+    }
+
   }
 
 </style>

@@ -24,6 +24,7 @@
 </template>
 
 <style scoped>
+/*mobile*/
 img {
   max-width: 30%;
   padding: 20px;
@@ -59,6 +60,35 @@ li {
   margin: 0;
   padding: 0 10px 0 10px;
   text-decoration: none;
+}
+
+@media screen and (width > 430) {
+  img {
+    max-width: 231px;
+    max-height: 49px;
+  }
+
+  div.header-border, div.footer-border {
+    border-top: 6px solid #0065B0;
+  }
+
+  div.nav-icon {
+    display: none;
+  }
+}
+
+@media screen and (width > 1000px) {
+  img {
+    max-width: 400px;
+    max-height: 85px;
+  }
+  div.header-border, div.footer-border {
+    border-top: 7px solid #0065B0;
+  }
+
+  div.nav-icon {
+    display: none;
+  }
 }
 
 </style>
