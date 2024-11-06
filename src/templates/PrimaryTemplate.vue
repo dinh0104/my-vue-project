@@ -30,9 +30,13 @@ img {
 }
 
 div.header-border, div.footer-border {
-  border-top: 3px solid #0065B0;
+  border-top: 5px solid #0065B0;
   padding: 0 0 20px 0;
   margin: 0;
+}
+
+div.footer-border {
+  margin-top: 30px;
 }
 
 div.nav-icon {
