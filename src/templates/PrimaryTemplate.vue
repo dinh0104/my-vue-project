@@ -81,6 +81,7 @@ li {
   img {
     max-width: 400px;
     max-height: 85px;
+    margin-left: 20px;
   }
   div.header-border, div.footer-border {
     border-top: 7px solid #0065B0;

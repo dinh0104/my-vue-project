@@ -4,6 +4,19 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 
 <template>
   <primary-template>
+    <div class="big-nav">
+      <p><a href="#">All</a></p>
+      <p><a href="#">LazuLight</a></p>
+      <p><a href="#">Obsydia</a></p>
+      <p><a href="#">Ethyria</a></p>
+      <p><a href="#">Luxiem</a></p>
+      <p><a href="#">Noctyx</a></p>
+      <p><a href="#">Iluna</a></p>
+      <p><a href="#">Xsoleil</a></p>
+      <p><a href="#">Krisis</a></p>
+      <p><a href="#">TTT</a></p>
+      <p><a href="#">Denauth</a></p>
+    </div>
     <div class="headshots">
 
       <div class="elira box"></div>
@@ -421,6 +434,28 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       margin: 10px;
     }
 
+    .big-nav {
+      display: flex;
+      flex-wrap: wrap;
+      column-count: 5;
+      column-gap: 15px;
+      justify-content: center;
+    }
+
+    p {
+      border: 3px solid #0065B0;
+      border-radius: 10px;
+      color: #0065B0;
+      text-decoration: none;
+      padding: 11px 57px 11px 57px;
+    }
+
+    p:hover {
+      background-color: #0065B0;
+      color: white;
+      text-decoration: none;
+    }
+
     .box {
       width: 148px;
       height: 143px;
@@ -432,14 +467,13 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     }
 
 
-
   }
 
   @media screen and (width > 1000px) {
     .headshots {
       column-count: 5;
-      padding: 0 20px 0 20px;
-      margin: 20px;
+      column-gap: 40px;
+      margin: 20px 180px 20px 180px;
     }
 
     .box {
@@ -450,6 +484,12 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     .box:hover {
       transform: scale(1.1);
     }
+
+    .big-nav {
+      column-gap: 26px;
+      margin: 60px 250px 20px 250px;
+    }
+
 
   }
 
