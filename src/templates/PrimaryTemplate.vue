@@ -4,15 +4,15 @@
 
 <template>
   <section class="primary-template">
-    <img src="/public/niji_pics/nijisanji_logo.webp" alt="nijisanji">
-    <div class="nav-icon"><img src="/public/icons8-menu.svg" alt="nav icon"></div>
+    <img src="/src/assets/niji_pics/nijisanji_logo.webp" alt="nijisanji logo">
+    <div class="nav-icon"><img src="/src/assets/icons8-menu.svg" alt="nav icon"></div>
     <div class="header-border"></div>
     <section class="main">
       <slot/>
     </section>
     <footer>
       <div class="footer-border"></div>
-      <div class="social">socials</div>
+      <h1>socials</h1>
         <ul>
           <li><a href="#">X (formerly Twitter)</a></li>
           <li><a href="#">YouTube</a></li>
@@ -32,7 +32,6 @@ img {
 
 div.header-border, div.footer-border {
   border-top: 5px solid #0065B0;
-  padding: 0 0 20px 0;
   margin: 0;
 }
 
@@ -40,12 +39,18 @@ div.footer-border {
   margin-top: 30px;
 }
 
+a {
+  text-decoration: none;
+  color: #0065B0;
+}
+
 div.nav-icon {
   float: right;
 }
 
-div.social {
+h1 {
   margin-left: 30px;
+  color: #0065B0;
 }
 
 ul > li {
@@ -59,7 +64,6 @@ ul {
 li {
   margin: 0;
   padding: 0 10px 0 10px;
-  text-decoration: none;
 }
 
 @media screen and (width > 430) {
