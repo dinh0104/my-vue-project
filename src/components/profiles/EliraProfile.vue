@@ -6,7 +6,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 <template>
 <primary-template>
   <section class="top">
-    <img src="/src/assets/icons8-back-64.png" alt="back arrow">
+    <a href="#"><img src="/src/assets/icons8-back-64.png" alt="back arrow"></a>
     <h1>Elira Pendora</h1>
     <h1>エリーラ ペンドラ</h1>
     <div class="half-body"></div>
@@ -20,19 +20,21 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       る優しさと包容力を持っています。</p>
 
     <ul>
-      <li>Gender: Female</li>
-      <li>Age: Never ask a lady her age</li>
-      <li>Birthday: October 16</li>
-      <li>Height: 160 cm/5'2"</li>
-      <li>Color: #95C8D8</li>
-      <li>Fan name: FamElira</li>
+      <li><b>Gender:</b> Female</li>
+      <li><b>Age:</b> Never ask a lady her age</li>
+      <li><b>Birthday:</b> October 16</li>
+      <li><b>Height:</b> 160 cm/5'2"</li>
+      <li><b>Color:</b> #95C8D8</li>
+      <li><b>Fan name:</b> FamElira</li>
     </ul>
 
-    <div class="social-icons">
-
-    </div>
-
     <iframe width="348" height="176" src="https://www.youtube.com/embed/nQb5s3QXFGA?si=6wfZNSsDxDEORhVW"></iframe>
+
+    <div class="social-icons">
+      <span><a href="https://x.com/EliraPendora"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/channel/UCIeSUTOTkF9Hs7q3SGcO-Ow"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/elirapendora"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+    </div>
   </section>
 </primary-template>
 </template>
@@ -57,6 +59,7 @@ h1 {
   font-size: 35px;
   margin: 0;
   justify-content: center;
+  font-family: 'raleway bold', sans-serif;
 }
 
 .half-body {
@@ -66,6 +69,31 @@ h1 {
   background-image: url("/src/assets/niji_pics/lazulight/background remove fullbody.png");
   background-size: 901px 1159px;
   background-position: top;
+}
+
+
+p {
+  display: flex;
+  margin: 20px;
+  font-family: 'raleway', sans-serif;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-family: 'raleway', sans-serif;
+  padding: 5px;
+}
+
+span {
+  padding-left: 58px;
+}
+
+iframe {
+  padding-left: 40px;
 }
 
 </style>

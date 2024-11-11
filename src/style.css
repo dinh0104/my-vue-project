@@ -3,5 +3,14 @@ body {
     margin: 0;
 }
 
+@font-face {
+    font-family: raleway;
+    src: url("/src/assets/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: raleway bold;
+    src: url("/src/assets/Raleway-Bold.ttf");
+}
 
 

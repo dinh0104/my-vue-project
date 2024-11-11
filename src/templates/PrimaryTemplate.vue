@@ -51,6 +51,7 @@ div.nav-icon {
 h1 {
   margin-left: 30px;
   color: #0065B0;
+  font-family: 'raleway', sans-serif;
 }
 
 ul > li {
@@ -64,6 +65,7 @@ ul {
 li {
   margin: 0;
   padding: 0 10px 0 10px;
+  font-family: 'raleway', sans-serif;
 }
 
 @media screen and (width > 430) {

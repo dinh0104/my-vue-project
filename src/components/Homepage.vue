@@ -1,4 +1,4 @@
-<script setup>
+<script setup xmlns="http://www.w3.org/1999/html">
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 </script>
 
@@ -18,8 +18,10 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       <p><a href="#">Denauth</a></p>
     </div>
     <div class="headshots">
-
+      
+      <router-link to="/elirapendora">
       <div class="elira box"></div>
+      </router-link>
 
       <div class="finana box"></div>
 
