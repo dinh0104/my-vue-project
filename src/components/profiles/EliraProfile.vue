@@ -20,7 +20,6 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   </section>
 
   <section class="information">
-
     <ul>
       <li><b>Gender:</b> Female</li>
       <li><b>Age:</b> Never ask a lady her age</li>
@@ -100,6 +99,7 @@ span {
 
 iframe {
   padding-left: 40px;
+  border: none;
 }
 
 h2 {
@@ -141,6 +141,27 @@ h2 {
     color: white;
     float: left;
     width: 300px;
+  }
+
+  ul {
+    float: right;
+    padding: 50px 70px 50px 50px;
+  }
+
+  iframe {
+    width: 380px;
+    height: 200px;
+    padding: 50px 50px 0 50px;
+  }
+
+  .social-icons {
+    display: flex;
+    align-content: center;
+    padding-left: 20px;
+  }
+
+  h2 {
+    margin-left: 330px;
   }
 }
 
