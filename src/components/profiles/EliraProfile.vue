@@ -6,7 +6,9 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 <template>
 <primary-template>
   <section class="top">
-    <a href="#"><img src="/src/assets/icons8-back-64.png" alt="back arrow"></a>
+    <router-link :to="{ name: 'Home' }">
+      <img src="/src/assets/icons8-back-64.png" alt="back arrow">
+    </router-link>
     <div class="intro">
       <h1>Elira Pendora</h1>
       <h1>エリーラ ペンドラ</h1>
@@ -110,12 +112,12 @@ h2 {
   background-color: #0065B0;
   color: white;
   font-family: 'raleway', sans-serif;
-  padding: 11px 57px 11px 57px;
-  width: 70px;
-  margin: 50px 0  0 120px;
+  padding: 11px 17px 11px 17px;
+  /*width: 70px;*/
+  margin: 50px 90px  0 90px;
 }
 
-@media screen and (width > 430px){
+@media screen and (width > 530px){
   section.top {
     display: flex;
   }
@@ -125,6 +127,7 @@ h2 {
   }
 
   .half-body {
+    display: flex;
     background-position: top;
     /*margin-left: 400px;*/
   }
@@ -161,7 +164,53 @@ h2 {
   }
 
   h2 {
-    margin-left: 330px;
+    align-items: center;
+    margin: 50px 300px 50px 300px;
+  }
+}
+
+@media screen and (width > 1000px){
+  div.intro {
+    display: flex;
+    padding: 50px 0 0 180px;
+  }
+
+  section.top div.half-body {
+    padding: 0 60px 0 40px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    width: 500px;
+    font-size: 20px;
+  }
+
+  iframe {
+    width: 650px;
+    height: 360px;
+    padding-left: 150px;
+  }
+
+  ul {
+    font-size: 25px;
+    padding: 70px 130px 0 0;
+  }
+
+  .social-icons {
+    padding-left: 190px;
+  }
+
+  span {
+    padding-left: 90px;
+  }
+
+  h2 {
+    display: flex;
+    align-items: center;
+    margin: 50px 700px 50px 700px;
   }
 }
 

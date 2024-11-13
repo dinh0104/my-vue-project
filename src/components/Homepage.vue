@@ -5,21 +5,21 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 <template>
   <primary-template>
     <div class="big-nav">
-      <p><a href="#">All</a></p>
-      <p><a href="#">LazuLight</a></p>
-      <p><a href="#">Obsydia</a></p>
-      <p><a href="#">Ethyria</a></p>
-      <p><a href="#">Luxiem</a></p>
-      <p><a href="#">Noctyx</a></p>
-      <p><a href="#">Iluna</a></p>
-      <p><a href="#">Xsoleil</a></p>
-      <p><a href="#">Krisis</a></p>
-      <p><a href="#">TTT</a></p>
-      <p><a href="#">Denauth</a></p>
+      <router-link :to="{ name: 'Home'}">All</router-link>
+      <router-link :to="{ name: 'LazuLight'}">LazuLight</router-link>
+      <a href="#">Obsydia</a>
+      <a href="#">Ethyria</a>
+      <a href="#">Luxiem</a>
+      <a href="#">Noctyx</a>
+      <a href="#">Iluna</a>
+      <a href="#">Xsoleil</a>
+      <a href="#">Krisis</a>
+      <a href="#">TTT</a>
+      <a href="#">Denauth</a>
     </div>
     <div class="headshots">
       
-      <router-link to="/elirapendora">
+      <router-link :to="{ name: 'EliraPendora' }">
       <div class="elira box"></div>
       </router-link>
 
@@ -90,14 +90,13 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 </template>
 
 <style scoped>
-
-
   .headshots {
     display: flex;
     flex-wrap: wrap;
     column-count: 2;
     column-gap: 40px;
     justify-content: center;
+    margin-top: 30px;
   }
 
   .elira {
@@ -430,7 +429,11 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  @media screen and (width > 430px){
+  .big-nav {
+    display: none;
+  }
+
+  @media screen and (width > 530px){
     .headshots {
       column-count: 4;
       margin: 10px;
@@ -442,28 +445,23 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       column-count: 5;
       column-gap: 15px;
       justify-content: center;
+      font-family: 'raleway bold', sans-serif;
+
+      a {
+        border: 3px solid #0065B0;
+        border-radius: 10px;
+        color: #0065B0;
+        text-decoration: none;
+        margin: 10px 0;
+        padding: 11px 57px 11px 57px;
+
+        &:hover {
+          background-color: #0065B0;
+          color: white;
+        }
+      }
     }
 
-    a {
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: white;
-    }
-
-    p {
-      border: 3px solid #0065B0;
-      border-radius: 10px;
-      color: #0065B0;
-      text-decoration: none;
-      padding: 11px 57px 11px 57px;
-    }
-
-    p:hover {
-      color: white;
-      background-color: #0065B0;
-    }
 
     .box {
       width: 148px;

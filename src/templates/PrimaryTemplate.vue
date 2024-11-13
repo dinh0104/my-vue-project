@@ -4,7 +4,9 @@
 
 <template>
   <section class="primary-template">
-    <img src="/src/assets/niji_pics/nijisanji_logo.webp" alt="nijisanji logo">
+    <router-link :to="{ name: 'Home' }">
+      <img src="/src/assets/niji_pics/nijisanji_logo.webp" alt="nijisanji logo">
+    </router-link>
     <div class="nav-icon"><img src="/src/assets/icons8-menu.svg" alt="nav icon"></div>
     <div class="header-border"></div>
     <section class="main">
@@ -14,9 +16,9 @@
       <div class="footer-border"></div>
       <h1>socials</h1>
         <ul>
-          <li><a href="#">X (formerly Twitter)</a></li>
-          <li><a href="#">YouTube</a></li>
-          <li><a href="#">Reddit</a></li>
+          <li><a href="https://x.com/NIJISANJI_World?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">X (formerly Twitter)</a></li>
+          <li><a href="https://www.youtube.com/c/nijisanji_en">YouTube</a></li>
+          <li><a href="https://www.reddit.com/r/Nijisanji/">Reddit</a></li>
         </ul>
 
     </footer>
@@ -68,7 +70,7 @@ li {
   font-family: 'raleway', sans-serif;
 }
 
-@media screen and (width > 430) {
+@media screen and (width > 530) {
   img {
     max-width: 231px;
     max-height: 49px;
