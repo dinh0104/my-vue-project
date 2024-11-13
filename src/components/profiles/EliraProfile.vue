@@ -7,17 +7,19 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 <primary-template>
   <section class="top">
     <a href="#"><img src="/src/assets/icons8-back-64.png" alt="back arrow"></a>
-    <h1>Elira Pendora</h1>
-    <h1>エリーラ ペンドラ</h1>
+    <div class="intro">
+      <h1>Elira Pendora</h1>
+      <h1>エリーラ ペンドラ</h1>
+      <p>A sky dragon who came from the heavens closest to the sun. She has the kindness
+      and receptiveness that makes the light of a sunny day fall equally on all.</p>
+
+      <p>太陽に最も近い天空からやって来た天空竜。彼女は、晴れた日の光を誰にでも平等に当て
+      る優しさと包容力を持っています。</p>
+    </div>
     <div class="half-body"></div>
   </section>
 
   <section class="information">
-    <p>A sky dragon who came from the heavens closest to the sun. She has the kindness
-      and receptiveness that makes the light of a sunny day fall equally on all.</p>
-
-    <p>太陽に最も近い天空からやって来た天空竜。彼女は、晴れた日の光を誰にでも平等に当て
-      る優しさと包容力を持っています。</p>
 
     <ul>
       <li><b>Gender:</b> Female</li>
@@ -35,6 +37,8 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       <span><a href="https://www.youtube.com/channel/UCIeSUTOTkF9Hs7q3SGcO-Ow"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/elirapendora"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
+
+    <h2>Gallery</h2>
   </section>
 </primary-template>
 </template>
@@ -76,7 +80,9 @@ p {
   display: flex;
   margin: 20px;
   font-family: 'raleway', sans-serif;
+  color: white;
   justify-content: center;
+  text-align: center;
 }
 
 ul {
@@ -94,6 +100,48 @@ span {
 
 iframe {
   padding-left: 40px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  border: 3px solid #0065B0;
+  border-radius: 10px;
+  background-color: #0065B0;
+  color: white;
+  font-family: 'raleway', sans-serif;
+  padding: 11px 57px 11px 57px;
+  width: 70px;
+  margin: 50px 0  0 120px;
+}
+
+@media screen and (width > 430px){
+  section.top {
+    display: flex;
+  }
+
+  h1 {
+    justify-content: center;
+  }
+
+  .half-body {
+    background-position: top;
+    /*margin-left: 400px;*/
+  }
+
+  div.intro {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 50px;
+  }
+
+  p {
+    background-color: #95c8d8;
+    color: white;
+    float: left;
+    width: 300px;
+  }
 }
 
 </style>
