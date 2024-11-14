@@ -51,9 +51,13 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   img {
     width: 40px;
     height: 40px;
+    margin: 20px;
   }
 
   h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
     font-family: "raleway bold", sans-serif;
   }
 
@@ -89,11 +93,26 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   }
 
   ul {
-    font-family: 'raleway', sans-serif;
+    display: flex;
+    font-family: 'raleway bold', sans-serif;
+    list-style: none;
+    margin: 0;
+  }
+
+  li {
+    padding: 0 26px 0 40px;
   }
 
   p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
     font-family: 'raleway', sans-serif;
+  }
+
+  iframe {
+    margin: 0 50px;
   }
 
   .big-nav {
@@ -101,9 +120,21 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   }
 
   @media screen and (width > 530px){
+    img {
+      display: none;
+    }
+
     .headshots {
       column-count: 4;
       margin: 10px;
+    }
+
+    ul {
+      padding-left: 230px;
+    }
+
+    li {
+      padding: 0 46px 0 40px;
     }
 
     .big-nav {
@@ -139,8 +170,6 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     .box:hover {
       transform: scale(1.1);
     }
-
-
   }
 
   @media screen and (width > 1000px) {

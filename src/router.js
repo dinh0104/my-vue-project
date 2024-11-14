@@ -1,6 +1,6 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Homepage from "./components/Homepage.vue";
-import About from "./components/About.vue";
+import LazuLight from "./components/sub-nav/Lazu-sub-nav.vue";
 import EliraProfile from "./components/profiles/EliraProfile.vue";
 
 const router = createRouter({
@@ -13,13 +13,13 @@ const router = createRouter({
             component: Homepage
         },
         {
-            path: '/about',
-            name: 'About',
-            component: About
+            path: '/lazulight',
+            name: 'LazuLight',
+            component: LazuLight
         },
         {
-            path: '/elirapendora',
-            name: 'Elirapendora',
+            path: '/elira-pendora',
+            name: 'EliraPendora',
             component: EliraProfile
         }
     ]
