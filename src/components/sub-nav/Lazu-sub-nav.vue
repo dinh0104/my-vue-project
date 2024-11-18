@@ -5,7 +5,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 <template>
   <primary-template>
     <div class="big-nav">
-      <a href="#">All</a>
+      <router-link :to="{ name: 'Home'}">All</router-link>
       <a href="#">LazuLight</a>
       <a href="#">Obsydia</a>
       <a href="#">Ethyria</a>
@@ -24,24 +24,23 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 
     <div class="headshots">
       <router-link :to="{ name: 'EliraPendora' }">
-      <div class="elira box"></div>
+        <div class="elira box"></div>
       </router-link>
 
-      <div class="finana box"></div>
+      <router-link :to="{ name: 'FinanaRyugu' }">
+        <div class="finana box"></div>
+      </router-link>
     </div>
 
-    <ul>
-      <li>Elira Pendora</li>
-      <li>Finana Ryugu</li>
-    </ul>
-
-    <p>Debuted on 16 May 2021, LazuLight is the first wave of NIJISANJI EN.
+    <div class="bio-text">
+      <p>Debuted on 16 May 2021, LazuLight is the first wave of NIJISANJI EN.
       Each member is a fantasy creature associated with a different part of nature:
       earth, sea, or sky.</p>
 
-    <p>LazuLight's name is derived from lazulite, a blue-green gemstone, and light.
+      <p>LazuLight's name is derived from lazulite, a blue-green gemstone, and light.
       The use of lazulite comes from LazuLight's blue and green color schemes, as well
       as to indicate that LazuLight's members are "precious" like gemstones.</p>
+    </div>
 
     <iframe width="325" height="164" src="https://www.youtube.com/embed/ZnP0cKNPE04?si=cc0X4Q8ZUHsFRcdD"></iframe>
   </primary-template>
@@ -92,16 +91,6 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     background-position: bottom;
   }
 
-  ul {
-    display: flex;
-    font-family: 'raleway bold', sans-serif;
-    list-style: none;
-    margin: 0;
-  }
-
-  li {
-    padding: 0 26px 0 40px;
-  }
 
   p {
     display: flex;
@@ -112,7 +101,9 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   }
 
   iframe {
-    margin: 0 50px;
+    display: flex;
+    justify-items: center;
+    /*margin: 0 50px;*/
   }
 
   .big-nav {
@@ -164,11 +155,17 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     .box {
       width: 148px;
       height: 143px;
-      margin: 20px 0 ;
+      margin: 20px 0;
     }
 
     .box:hover {
       transform: scale(1.1);
+    }
+
+    iframe {
+      width: 376px;
+      height: 200px;
+      /*margin-left: 240px;*/
     }
   }
 
@@ -193,6 +190,15 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       margin: 60px 250px 20px 250px;
     }
 
+    .bio-text {
+      margin: 0 300px;
+    }
+
+    iframe {
+      width: 476px;
+      height: 250px;
+      /*margin-left: 500px;*/
+    }
 
   }
 

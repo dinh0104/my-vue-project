@@ -18,16 +18,21 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       <a href="#">Denauth</a>
     </div>
     <div class="headshots">
-      
       <router-link :to="{ name: 'EliraPendora' }">
-      <div class="elira box"></div>
+        <div class="elira box"></div>
       </router-link>
 
-      <div class="finana box"></div>
+      <router-link :to="{ name: 'FinanaRyugu' }">
+        <div class="finana box"></div>
+      </router-link>
 
-      <div class="rosemi box"></div>
+      <router-link :to="{ name: 'RosemiLovelock' }">
+        <div class="rosemi box"></div>
+      </router-link>
 
-      <div class="petra box"></div>
+      <router-link :to="{ name: 'PetraGurin'}">
+        <div class="petra box"></div>
+      </router-link>
 
       <div class="enna box"></div>
 
