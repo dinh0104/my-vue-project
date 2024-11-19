@@ -8,7 +8,9 @@
       <img src="/src/assets/niji_pics/nijisanji_logo.webp" alt="nijisanji logo">
     </router-link>
     <div class="nav-icon">
-      <img src="/src/assets/icons8-menu.svg" alt="back arrow">
+      <router-link :to="{ name: 'Navbar' }">
+        <img src="/src/assets/icons8-menu.svg" alt="back arrow">
+      </router-link>
     </div>
     <!--<input type="checkbox" class="side-nav">
     <div class="inside-nav">

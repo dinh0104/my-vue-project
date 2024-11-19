@@ -71,7 +71,7 @@ h1 {
   width: 430px;
   height: 499px;
   background-color: #79CFB8;
-  background-image: url("/src/assets/niji_pics/lazulight/background remove fullbody.png");
+  background-image: url("/src/assets/niji_pics/lazulight/finana full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }

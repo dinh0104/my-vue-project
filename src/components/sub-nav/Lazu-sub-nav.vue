@@ -20,6 +20,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 
     <img src="/src/assets/icons8-back-64.png" alt="back button">
 
+
     <h2>LazuLight</h2>
 
     <div class="headshots">
@@ -34,15 +35,16 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 
     <div class="bio-text">
       <p>Debuted on 16 May 2021, LazuLight is the first wave of NIJISANJI EN.
-      Each member is a fantasy creature associated with a different part of nature:
-      earth, sea, or sky.</p>
+        Each member is a fantasy creature associated with a different part of nature:
+        earth, sea, or sky.</p>
 
       <p>LazuLight's name is derived from lazulite, a blue-green gemstone, and light.
-      The use of lazulite comes from LazuLight's blue and green color schemes, as well
-      as to indicate that LazuLight's members are "precious" like gemstones.</p>
+          The use of lazulite comes from LazuLight's blue and green color schemes, as well
+        as to indicate that LazuLight's members are "precious" like gemstones.</p>
     </div>
-
-    <iframe width="325" height="164" src="https://www.youtube.com/embed/ZnP0cKNPE04?si=cc0X4Q8ZUHsFRcdD"></iframe>
+    <div class="vid-content">
+      <iframe width="325" height="164" src="https://www.youtube.com/embed/ZnP0cKNPE04?si=cc0X4Q8ZUHsFRcdD"></iframe>
+    </div>
   </primary-template>
 </template>
 
@@ -51,6 +53,12 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     width: 40px;
     height: 40px;
     margin: 20px;
+  }
+
+  .vid-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
   }
 
   h2 {
@@ -98,12 +106,6 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     text-align: center;
     margin: 30px;
     font-family: 'raleway', sans-serif;
-  }
-
-  iframe {
-    display: flex;
-    justify-items: center;
-    /*margin: 0 50px;*/
   }
 
   .big-nav {
@@ -165,7 +167,6 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     iframe {
       width: 376px;
       height: 200px;
-      /*margin-left: 240px;*/
     }
   }
 
@@ -197,7 +198,6 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     iframe {
       width: 476px;
       height: 250px;
-      /*margin-left: 500px;*/
     }
 
   }

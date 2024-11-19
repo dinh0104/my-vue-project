@@ -7,7 +7,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     <div class="big-nav">
       <router-link :to="{ name: 'Home'}">All</router-link>
       <router-link :to="{ name: 'LazuLight'}">LazuLight</router-link>
-      <a href="#">Obsydia</a>
+      <router-link :to="{ name: 'Obsydia'}">Obsydia</router-link>
       <a href="#">Ethyria</a>
       <a href="#">Luxiem</a>
       <a href="#">Noctyx</a>

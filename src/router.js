@@ -1,6 +1,8 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Homepage from "./components/Homepage.vue";
+import Navbar from "./components/InsideNav.vue";
 import LazuLight from "./components/sub-nav/Lazu-sub-nav.vue";
+import Obsydia from "./components/sub-nav/Obsydia-sub-nav.vue";
 import EliraProfile from "./components/profiles/EliraProfile.vue";
 import FinanaProfile from "./components/profiles/FinanaProfile.vue";
 import RosemiProfile from "./components/profiles/RosemiProfile.vue";
@@ -16,9 +18,19 @@ const router = createRouter({
             component: Homepage
         },
         {
+            path: '/Navbar',
+            name: 'Navbar',
+            component: Navbar
+        },
+        {
             path: '/lazulight',
             name: 'LazuLight',
             component: LazuLight
+        },
+        {
+            path: '/Obsydia',
+            name: 'Obsydia',
+            component: Obsydia
         },
         {
             path: '/elira-pendora',
