@@ -4,6 +4,7 @@ import Navbar from "./components/InsideNav.vue";
 import LazuLight from "./components/sub-nav/Lazu-sub-nav.vue";
 import Obsydia from "./components/sub-nav/Obsydia-sub-nav.vue";
 import EliraProfile from "./components/profiles/EliraProfile.vue";
+import EliraGallery from "./components/profiles/gallery/EliraGallery.vue";
 import FinanaProfile from "./components/profiles/FinanaProfile.vue";
 import RosemiProfile from "./components/profiles/RosemiProfile.vue";
 import PetraProfile from "./components/profiles/PetraProfile.vue";
@@ -18,7 +19,7 @@ const router = createRouter({
             component: Homepage
         },
         {
-            path: '/Navbar',
+            path: '/home',
             name: 'Navbar',
             component: Navbar
         },
@@ -36,6 +37,11 @@ const router = createRouter({
             path: '/elira-pendora',
             name: 'EliraPendora',
             component: EliraProfile
+        },
+        {
+            path: '/gallery',
+            name: 'EliraGallery',
+            component: EliraGallery
         },
         {
             path: '/finana-ryugu',

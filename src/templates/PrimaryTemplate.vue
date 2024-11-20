@@ -12,19 +12,7 @@
         <img src="/src/assets/icons8-menu.svg" alt="back arrow">
       </router-link>
     </div>
-    <!--<input type="checkbox" class="side-nav">
-    <div class="inside-nav">
-      <a href="#">LazuLight</a>
-      <a href="#">Obsydia</a>
-      <a href="#">Ethyria</a>
-      <a href="#">Luxiem</a>
-      <a href="#">Noctyx</a>
-      <a href="#">Iluna</a>
-      <a href="#">Xsoleil</a>
-      <a href="#">Krisis</a>
-      <a href="#">TTT</a>
-      <a href="#">Denauth</a>
-    </div>-->
+
     <div class="header-border"></div>
     <section class="main">
       <slot/>
@@ -48,21 +36,6 @@ img {
   max-width: 30%;
   padding: 20px;
 }
-
-/*.inside-nav {
-  display: flex;
-  justify-items: flex-end;
-  width: 0;
-  visibility: hidden;
-  opacity: 0;
-  transition: all 0.3s;
-}
-
-.side-nav:checked ~ .inside-nav {
-  width: 150px;
-  visibility: visible;
-  opacity: 1;
-}*/
 
 div.header-border, div.footer-border {
   border-top: 5px solid #0065B0;
