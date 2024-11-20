@@ -31,12 +31,12 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       <li><b>Fan name:</b> PenTomo</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/nQb5s3QXFGA?si=6wfZNSsDxDEORhVW"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/o1M8YeJzdVg?si=xpwvKhD-HQu4OBz9"></iframe>
 
     <div class="social-icons">
-      <span><a href="https://x.com/EliraPendora"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/channel/UCIeSUTOTkF9Hs7q3SGcO-Ow"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/elirapendora"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="https://www.twitter.com/Petra_Gurin/"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@petragurin"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/petragurin/"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
 
     <h2>Gallery</h2>

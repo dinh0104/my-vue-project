@@ -18,7 +18,9 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       <a href="#">Denauth</a>
     </div>
 
-    <img src="/src/assets/icons8-back-64.png" alt="back button">
+    <router-link :to="{ name: 'Home' }">
+      <img src="/src/assets/icons8-back-64.png" alt="back button">
+    </router-link>
 
 
     <h2>Obsydia</h2>

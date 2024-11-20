@@ -18,7 +18,7 @@
     <div class="main-links">
       <router-link :to="{ name: 'Home'}">All</router-link>
       <router-link :to="{ name: 'LazuLight'}">LazuLight</router-link>
-      <a href="#">Obsydia</a>
+      <router-link :to="{ name: 'Obsydia'}">Obsydia</router-link>
       <a href="#">Ethyria</a>
       <a href="#">Luxiem</a>
       <a href="#">Noctyx</a>
@@ -83,7 +83,7 @@
 }
 
 .socials {
-  padding: 100px 30px 70px 30px;
+  padding: 170px 30px 70px 30px;
 
   h2 {
     font-family: "raleway bold", sans-serif;
