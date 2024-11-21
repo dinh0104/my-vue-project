@@ -31,9 +31,9 @@
 
     <div class="socials">
       <h2>Socials</h2>
-      <a href="#">twitter</a>
-      <a href="#">Youtube</a>
-      <a href="#">Reddit</a>
+      <a href="https://x.com/NIJISANJI_World?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">twitter</a>
+      <a href="https://www.youtube.com/c/nijisanji_en">Youtube</a>
+      <a href="https://www.reddit.com/r/Nijisanji/">Reddit</a>
     </div>
   </div>
 </template>
@@ -83,7 +83,7 @@
 }
 
 .socials {
-  padding: 170px 30px 70px 30px;
+  padding: 172px 30px 70px 30px;
 
   h2 {
     font-family: "raleway bold", sans-serif;

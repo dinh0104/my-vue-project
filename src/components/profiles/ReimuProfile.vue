@@ -10,12 +10,12 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Rosemi Lovelock</h1>
-      <h1>ロゼミ ラブロック</h1>
-      <p>A rose maiden raised in a beautiful garden.
-        Pretty as a rose in a vase, but a little sharp to the touch.</p>
+      <h1>Reimu Endou</h1>
+      <h1>遠藤霊夢</h1>
+      <p>A ghost wandering in hell. The more she thinks of her beloved,
+        the more she becomes sad and haunted.</p>
 
-      <p>美しい庭園で育った薔薇の乙女。花瓶に生けたバラのように美しいですが、触ると少し鋭いです。</p>
+      <p>地獄をさまよう幽霊。愛する人のことを考えれば考えるほど、彼女は悲しくなり、取り憑かれてしまいます。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -23,19 +23,19 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Female</li>
-      <li><b>Age:</b> ??? years old</li>
-      <li><b>Birthday:</b> September 16</li>
-      <li><b>Height:</b> 150 cm/4'11"</li>
-      <li><b>Color:</b> #DC3753</li>
-      <li><b>Fan name:</b> Rosebuds</li>
+      <li><b>Age:</b> ??? </li>
+      <li><b>Birthday:</b> November 2</li>
+      <li><b>Height:</b> 155 cm/5'5"</li>
+      <li><b>Color:</b> #B90B4A</li>
+      <li><b>Fan name:</b> Phantomos</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/7GJMOUyrHzs?si=4VyjH31vinikt0NM"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/74E0i-EZ_s0?si=fR8q-5kfgR0nf2fz"></iframe>
 
     <div class="social-icons">
-      <span><a href="https://twitter.com/Rosemi_Lovelock"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@Rosemi_Lovelock"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/rosemilovelock"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="https://twitter.com/ReimuEndou "><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@ReimuEndou"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/reimuendou"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
 
     <h2>Gallery</h2>
@@ -46,7 +46,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #DC3753;
+  background-color: #B90B4A;
   padding-top: 20px;
 }
 
@@ -58,7 +58,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #DC3753;
+  background-color: #B90B4A;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -69,8 +69,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #DC3753;
-  background-image: url("/src/assets/niji_pics/obsydia/rosemi full body background remove.png");
+  background-color: #B90B4A;
+  background-image: url("/src/assets/niji_pics/ethyria/reimu/reimu full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -139,7 +139,7 @@ h2 {
   }
 
   p {
-    background-color: #DC3753;
+    background-color: #B90B4A;
     color: white;
     float: left;
     width: 300px;

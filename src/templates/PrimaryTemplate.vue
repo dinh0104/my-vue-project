@@ -19,7 +19,7 @@
     </section>
     <footer>
       <div class="footer-border"></div>
-      <h1>socials</h1>
+      <h1>Nijisanji EN Socials</h1>
         <ul>
           <li><a href="https://x.com/NIJISANJI_World?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">X (formerly Twitter)</a></li>
           <li><a href="https://www.youtube.com/c/nijisanji_en">YouTube</a></li>
@@ -58,7 +58,7 @@ div.nav-icon {
 h1 {
   margin-left: 30px;
   color: #0065B0;
-  font-family: 'raleway', sans-serif;
+  font-family: "raleway bold", sans-serif;
 }
 
 ul > li {

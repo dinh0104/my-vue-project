@@ -197,7 +197,7 @@ h2 {
 
   ul {
     font-size: 25px;
-    padding: 70px 130px 0 0;
+    padding: 70px 200px 0 0;
   }
 
   .social-icons {
@@ -212,6 +212,7 @@ h2 {
     display: flex;
     align-items: center;
     margin: 50px 700px 50px 700px;
+    padding: 10px 80px;
   }
 }
 

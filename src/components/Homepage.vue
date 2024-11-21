@@ -8,7 +8,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       <router-link :to="{ name: 'Home'}">All</router-link>
       <router-link :to="{ name: 'LazuLight'}">LazuLight</router-link>
       <router-link :to="{ name: 'Obsydia'}">Obsydia</router-link>
-      <a href="#">Ethyria</a>
+      <router-link :to="{ name: 'Ethyria'}">Ethyria</router-link>
       <a href="#">Luxiem</a>
       <a href="#">Noctyx</a>
       <a href="#">Iluna</a>
@@ -30,15 +30,21 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
         <div class="rosemi box"></div>
       </router-link>
 
-      <router-link :to="{ name: 'PetraGurin'}">
+      <router-link :to="{ name: 'PetraGurin' }">
         <div class="petra box"></div>
       </router-link>
 
-      <div class="enna box"></div>
+      <router-link :to="{ name: 'EnnaAlouette' }">
+        <div class="enna box"></div>
+      </router-link>
 
-      <div class="millie box"></div>
+      <router-link :to="{ name: 'MillieParfait' }">
+        <div class="millie box"></div>
+      </router-link>
 
-      <div class="reimu box"></div>
+      <router-link :to="{ name: 'ReimuEndou' }">
+        <div class="reimu box"></div>
+      </router-link>
 
       <div class="ike box"></div>
 
@@ -451,6 +457,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       column-gap: 15px;
       justify-content: center;
       font-family: 'raleway bold', sans-serif;
+      margin-top: 60px;
 
       a {
         border: 3px solid #0065B0;

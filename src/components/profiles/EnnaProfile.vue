@@ -10,12 +10,12 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Rosemi Lovelock</h1>
-      <h1>ロゼミ ラブロック</h1>
-      <p>A rose maiden raised in a beautiful garden.
-        Pretty as a rose in a vase, but a little sharp to the touch.</p>
+      <h1>Enna Alouette</h1>
+      <h1>エナー・アールウェット</h1>
+      <p>A blue bird fluttering in the heavens. She sings a love song for the
+        souls of the living.</p>
 
-      <p>美しい庭園で育った薔薇の乙女。花瓶に生けたバラのように美しいですが、触ると少し鋭いです。</p>
+      <p>天に羽ばたく青い鳥。彼女は生者の魂のためにラブソングを歌います。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -23,19 +23,19 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Female</li>
-      <li><b>Age:</b> ??? years old</li>
-      <li><b>Birthday:</b> September 16</li>
-      <li><b>Height:</b> 150 cm/4'11"</li>
-      <li><b>Color:</b> #DC3753</li>
-      <li><b>Fan name:</b> Rosebuds</li>
+      <li><b>Age:</b> ??? (blotted out)</li>
+      <li><b>Birthday:</b> February 20</li>
+      <li><b>Height:</b> under 150 cm/4'11"</li>
+      <li><b>Color:</b> #858ED1</li>
+      <li><b>Fan name:</b> Aloupeeps</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/7GJMOUyrHzs?si=4VyjH31vinikt0NM"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/Xfj3erGrHXU?si=tJojes8gehEOhynM"></iframe>
 
     <div class="social-icons">
-      <span><a href="https://twitter.com/Rosemi_Lovelock"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@Rosemi_Lovelock"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/rosemilovelock"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="https://twitter.com/EnnaAlouette"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@EnnaAlouette"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/ennaalouette"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
 
     <h2>Gallery</h2>
@@ -46,7 +46,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #DC3753;
+  background-color: #858ED1;
   padding-top: 20px;
 }
 
@@ -58,7 +58,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #DC3753;
+  background-color: #858ED1;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -69,8 +69,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #DC3753;
-  background-image: url("/src/assets/niji_pics/obsydia/rosemi full body background remove.png");
+  background-color: #858ED1;
+  background-image: url("/src/assets/niji_pics/ethyria/enna/enna full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -139,7 +139,7 @@ h2 {
   }
 
   p {
-    background-color: #DC3753;
+    background-color: #858ED1;
     color: white;
     float: left;
     width: 300px;
