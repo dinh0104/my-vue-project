@@ -1,6 +1,6 @@
 <script setup>
 
-import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
+import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 </script>
 
 <template>
@@ -10,13 +10,13 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Finana Ryugu</h1>
-      <h1>フィナーナ 竜宮</h1>
-      <p>A mermaid who spends her time with tropical fish in the sea of coral reefs.
-        Has a heart as clear and pure as the calm and beautiful sea.</p>
+      <h1>Petra Gurin</h1>
+      <h1>ペトラ グリン</h1>
+      <p>A penguin who spent much time alone in the frosty sea.
+        Has charm and complex emotions as the stormy sea.</p>
 
-      <p>サンゴ礁の海で熱帯魚たちと過ごす人魚。
-        穏やかで美しい海のように透き通った純粋な心を持っています。</p>
+      <p>凍てつく海で一人で過ごす時間が多かったペンギン。
+        嵐の海のような魅力と複雑な感情を持つ。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -24,19 +24,19 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Female</li>
-      <li><b>Age:</b> FROOTLOOP</li>
-      <li><b>Birthday:</b> June 21</li>
-      <li><b>Height:</b> 140 cm/4'7"</li>
-      <li><b>Color:</b> #79CFB8</li>
-      <li><b>Fan name:</b> Ryuguards</li>
+      <li><b>Age:</b> No ^_^</li>
+      <li><b>Birthday:</b> December 4</li>
+      <li><b>Height:</b> 152 cm/4'11"</li>
+      <li><b>Color:</b> #FFAE42</li>
+      <li><b>Fan name:</b> PenTomo</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/3JAXcwDydNI?si=jlzBwjrFJl2cOMxU"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/o1M8YeJzdVg?si=xpwvKhD-HQu4OBz9"></iframe>
 
     <div class="social-icons">
-      <span><a href="https://twitter.com/FinanaRyugu"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@FinanaRyugu"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/finanaryugu"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="https://www.twitter.com/Petra_Gurin/"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@petragurin"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/petragurin/"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
 
     <h2>Gallery</h2>
@@ -47,7 +47,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #79CFB8;
+  background-color: #FFAE42;
   padding-top: 20px;
 }
 
@@ -59,7 +59,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #79CFB8;
+  background-color: #FFAE42;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -70,8 +70,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #79CFB8;
-  background-image: url("/src/assets/niji_pics/lazulight/finana full body background remove.png");
+  background-color: #FFAE42;
+  background-image: url("/src/assets/niji_pics/obsydia/petra full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -140,7 +140,7 @@ h2 {
   }
 
   p {
-    background-color: #79CFB8;
+    background-color: #FFAE42;
     color: white;
     float: left;
     width: 300px;

@@ -23,25 +23,29 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     </router-link>
 
 
-    <h2>Obsydia</h2>
+    <h2>Krisis</h2>
 
     <div class="headshots">
-      <router-link :to="{ name: 'RosemiLovelock' }">
-        <div class="rosemi box"></div>
-      </router-link>
+      <div class="vanta box"></div>
 
-      <router-link :to="{ name: 'PetraGurin'}">
-        <div class="petra box"></div>
-      </router-link>
+      <div class="zali box"></div>
+
+      <div class="wilson box"></div>
     </div>
 
     <div class="bio-text">
-      <p>Debuted on 17 July 2021, OBSYDIA is a dark counterpart to LazuLight,
-        featuring similar fantasy motifs and mirroring its earth-sea-sky trichotomy.
-        OBSYDIA's name is derived from obsidian, a black volcanic glass.</p>
+      <p>Debuted on 24 June 2023. Known as Heroes of the Night, as a first to the agency,
+        its members share the same world with eight Japanese Livers known as the Heroes
+        of the East, Oriens and the Heroes of West, Dytica, who both debuted in April 2023.
+        Unlike previous NIJISANJI EN waves, and similar to more recent NIJISANJI waves
+        from 2023 and prior to 2022, it didn't feature a debut song (instead having a
+        theme song months later with the other heroes) and it had no official unit name
+        with a logo prior to debut, instead having an unofficial name like older and 2023
+        debuts in the company. Krisis' name is derived from the Greek word krisis,
+        meaning judgement.</p>
     </div>
     <div class="vid-content">
-      <iframe width="325" height="164" src="https://www.youtube.com/embed/D-V0EHF30rk?si=zzp2IxHjNi_b7UXl"></iframe>
+      <iframe width="325" height="164" src="https://www.youtube.com/embed/XqGhG089yz4?si=MRsR_4KzPB7EDEHc"></iframe>
     </div>
   </primary-template>
 </template>
@@ -76,26 +80,34 @@ h2 {
   margin-top: 30px;
 }
 
-.petra {
+.vanta {
   width: 131px;
   height: 125px;
   margin: 10px 0 10px 0;
-  background-color: #FFAE42;
-  background-image: url("src/assets/niji_pics/obsydia/background remove petra.png");
-  background-size: 90% 110%;
+  background-color: #8728E1;
+  background-image: url("src/assets/niji_pics/krisis/vantacrow/background remove vanta.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
 }
 
-.rosemi {
+.zali {
   width: 131px;
   height: 125px;
   margin: 10px 0 10px 0;
-  background-color: #DC3753;
-  background-image: url("src/assets/niji_pics/obsydia/background remove rosemi.png");
-  background-size: 100% 110%;
+  background-color: #C34196;
+  background-image: url("src/assets/niji_pics/krisis/vezalius/background remove zali.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
+}
+
+.wilson {
+  width: 131px;
+  height: 125px;
+  margin: 10px 0 10px 0;
+  background-color: #F5EB28;
+  background-image: url("src/assets/niji_pics/krisis/wilson/background remove wilson.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 

@@ -75,7 +75,7 @@ li {
   font-family: 'raleway', sans-serif;
 }
 
-@media screen and (width > 530) {
+@media screen and (width > 530px) {
   img {
     max-width: 231px;
     max-height: 49px;
@@ -100,9 +100,6 @@ li {
     border-top: 7px solid #0065B0;
   }
 
-  div.nav-icon {
-    display: none;
-  }
 }
 
 </style>

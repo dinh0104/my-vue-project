@@ -23,25 +23,28 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     </router-link>
 
 
-    <h2>Obsydia</h2>
+    <h2>Luxiem</h2>
 
     <div class="headshots">
-      <router-link :to="{ name: 'RosemiLovelock' }">
-        <div class="rosemi box"></div>
-      </router-link>
+      <div class="ike box"></div>
 
-      <router-link :to="{ name: 'PetraGurin'}">
-        <div class="petra box"></div>
-      </router-link>
+      <div class="luca box"></div>
+
+      <div class="shu box"></div>
+
+      <div class="vox box"></div>
     </div>
 
     <div class="bio-text">
-      <p>Debuted on 17 July 2021, OBSYDIA is a dark counterpart to LazuLight,
-        featuring similar fantasy motifs and mirroring its earth-sea-sky trichotomy.
-        OBSYDIA's name is derived from obsidian, a black volcanic glass.</p>
+      <p>Debuted on 20 December 2021, Luxiem is the first wave in NIJISANJI EN
+        to include male Livers. It is also the first wave to receive a dedicated
+        YouTube channel. It is themed around hope and light. In lore, its members
+        originally come from the past. Luxiem's name is derived from lux, the Latin
+        word for light, and regium, the Latin word for royal/regal.</p>
+
     </div>
     <div class="vid-content">
-      <iframe width="325" height="164" src="https://www.youtube.com/embed/D-V0EHF30rk?si=zzp2IxHjNi_b7UXl"></iframe>
+      <iframe width="325" height="164" src="https://www.youtube.com/embed/W7SKtUCGYQk?si=BqtqNKicbm1Fsbqs"></iframe>
     </div>
   </primary-template>
 </template>
@@ -76,26 +79,44 @@ h2 {
   margin-top: 30px;
 }
 
-.petra {
+.ike {
   width: 131px;
   height: 125px;
   margin: 10px 0 10px 0;
-  background-color: #FFAE42;
-  background-image: url("src/assets/niji_pics/obsydia/background remove petra.png");
-  background-size: 90% 110%;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
-
-.rosemi {
-  width: 131px;
-  height: 125px;
-  margin: 10px 0 10px 0;
-  background-color: #DC3753;
-  background-image: url("src/assets/niji_pics/obsydia/background remove rosemi.png");
+  background-color: #348EC7;
+  background-image: url("src/assets/niji_pics/luxiem/ike/background remove ike.png");
   background-size: 100% 110%;
   background-repeat: no-repeat;
-  background-position: bottom;
+}
+
+.luca {
+  width: 131px;
+  height: 125px;
+  margin: 10px 0 10px 0;
+  background-color: #D4AF37;
+  background-image: url("src/assets/niji_pics/luxiem/luca/background remove luca.png");
+  background-size: 100% 110%;
+  background-repeat: no-repeat;
+}
+
+.shu {
+  width: 131px;
+  height: 125px;
+  margin: 10px 0 10px 0;
+  background-color: #A660A7;
+  background-image: url("src/assets/niji_pics/luxiem/shu/background remove shu.png");
+  background-size: 100% 110%;
+  background-repeat: no-repeat;
+}
+
+.vox {
+  width: 131px;
+  height: 125px;
+  margin: 10px 0 10px 0;
+  background-color: #960018;
+  background-image: url("src/assets/niji_pics/luxiem/vox/background remove vox.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 

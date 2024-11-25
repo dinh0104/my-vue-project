@@ -6,16 +6,16 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   <primary-template>
     <div class="big-nav">
       <router-link :to="{ name: 'Home'}">All</router-link>
-      <a href="#">LazuLight</a>
-      <a href="#">Obsydia</a>
-      <a href="#">Ethyria</a>
-      <a href="#">Luxiem</a>
-      <a href="#">Noctyx</a>
-      <a href="#">Iluna</a>
-      <a href="#">Xsoleil</a>
-      <a href="#">Krisis</a>
-      <a href="#">TTT</a>
-      <a href="#">Denauth</a>
+      <router-link :to="{ name: 'LazuLight'}">LazuLight</router-link>
+      <router-link :to="{ name: 'Obsydia'}">Obsydia</router-link>
+      <router-link :to="{ name: 'Ethyria'}">Ethyria</router-link>
+      <router-link :to="{ name: 'Luxiem'}">Luxiem</router-link>
+      <router-link :to="{ name: 'Noctyx'}">Noctyx</router-link>
+      <router-link :to="{ name: 'Iluna'}">Iluna</router-link>
+      <router-link :to="{ name: 'Xsoleil'}">Xsoleil</router-link>
+      <router-link :to="{ name: 'Krisis'}">Krisis</router-link>
+      <router-link :to="{ name: 'TTT'}">TTT</router-link>
+      <router-link :to="{ name: 'Denauth'}">Denauth</router-link>
     </div>
 
     <router-link :to="{ name: 'Home' }">
@@ -65,8 +65,9 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   h2 {
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: "raleway bold", sans-serif;
+    margin: 100px 0 50px 0;
   }
 
   .headshots {

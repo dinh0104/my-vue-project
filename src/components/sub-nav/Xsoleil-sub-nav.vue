@@ -23,25 +23,26 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     </router-link>
 
 
-    <h2>Obsydia</h2>
+    <h2>Xsoleil</h2>
 
     <div class="headshots">
-      <router-link :to="{ name: 'RosemiLovelock' }">
-        <div class="rosemi box"></div>
-      </router-link>
+      <div class="doppio box"></div>
 
-      <router-link :to="{ name: 'PetraGurin'}">
-        <div class="petra box"></div>
-      </router-link>
+      <div class="kotoka box"></div>
+
+      <div class="meloco box"></div>
+
+      <div class="ver box"></div>
     </div>
 
     <div class="bio-text">
-      <p>Debuted on 17 July 2021, OBSYDIA is a dark counterpart to LazuLight,
-        featuring similar fantasy motifs and mirroring its earth-sea-sky trichotomy.
-        OBSYDIA's name is derived from obsidian, a black volcanic glass.</p>
+      <p>Debuted on 10 December 2022, XSOLEIL is a sun-themed counterpart to ILUNA.
+        Its members have superpowers and are part of the student council at the XSOLEIL
+        Institute of Infinity. XSOLEIL's name is likely derived from soleil, the French
+        word for sun or sunlight.</p>
     </div>
     <div class="vid-content">
-      <iframe width="325" height="164" src="https://www.youtube.com/embed/D-V0EHF30rk?si=zzp2IxHjNi_b7UXl"></iframe>
+      <iframe width="325" height="164" src="https://www.youtube.com/embed/Ss9AjwvRHGk?si=Zx4jcNyTrRDCyEF1"></iframe>
     </div>
   </primary-template>
 </template>
@@ -76,26 +77,44 @@ h2 {
   margin-top: 30px;
 }
 
-.petra {
+.doppio {
   width: 131px;
   height: 125px;
   margin: 10px 0 10px 0;
-  background-color: #FFAE42;
-  background-image: url("src/assets/niji_pics/obsydia/background remove petra.png");
-  background-size: 90% 110%;
+  background-color: #A50082;
+  background-image: url("src/assets/niji_pics/xsoleil/doppio/background remove doppio.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
 }
 
-.rosemi {
+.kotoka {
   width: 131px;
   height: 125px;
   margin: 10px 0 10px 0;
-  background-color: #DC3753;
-  background-image: url("src/assets/niji_pics/obsydia/background remove rosemi.png");
-  background-size: 100% 110%;
+  background-color: #DC6B9A;
+  background-image: url("src/assets/niji_pics/xsoleil/kotoka/background remove kotoka.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
+}
+
+.meloco {
+  width: 131px;
+  height: 125px;
+  margin: 10px 0 10px 0;
+  background-color: #A09BD8;
+  background-image: url("src/assets/niji_pics/xsoleil/meloco/background remove meloco.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.ver {
+  width: 131px;
+  height: 125px;
+  margin: 10px 0 10px 0;
+  background-color: #D5345E;
+  background-image: url("src/assets/niji_pics/xsoleil/ver/background remove ver.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 

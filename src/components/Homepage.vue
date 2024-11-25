@@ -9,13 +9,13 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       <router-link :to="{ name: 'LazuLight'}">LazuLight</router-link>
       <router-link :to="{ name: 'Obsydia'}">Obsydia</router-link>
       <router-link :to="{ name: 'Ethyria'}">Ethyria</router-link>
-      <a href="#">Luxiem</a>
-      <a href="#">Noctyx</a>
-      <a href="#">Iluna</a>
-      <a href="#">Xsoleil</a>
-      <a href="#">Krisis</a>
-      <a href="#">TTT</a>
-      <a href="#">Denauth</a>
+      <router-link :to="{ name: 'Luxiem'}">Luxiem</router-link>
+      <router-link :to="{ name: 'Noctyx'}">Noctyx</router-link>
+      <router-link :to="{ name: 'Iluna'}">Iluna</router-link>
+      <router-link :to="{ name: 'Xsoleil'}">Xsoleil</router-link>
+      <router-link :to="{ name: 'Krisis'}">Krisis</router-link>
+      <router-link :to="{ name: 'TTT'}">TTT</router-link>
+      <router-link :to="{ name: 'Denauth'}">Denauth</router-link>
     </div>
     <div class="headshots">
       <router-link :to="{ name: 'EliraPendora' }">

@@ -1,6 +1,6 @@
 <script setup>
 
-import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
+import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 </script>
 
 <template>
@@ -10,12 +10,13 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Reimu Endou</h1>
-      <h1>遠藤霊夢</h1>
-      <p>A ghost wandering in hell. The more she thinks of her beloved,
-        the more she becomes sad and haunted.</p>
+      <h1>Finana Ryugu</h1>
+      <h1>フィナーナ 竜宮</h1>
+      <p>A mermaid who spends her time with tropical fish in the sea of coral reefs.
+        Has a heart as clear and pure as the calm and beautiful sea.</p>
 
-      <p>地獄をさまよう幽霊。愛する人のことを考えれば考えるほど、彼女は悲しくなり、取り憑かれてしまいます。</p>
+      <p>サンゴ礁の海で熱帯魚たちと過ごす人魚。
+        穏やかで美しい海のように透き通った純粋な心を持っています。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -23,22 +24,23 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Female</li>
-      <li><b>Age:</b> ??? </li>
-      <li><b>Birthday:</b> November 2</li>
-      <li><b>Height:</b> 155 cm/5'5"</li>
-      <li><b>Color:</b> #B90B4A</li>
-      <li><b>Fan name:</b> Phantomos</li>
+      <li><b>Age:</b> FROOTLOOP</li>
+      <li><b>Birthday:</b> June 21</li>
+      <li><b>Height:</b> 140 cm/4'7"</li>
+      <li><b>Color:</b> #79CFB8</li>
+      <li><b>Fan name:</b> Ryuguards</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/74E0i-EZ_s0?si=fR8q-5kfgR0nf2fz"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/3JAXcwDydNI?si=jlzBwjrFJl2cOMxU"></iframe>
 
     <div class="social-icons">
-      <span><a href="https://twitter.com/ReimuEndou "><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@ReimuEndou"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/reimuendou"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="https://twitter.com/FinanaRyugu"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@FinanaRyugu"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/finanaryugu"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
-
-    <h2>Gallery</h2>
+    <router-link :to="{ name: 'FinanaGallery' }">
+      <h2>Gallery</h2>
+    </router-link>
   </section>
 </primary-template>
 </template>
@@ -46,7 +48,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #B90B4A;
+  background-color: #79CFB8;
   padding-top: 20px;
 }
 
@@ -58,7 +60,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #B90B4A;
+  background-color: #79CFB8;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -69,8 +71,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #B90B4A;
-  background-image: url("/src/assets/niji_pics/ethyria/reimu/reimu full body background remove.png");
+  background-color: #79CFB8;
+  background-image: url("/src/assets/niji_pics/lazulight/finana full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -139,7 +141,7 @@ h2 {
   }
 
   p {
-    background-color: #B90B4A;
+    background-color: #79CFB8;
     color: white;
     float: left;
     width: 300px;

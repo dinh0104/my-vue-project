@@ -1,12 +1,12 @@
 <script setup>
 
-import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
+import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
 </script>
 
 <template>
   <primary-template>
     <div class="back-button">
-      <router-link :to="{ name: 'EliraPendora' }">
+      <router-link :to="{ name: 'FinanaRyugu' }">
         <img src="/src/assets/icons8-back-64.png" alt="back icon">
       </router-link>
     </div>
@@ -15,61 +15,56 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 
     <div class="gallery">
       <a href="#img1">
-        <img src="/src/assets/niji_pics/lazulight/background remove elira portrait.png" alt="elira portrait">
+        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_Portrait.webp" alt="finana portrait">
       </a>
       <a href="#img2">
-        <img src="/src/assets/niji_pics/lazulight/background remove fullbody.png" alt="elira full body">
+        <img src="/src/assets/niji_pics/lazulight/finana%20full%20body%20background%20remove.png" alt="finana full body">
       </a>
       <a href="#img3">
-        <img src="/src/assets/niji_pics/lazulight/background remove.png" alt="elira headshot">
+        <img src="/src/assets/niji_pics/lazulight/background%20remove%20finana.png" alt="finana headshot">
       </a>
       <a href="#img4">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pandora_-_Key_Visual.webp" alt="elira key visual">
+        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_-_Key_Visual.webp" alt="finana key visual">
       </a>
       <a href="#img5">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pendora_-_April_2023_Costume.webp" alt="elira outfit4">
+        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_-_January_2022_Costume.webp" alt="finana outfit1">
       </a>
       <a href="#img6">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pendora_-_January_2022_Costume.webp" alt="elira outfit2">
+        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_-_February_2023_Outfit.webp" alt="finana outfit2">
       </a>
       <a href="#img7">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pendora_-_October_2023_outfit.webp" alt="elira outfit3">
+        <img src="/src/assets/niji_pics/lazulight/FinaRef1.webp" alt="reference sheet1">
       </a>
       <a href="#img8">
-        <img src="/src/assets/niji_pics/lazulight/Eliref1.webp" alt="reference sheet1">
-      </a>
-      <a href="#img9">
-        <img src="/src/assets/niji_pics/lazulight/Eliref2.webp" alt="reference sheet2">
+        <img src="/src/assets/niji_pics/lazulight/FinaRef2.webp" alt="reference sheet2">
       </a>
     </div>
       <!--lightbox-->
       <a href="#" class="lightbox" id="img1">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background remove elira portrait.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_Portrait.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img2">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background remove fullbody.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/finana full body background remove.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img3">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background remove.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/background remove finana.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img4">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pandora_-_Key_Visual.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_-_Key_Visual.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img5">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pendora_-_April_2023_Costume.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_-_January_2022_Costume.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img6">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pendora_-_January_2022_Costume.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_-_February_2023_Outfit.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img7">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pendora_-_October_2023_outfit.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/FinaRef1.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img8">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Eliref1.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/FinaRef2.webp')"></span>
       </a>
-      <a href="#" class="lightbox" id="img9">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Eliref2.webp')"></span>
-      </a>
+
 
   </primary-template>
 </template>
@@ -148,7 +143,7 @@ h1 {
   background-size: contain;
 }
 
-@media screen and (width > 530) {
+@media screen and (width > 530px) {
   h1 {
     font-size: 2.5rem;
   }
@@ -157,8 +152,8 @@ h1 {
     padding: 50px;
 
     a {
-      width: 10%;
-      height: 10%;
+      width: 33%;
+      height: 33%;
     }
 
   }

@@ -23,25 +23,26 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     </router-link>
 
 
-    <h2>Obsydia</h2>
+    <h2>Noctyx</h2>
 
     <div class="headshots">
-      <router-link :to="{ name: 'RosemiLovelock' }">
-        <div class="rosemi box"></div>
-      </router-link>
+      <div class="alban box"></div>
 
-      <router-link :to="{ name: 'PetraGurin'}">
-        <div class="petra box"></div>
-      </router-link>
+      <div class="fulgur box"></div>
+
+      <div class="sonny box"></div>
+
+      <div class="uki box"></div>
     </div>
 
     <div class="bio-text">
-      <p>Debuted on 17 July 2021, OBSYDIA is a dark counterpart to LazuLight,
-        featuring similar fantasy motifs and mirroring its earth-sea-sky trichotomy.
-        OBSYDIA's name is derived from obsidian, a black volcanic glass.</p>
+      <p>Debuted on 27 February 2022, Noctyx is a dark, future-themed counterpart to
+        Luxiem. In lore, its members originally come from the future. Noctyx's name
+        may be derived from noct, the Latin word for night, and Nyx, the Greek goddess
+        of the night.</p>
     </div>
     <div class="vid-content">
-      <iframe width="325" height="164" src="https://www.youtube.com/embed/D-V0EHF30rk?si=zzp2IxHjNi_b7UXl"></iframe>
+      <iframe width="325" height="164" src="https://www.youtube.com/embed/ySSUTOGO-3M?si=kbeAAMG060Ojf1ms"></iframe>
     </div>
   </primary-template>
 </template>
@@ -76,26 +77,48 @@ h2 {
   margin-top: 30px;
 }
 
-.petra {
+.alban {
   width: 131px;
   height: 125px;
   margin: 10px 0 10px 0;
-  background-color: #FFAE42;
-  background-image: url("src/assets/niji_pics/obsydia/background remove petra.png");
-  background-size: 90% 110%;
+  background-color: #FF5F00;
+  background-image: url("src/assets/niji_pics/noctyx/alban/background remove alban.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
 }
 
-.rosemi {
+.fulgur {
   width: 131px;
   height: 125px;
   margin: 10px 0 10px 0;
-  background-color: #DC3753;
-  background-image: url("src/assets/niji_pics/obsydia/background remove rosemi.png");
-  background-size: 100% 110%;
+  background-color: #FF0000;
+  background-image: url("src/assets/niji_pics/noctyx/fulgur/background remove fulgur.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
+}
+
+.sonny {
+  width: 131px;
+  height: 125px;
+  margin: 10px 0 10px 0;
+  background-color: #FFF321;
+  background-image: url("src/assets/niji_pics/noctyx/sonny/background remove sonny.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.uki {
+  width: 131px;
+  height: 125px;
+  margin: 10px 0 10px 0;
+  background-color: #B600FF;
+  background-image: url("src/assets/niji_pics/noctyx/uki/background remove uki.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 

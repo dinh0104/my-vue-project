@@ -23,25 +23,25 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     </router-link>
 
 
-    <h2>Obsydia</h2>
+    <h2>TTT</h2>
 
     <div class="headshots">
-      <router-link :to="{ name: 'RosemiLovelock' }">
-        <div class="rosemi box"></div>
-      </router-link>
+      <div class="vivi box"></div>
 
-      <router-link :to="{ name: 'PetraGurin'}">
-        <div class="petra box"></div>
-      </router-link>
+      <div class="claude box"></div>
     </div>
 
     <div class="bio-text">
-      <p>Debuted on 17 July 2021, OBSYDIA is a dark counterpart to LazuLight,
-        featuring similar fantasy motifs and mirroring its earth-sea-sky trichotomy.
-        OBSYDIA's name is derived from obsidian, a black volcanic glass.</p>
+      <p>TTT (pronounced "Triple T") is abbreviated from the first 3 words of the group
+        name, "These Three Troublemaking Adventurers from Another World are Actually a
+        Comedy Troupe?!" They debuted on 27 October 2023. Unlike previous NIJISANJI EN
+        waves, and similar to more recent NIJISANJI waves from 2023 and prior to 2022, it
+        didn't feature a debut song (instead having a theme song sang by EN Livers) and
+        it had no official unit name with a logo prior to debut, instead having an
+        unofficial name like older and 2023 debuts in NIJISANJI.</p>
     </div>
     <div class="vid-content">
-      <iframe width="325" height="164" src="https://www.youtube.com/embed/D-V0EHF30rk?si=zzp2IxHjNi_b7UXl"></iframe>
+      <iframe width="325" height="164" src="https://www.youtube.com/embed/JebSygojkM4?si=kPW16tswGFrCp_46"></iframe>
     </div>
   </primary-template>
 </template>
@@ -76,26 +76,24 @@ h2 {
   margin-top: 30px;
 }
 
-.petra {
+.vivi {
   width: 131px;
   height: 125px;
   margin: 10px 0 10px 0;
-  background-color: #FFAE42;
-  background-image: url("src/assets/niji_pics/obsydia/background remove petra.png");
-  background-size: 90% 110%;
+  background-color: #D7D2EB;
+  background-image: url("src/assets/niji_pics/ttt/victoria/background remove vivi.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
 }
 
-.rosemi {
+.claude {
   width: 131px;
   height: 125px;
   margin: 10px 0 10px 0;
-  background-color: #DC3753;
-  background-image: url("src/assets/niji_pics/obsydia/background remove rosemi.png");
-  background-size: 100% 110%;
+  background-color: #7D3CAF;
+  background-image: url("src/assets/niji_pics/ttt/claude/background remove claude.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
 }
 
 
