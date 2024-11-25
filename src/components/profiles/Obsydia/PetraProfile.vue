@@ -38,8 +38,9 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <span><a href="https://www.youtube.com/@petragurin"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/petragurin/"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
-
-    <h2>Gallery</h2>
+    <router-link :to="{ name: 'PetraGallery' }">
+      <h2>Gallery</h2>
+    </router-link>
   </section>
 </primary-template>
 </template>

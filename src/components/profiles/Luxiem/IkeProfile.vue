@@ -10,35 +10,36 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Rosemi Lovelock</h1>
-      <h1>ロゼミ ラブロック</h1>
-      <p>A rose maiden raised in a beautiful garden.
-        Pretty as a rose in a vase, but a little sharp to the touch.</p>
+      <h1>Ike Eveland</h1>
+      <h1>アイク・イーヴランド</h1>
+      <p>A Novelist from the past who seems somewhat closed-off.
+        When an idea for his next work sparks, he becomes a completely
+        different person.</p>
 
-      <p>美しい庭園で育った薔薇の乙女。花瓶に生けたバラのように美しいですが、触ると少し鋭いです。</p>
+      <p>どこか閉鎖的な雰囲気を持つ昔ながらの小説家。
+        次回作のアイデアがひらめくと、彼はまったく別人になる。</p>
     </div>
     <div class="half-body"></div>
   </section>
 
   <section class="information">
     <ul>
-      <li><b>Gender:</b> Female</li>
-      <li><b>Age:</b> ??? years old</li>
-      <li><b>Birthday:</b> September 16</li>
-      <li><b>Height:</b> 150 cm/4'11"</li>
-      <li><b>Color:</b> #DC3753</li>
-      <li><b>Fan name:</b> Rosebuds</li>
+      <li><b>Gender:</b> Male</li>
+      <li><b>Age:</b> Converting was too hard</li>
+      <li><b>Birthday:</b> June 12</li>
+      <li><b>Height:</b> 173 cm/5'8"</li>
+      <li><b>Color:</b> #348EC7</li>
+      <li><b>Fan name:</b> Quilldren</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/7GJMOUyrHzs?si=4VyjH31vinikt0NM"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/EEiJdPflxR4?si=XdoAOW8SKDKe9xA9"></iframe>
 
     <div class="social-icons">
-      <span><a href="https://twitter.com/Rosemi_Lovelock"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@Rosemi_Lovelock"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/rosemilovelock"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="twitter.com/ike_eveland"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@IkeEveland"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/petragurin/"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
-
-    <router-link :to="{ name: 'RosemiGallery' }">
+    <router-link :to="{ name: 'PetraGallery' }">
       <h2>Gallery</h2>
     </router-link>
   </section>
@@ -48,7 +49,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #DC3753;
+  background-color: #348EC7;
   padding-top: 20px;
 }
 
@@ -60,7 +61,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #DC3753;
+  background-color: #348EC7;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -71,8 +72,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #DC3753;
-  background-image: url("/src/assets/niji_pics/obsydia/rosemi full body background remove.png");
+  background-color: #348EC7;
+  background-image: url("/src/assets/niji_pics/luxiem/ike/ike full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -141,7 +142,7 @@ h2 {
   }
 
   p {
-    background-color: #DC3753;
+    background-color: #348EC7;
     color: white;
     float: left;
     width: 300px;

@@ -46,7 +46,9 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
         <div class="reimu box"></div>
       </router-link>
 
-      <div class="ike box"></div>
+      <router-link :to="{ name: 'IkeEveland' }">
+        <div class="ike box"></div>
+      </router-link>
 
       <div class="luca box"></div>
 

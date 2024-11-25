@@ -1,25 +1,28 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Homepage from "./components/Homepage.vue";
 import Navbar from "./components/InsideNav.vue";
-import LazuLight from "./components/sub-nav/Lazu-sub-nav.vue";
-import Obsydia from "./components/sub-nav/Obsydia-sub-nav.vue";
-import Ethyria from "./components/sub-nav/Ethyria-sub-nav.vue";
-import Luxiem from "./components/sub-nav/Luxiem-sub-nav.vue";
-import Noctyx from "./components/sub-nav/Noctyx-sub-nav.vue";
-import Iluna from "./components/sub-nav/Iluna-sub-nav.vue";
-import Xsoleil from "./components/sub-nav/Xsoleil-sub-nav.vue";
-import Krisis from "./components/sub-nav/Krisis-sub-nav.vue";
-import TTT from "./components/sub-nav/TTT-sub-nav.vue";
-import Denauth from "./components/sub-nav/Denauth-sub-nav.vue";
+import LazuLight from "./components/group-profiles/Lazu-profile.vue";
+import Obsydia from "./components/group-profiles/Obsydia-profile.vue";
+import Ethyria from "./components/group-profiles/Ethyria-profile.vue";
+import Luxiem from "./components/group-profiles/Luxiem-profile.vue";
+import Noctyx from "./components/group-profiles/Noctyx-profile.vue";
+import Iluna from "./components/group-profiles/Iluna-profile.vue";
+import Xsoleil from "./components/group-profiles/Xsoleil-profile.vue";
+import Krisis from "./components/group-profiles/Krisis-profile.vue";
+import TTT from "./components/group-profiles/TTT-profile.vue";
+import Denauth from "./components/group-profiles/Denauth-profile.vue";
 import EliraProfile from "./components/profiles/Lazulight/EliraProfile.vue";
 import EliraGallery from "./components/profiles/Lazulight/gallery/EliraGallery.vue";
 import FinanaProfile from "./components/profiles/Lazulight/FinanaProfile.vue";
 import FinanaGallery from "./components/profiles/Lazulight/gallery/FinanaGallery.vue";
 import RosemiProfile from "./components/profiles/Obsydia/RosemiProfile.vue";
+import RosemiGallery from "./components/profiles/Obsydia/gallery/RosemiGallery.vue";
 import PetraProfile from "./components/profiles/Obsydia/PetraProfile.vue";
+import PetraGallery from "./components/profiles/Obsydia/gallery/PetraGallery.vue";
 import EnnaProfile from "./components/profiles/Ethyria/EnnaProfile.vue";
 import MillieProfile from "./components/profiles/Ethyria/MillieProfile.vue";
 import ReimuProfile from "./components/profiles/Ethyria/ReimuProfile.vue";
+import IkeProfile from "./components/profiles/Luxiem/IkeProfile.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -111,9 +114,19 @@ const router = createRouter({
             component: RosemiProfile
         },
         {
+            path: '/rosemi-lovelock/gallery',
+            name: 'RosemiGallery',
+            component: RosemiGallery
+        },
+        {
             path: '/petra-gurin',
             name: 'PetraGurin',
             component: PetraProfile
+        },
+        {
+            path: '/petra-gurin/gallery',
+            name: 'PetraGallery',
+            component: PetraGallery
         },
         {
             path: '/enna-alouette',
@@ -129,6 +142,11 @@ const router = createRouter({
             path: '/reimu-endou',
             name: 'ReimuEndou',
             component: ReimuProfile
+        },
+        {
+            path: '/ike-eveland',
+            name: 'IkeEveland',
+            component: IkeProfile
         }
     ]
 })
