@@ -10,14 +10,13 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Ike Eveland</h1>
-      <h1>アイク・イーヴランド</h1>
-      <p>A Novelist from the past who seems somewhat closed-off.
-        When an idea for his next work sparks, he becomes a completely
-        different person.</p>
+      <h1>Sonny Brisko</h1>
+      <h1>サニー・ブリスコー</h1>
+      <p>An Officer from the future with a straightforward attitude.
+        He's reliable in a pinch despite being rough around the edges.</p>
 
-      <p>どこか閉鎖的な雰囲気を持つ昔ながらの小説家。
-        次回作のアイデアがひらめくと、彼はまったく別人になる。</p>
+      <p>まっすぐな態度を持つ未来の将校。
+        荒っぽいけどいざという時には頼りになる。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -25,18 +24,18 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> Converting was too hard</li>
-      <li><b>Birthday:</b> June 12</li>
-      <li><b>Height:</b> 173 cm/5'8"</li>
-      <li><b>Color:</b> #348EC7</li>
-      <li><b>Fan name:</b> Quilldren</li>
+      <li><b>Age:</b> [CLASSIFIED]</li>
+      <li><b>Birthday:</b> April 6</li>
+      <li><b>Height:</b> 180 cm/5'10"</li>
+      <li><b>Color:</b> #FFF321</li>
+      <li><b>Fan name:</b> Briskadets</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/EEiJdPflxR4?si=XdoAOW8SKDKe9xA9"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/Tt6RAjao8xs?si=KsrT6R6nqbBi8ODG"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/ike_eveland"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@IkeEveland"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitter.com/sonny_brisko"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@SonnyBrisko"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
@@ -49,7 +48,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #348EC7;
+  background-color: #FFF321;
   padding-top: 20px;
 }
 
@@ -61,8 +60,8 @@ img {
 
 h1 {
   display: flex;
-  background-color: #348EC7;
-  color: white;
+  background-color: #FFF321;
+  color: black;
   font-size: 35px;
   margin: 0;
   justify-content: center;
@@ -72,8 +71,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #348EC7;
-  background-image: url("/src/assets/niji_pics/luxiem/ike/ike full body background remove.png");
+  background-color: #FFF321;
+  background-image: url("/src/assets/niji_pics/noctyx/sonny/sonny full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -83,7 +82,7 @@ p {
   display: flex;
   margin: 20px;
   font-family: 'raleway', sans-serif;
-  color: white;
+  color: black;
   justify-content: center;
   text-align: center;
 }
@@ -142,8 +141,8 @@ h2 {
   }
 
   p {
-    background-color: #348EC7;
-    color: white;
+    background-color: #FFF321;
+    color: black;
     float: left;
     width: 300px;
   }

@@ -23,6 +23,13 @@ import EnnaProfile from "./components/profiles/Ethyria/EnnaProfile.vue";
 import MillieProfile from "./components/profiles/Ethyria/MillieProfile.vue";
 import ReimuProfile from "./components/profiles/Ethyria/ReimuProfile.vue";
 import IkeProfile from "./components/profiles/Luxiem/IkeProfile.vue";
+import LucaProfile from "./components/profiles/Luxiem/LucaProfile.vue";
+import ShuProfile from "./components/profiles/Luxiem/ShuProfile.vue";
+import VoxProfile from "./components/profiles/Luxiem/VoxProfile.vue";
+import AlbanProfile from "./components/profiles/Noctyx/AlbanProfile.vue";
+import FulgurProfile from "./components/profiles/Noctyx/FulgurProfile.vue";
+import SonnyProfile from "./components/profiles/Noctyx/SonnyProfile.vue";
+import UkiProfile from "./components/profiles/Noctyx/UkiProfile.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -147,6 +154,41 @@ const router = createRouter({
             path: '/ike-eveland',
             name: 'IkeEveland',
             component: IkeProfile
+        },
+        {
+            path: '/luca-kaneshiro',
+            name: 'LucaKaneshiro',
+            component: LucaProfile
+        },
+        {
+            path: '/shu-yamino',
+            name: 'ShuYamino',
+            component: ShuProfile
+        },
+        {
+            path: '/vox-akuma',
+            name: 'VoxAkuma',
+            component: VoxProfile
+        },
+        {
+            path: '/alban-knox',
+            name: 'AlbanKnox',
+            component: AlbanProfile
+        },
+        {
+            path: '/fulgur-ovid',
+            name: 'FulgurOvid',
+            component: FulgurProfile
+        },
+        {
+            path: '/sonny-brisko',
+            name: 'SonnyBrisko',
+            component: SonnyProfile
+        },
+        {
+            path: '/uki-violeta',
+            name: 'UkiVioleta',
+            component: UkiProfile
         }
     ]
 })

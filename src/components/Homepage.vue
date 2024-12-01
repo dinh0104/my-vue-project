@@ -47,22 +47,36 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       </router-link>
 
       <router-link :to="{ name: 'IkeEveland' }">
-        <div class="ike box"></div>
+      <div class="ike box"></div>
       </router-link>
 
-      <div class="luca box"></div>
+      <router-link :to="{ name: 'LucaKaneshiro' }">
+        <div class="luca box"></div>
+      </router-link>
 
-      <div class="shu box"></div>
+      <router-link :to="{ name: 'ShuYamino'}">
+        <div class="shu box"></div>
+      </router-link>
 
-      <div class="vox box"></div>
+      <router-link :to="{ name: 'VoxAkuma'}">
+        <div class="vox box"></div>
+      </router-link>
 
-      <div class="alban box"></div>
+      <router-link :to="{ name: 'AlbanKnox'}">
+        <div class="alban box"></div>
+      </router-link>
 
-      <div class="fulgur box"></div>
+      <router-link :to="{ name: 'FulgurOvid'}">
+        <div class="fulgur box"></div>
+      </router-link>
 
-      <div class="sonny box"></div>
+      <router-link :to="{ name: 'SonnyBrisko'}">
+        <div class="sonny box"></div>
+      </router-link>
 
-      <div class="uki box"></div>
+      <router-link :to="{ name: 'UkiVioleta'}">
+        <div class="uki box"></div>
+      </router-link>
 
       <div class="aia box"></div>
 

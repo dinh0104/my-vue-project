@@ -10,14 +10,15 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Ike Eveland</h1>
-      <h1>アイク・イーヴランド</h1>
-      <p>A Novelist from the past who seems somewhat closed-off.
-        When an idea for his next work sparks, he becomes a completely
-        different person.</p>
+      <h1>Uki Violeta</h1>
+      <h1>浮奇ヴィオレタ</h1>
+      <p>A sorcerer from the past with mysterious abilities.
+        Though kind-hearted, he can call down a
+        malediction upon those who wrong him.</p>
 
-      <p>どこか閉鎖的な雰囲気を持つ昔ながらの小説家。
-        次回作のアイデアがひらめくと、彼はまったく別人になる。</p>
+      <p>過去からやってきた不思議な力を持つ呪術師
+        穏やかな性格の持ち主だが、自分に危害を加えよう
+        とする者には容赦なく呪いをかけてしまう</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -25,18 +26,18 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> Converting was too hard</li>
-      <li><b>Birthday:</b> June 12</li>
-      <li><b>Height:</b> 173 cm/5'8"</li>
-      <li><b>Color:</b> #348EC7</li>
-      <li><b>Fan name:</b> Quilldren</li>
+      <li><b>Age:</b> Doesn't matter anymore</li>
+      <li><b>Birthday:</b> July 17</li>
+      <li><b>Height:</b> 169 cm/5'6"</li>
+      <li><b>Color:</b> #B600FF</li>
+      <li><b>Fan name:</b> Stargazers</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/EEiJdPflxR4?si=XdoAOW8SKDKe9xA9"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/2X39X6ln3BE?si=87_h3_fiOVpFcj-R"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/ike_eveland"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@IkeEveland"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitter.com/uki_violeta"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@UkiVioleta"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
@@ -49,7 +50,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #348EC7;
+  background-color: #B600FF;
   padding-top: 20px;
 }
 
@@ -61,7 +62,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #348EC7;
+  background-color: #B600FF;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -72,8 +73,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #348EC7;
-  background-image: url("/src/assets/niji_pics/luxiem/ike/ike full body background remove.png");
+  background-color: #B600FF;
+  background-image: url("/src/assets/niji_pics/noctyx/uki/uki fuull body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -142,7 +143,7 @@ h2 {
   }
 
   p {
-    background-color: #348EC7;
+    background-color: #B600FF;
     color: white;
     float: left;
     width: 300px;

@@ -10,14 +10,13 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Ike Eveland</h1>
-      <h1>アイク・イーヴランド</h1>
-      <p>A Novelist from the past who seems somewhat closed-off.
-        When an idea for his next work sparks, he becomes a completely
-        different person.</p>
+      <h1>Luca Kaneshiro</h1>
+      <h1>ルカ・カネシロ</h1>
+      <p>A Mafia boss from the past with a slight temper. Always down for a fight,
+        whether it’s to show-off his own strength or to protect the weak.</p>
 
-      <p>どこか閉鎖的な雰囲気を持つ昔ながらの小説家。
-        次回作のアイデアがひらめくと、彼はまったく別人になる。</p>
+      <p>少し短気な昔のマフィアのボス。 自分の力を誇示するためでも、弱い者を守るためでも、
+        常に戦いを挑んでいます。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -25,18 +24,18 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> Converting was too hard</li>
-      <li><b>Birthday:</b> June 12</li>
-      <li><b>Height:</b> 173 cm/5'8"</li>
-      <li><b>Color:</b> #348EC7</li>
-      <li><b>Fan name:</b> Quilldren</li>
+      <li><b>Age:</b> 26</li>
+      <li><b>Birthday:</b> April 10</li>
+      <li><b>Height:</b> 178 cm/5'10"</li>
+      <li><b>Color:</b> #D4AF37</li>
+      <li><b>Fan name:</b> Lucubs</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/EEiJdPflxR4?si=XdoAOW8SKDKe9xA9"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/zniC34tfjrU?si=rs112aZqP5ul1_Sz"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/ike_eveland"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@IkeEveland"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitter.com/luca_kaneshiro"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@LucaKaneshiro"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
@@ -49,7 +48,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #348EC7;
+  background-color: #D4AF37;
   padding-top: 20px;
 }
 
@@ -61,7 +60,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #348EC7;
+  background-color: #D4AF37;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -72,8 +71,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #348EC7;
-  background-image: url("/src/assets/niji_pics/luxiem/ike/ike full body background remove.png");
+  background-color: #D4AF37;
+  background-image: url("/src/assets/niji_pics/luxiem/luca/luca full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -142,7 +141,7 @@ h2 {
   }
 
   p {
-    background-color: #348EC7;
+    background-color: #D4AF37;
     color: white;
     float: left;
     width: 300px;

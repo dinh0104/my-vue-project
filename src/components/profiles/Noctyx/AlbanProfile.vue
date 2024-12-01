@@ -10,14 +10,13 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Ike Eveland</h1>
-      <h1>アイク・イーヴランド</h1>
-      <p>A Novelist from the past who seems somewhat closed-off.
-        When an idea for his next work sparks, he becomes a completely
-        different person.</p>
+      <h1>Alban Knox</h1>
+      <h1>アルバーン・ノックス</h1>
+      <p>A Phantom Thief from the future with exceptional stealth.
+        He's a free yet mischievous spirit who is hard to pin down.</p>
 
-      <p>どこか閉鎖的な雰囲気を持つ昔ながらの小説家。
-        次回作のアイデアがひらめくと、彼はまったく別人になる。</p>
+      <p>抜群のステルス力を持つ未来から来た怪盗。
+        自由でありながらいたずら好きな性格で、捉えどころがありません。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -25,19 +24,19 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> Converting was too hard</li>
-      <li><b>Birthday:</b> June 12</li>
-      <li><b>Height:</b> 173 cm/5'8"</li>
-      <li><b>Color:</b> #348EC7</li>
-      <li><b>Fan name:</b> Quilldren</li>
+      <li><b>Age:</b> Time travel amnesia...</li>
+      <li><b>Birthday:</b> May 26</li>
+      <li><b>Height:</b> 175 cm/5'8"</li>
+      <li><b>Color:</b> #FF5F00</li>
+      <li><b>Fan name:</b> Takaradachi</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/EEiJdPflxR4?si=XdoAOW8SKDKe9xA9"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/SFIoMzCIcaE?si=hSD6LzV3cRMEZwuo"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/ike_eveland"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@IkeEveland"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="twitter.com/alban_knox"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@AlbanKnox"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitch.tv/albanknox"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
       <h2>Gallery</h2>
@@ -49,7 +48,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #348EC7;
+  background-color: #FF5F00;
   padding-top: 20px;
 }
 
@@ -61,7 +60,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #348EC7;
+  background-color: #FF5F00;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -72,8 +71,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #348EC7;
-  background-image: url("/src/assets/niji_pics/luxiem/ike/ike full body background remove.png");
+  background-color: #FF5F00;
+  background-image: url("/src/assets/niji_pics/noctyx/alban/alban full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -142,7 +141,7 @@ h2 {
   }
 
   p {
-    background-color: #348EC7;
+    background-color: #FF5F00;
     color: white;
     float: left;
     width: 300px;
