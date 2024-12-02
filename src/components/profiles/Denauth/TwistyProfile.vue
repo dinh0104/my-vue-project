@@ -73,7 +73,7 @@ h1 {
   width: 430px;
   height: 499px;
   background-color: #78ECD5;
-  background-image: url("/src/assets/niji_pics/krisis/vantacrow/vanta full body background remove.png");
+  background-image: url("/src/assets/niji_pics/denauth/twisty/twisty full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -186,7 +186,7 @@ h2 {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   p {

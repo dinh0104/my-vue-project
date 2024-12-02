@@ -20,8 +20,11 @@ import RosemiGallery from "./components/profiles/Obsydia/gallery/RosemiGallery.v
 import PetraProfile from "./components/profiles/Obsydia/PetraProfile.vue";
 import PetraGallery from "./components/profiles/Obsydia/gallery/PetraGallery.vue";
 import EnnaProfile from "./components/profiles/Ethyria/EnnaProfile.vue";
+import EnnaGallery from "./components/profiles/Ethyria/gallery/EnnaGallery.vue";
 import MillieProfile from "./components/profiles/Ethyria/MillieProfile.vue";
+import MillieGallery from "./components/profiles/Ethyria/gallery/MillieGallery.vue";
 import ReimuProfile from "./components/profiles/Ethyria/ReimuProfile.vue";
+import ReimuGallery from "./components/profiles/Ethyria/gallery/ReimuGallery.vue";
 import IkeProfile from "./components/profiles/Luxiem/IkeProfile.vue";
 import LucaProfile from "./components/profiles/Luxiem/LucaProfile.vue";
 import ShuProfile from "./components/profiles/Luxiem/ShuProfile.vue";
@@ -158,14 +161,29 @@ const router = createRouter({
             component: EnnaProfile
         },
         {
+            path: '/enna-alouette/gallery',
+            name: 'EnnaGallery',
+            component: EnnaGallery
+        },
+        {
             path: '/millie-parfait',
             name: 'MillieParfait',
             component: MillieProfile
         },
         {
+            path: '/millie-parfait/gallery',
+            name: 'MillieGallery',
+            component: MillieGallery
+        },
+        {
             path: '/reimu-endou',
             name: 'ReimuEndou',
             component: ReimuProfile
+        },
+        {
+            path: '/reimu-endou/gallery',
+            name: 'ReimuGallery',
+            component: ReimuGallery
         },
         {
             path: '/ike-eveland',

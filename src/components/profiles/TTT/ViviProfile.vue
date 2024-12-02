@@ -186,7 +186,7 @@ h2 {
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   p {
