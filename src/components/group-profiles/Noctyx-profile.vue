@@ -26,13 +26,21 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     <h2>Noctyx</h2>
 
     <div class="headshots">
-      <div class="alban box"></div>
+      <router-link :to="{ name: 'AlbanKnox'}">
+        <div class="alban box"></div>
+      </router-link>
 
-      <div class="fulgur box"></div>
+      <router-link :to="{ name: 'FulgurOvid'}">
+        <div class="fulgur box"></div>
+      </router-link>
 
-      <div class="sonny box"></div>
+      <router-link :to="{ name: 'SonnyBrisko'}">
+        <div class="sonny box"></div>
+      </router-link>
 
-      <div class="uki box"></div>
+      <router-link :to="{ name: 'UkiVioleta'}">
+        <div class="uki box"></div>
+      </router-link>
     </div>
 
     <div class="bio-text">

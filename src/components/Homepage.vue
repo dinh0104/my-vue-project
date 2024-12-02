@@ -126,15 +126,25 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       <div class="wilson box"></div>
       </router-link>
 
+      <router-link :to="{ name: 'VictoriaBrightshield'}">
       <div class="vivi box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'ClaudeClawmark'}">
       <div class="claude box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'KlaraCharmwood'}">
       <div class="klara box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'RyomaBarrenwort'}">
       <div class="ryoma box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'TwistyAmanozako'}">
       <div class="twisty box"></div>
+      </router-link>
 
     </div>
   </primary-template>

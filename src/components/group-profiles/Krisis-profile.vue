@@ -26,11 +26,17 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     <h2>Krisis</h2>
 
     <div class="headshots">
-      <div class="vanta box"></div>
+      <router-link :to="{ name: 'VantacrowBringer'}">
+        <div class="vanta box"></div>
+      </router-link>
 
-      <div class="zali box"></div>
+      <router-link :to="{ name: 'VezaliusBandage'}">
+        <div class="zali box"></div>
+      </router-link>
 
-      <div class="wilson box"></div>
+      <router-link :to="{ name: 'YuQWilson'}">
+        <div class="wilson box"></div>
+      </router-link>
     </div>
 
     <div class="bio-text">

@@ -32,12 +32,12 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <li><b>Fan name:</b> Ryonins</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/mG7GHEgGEMw?si=HArCdIB5NEMSSY3b"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/KY6Lhn0cinI?si=k17P5mD9JUAUO1e5"></iframe>
 
     <div class="social-icons">
-      <span><a href="https://x.com/Tyrant_Vanta"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@VantacrowBringer"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="twitch.tv/vantacrow_bringer"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="twitter.com/RyomaBarrenwort"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@RyomaBarrenwort"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
       <h2>Gallery</h2>

@@ -44,6 +44,9 @@ import ZaliProfile from "./components/profiles/Krisis/ZaliProfile.vue";
 import WilsonProfile from "./components/profiles/Krisis/WilsonProfile.vue";
 import ClaudeProfile from "./components/profiles/TTT/ClaudeProfile.vue";
 import ViviProfile from "./components/profiles/TTT/ViviProfile.vue";
+import RyomaProfile from "./components/profiles/Denauth/RyomaProfile.vue";
+import TwistyProfile from "./components/profiles/Denauth/TwistyProfile.vue";
+import KlaraProfile from "./components/profiles/Denauth/KlaraProfile.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -273,6 +276,21 @@ const router = createRouter({
             path: '/victoria-brightshield',
             name: 'VictoriaBrightshield',
             component: ViviProfile
+        },
+        {
+            path: '/ryoma-barrenwort',
+            name: 'RyomaBarrenwort',
+            component: RyomaProfile
+        },
+        {
+            path: '/twisty-amanozako',
+            name: 'TwistyAmanozako',
+            component: TwistyProfile
+        },
+        {
+            path: '/klara-charmwood',
+            name: 'KlaraCharmwood',
+            component: KlaraProfile
         },
     ]
 })

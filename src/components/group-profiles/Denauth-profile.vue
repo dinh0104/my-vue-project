@@ -26,11 +26,17 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     <h2>Denauth</h2>
 
     <div class="headshots">
-      <div class="klara box"></div>
+      <router-link :to="{ name: 'KlaraCharmwood'}">
+        <div class="klara box"></div>
+      </router-link>
 
-      <div class="ryoma box"></div>
+      <router-link :to="{ name: 'RyomaBarrenwort'}">
+        <div class="ryoma box"></div>
+      </router-link>
 
-      <div class="twisty box"></div>
+      <router-link :to="{ name: 'TwistyAmanozako'}">
+        <div class="twisty box"></div>
+      </router-link>
     </div>
 
     <div class="bio-text">

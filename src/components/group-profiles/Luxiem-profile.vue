@@ -26,13 +26,21 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     <h2>Luxiem</h2>
 
     <div class="headshots">
-      <div class="ike box"></div>
+      <router-link :to="{ name: 'IkeEveland' }">
+        <div class="ike box"></div>
+      </router-link>
 
-      <div class="luca box"></div>
+      <router-link :to="{ name: 'LucaKaneshiro' }">
+        <div class="luca box"></div>
+      </router-link>
 
-      <div class="shu box"></div>
+      <router-link :to="{ name: 'ShuYamino'}">
+        <div class="shu box"></div>
+      </router-link>
 
-      <div class="vox box"></div>
+      <router-link :to="{ name: 'VoxAkuma'}">
+        <div class="vox box"></div>
+      </router-link>
     </div>
 
     <div class="bio-text">

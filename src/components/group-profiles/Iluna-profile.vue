@@ -26,15 +26,25 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     <h2>Iluna</h2>
 
     <div class="headshots">
-      <div class="aia box"></div>
+      <router-link :to="{ name: 'AiaAmare'}">
+        <div class="aia box"></div>
+      </router-link>
 
-      <div class="aster box"></div>
+      <router-link :to="{ name: 'AsterArcadia'}">
+        <div class="aster box"></div>
+      </router-link>
 
-      <div class="maria box"></div>
+      <router-link :to="{ name: 'MariaMarionette'}">
+        <div class="maria box"></div>
+      </router-link>
 
-      <div class="ren box"></div>
+      <router-link :to="{ name: 'RenZotto'}">
+        <div class="ren box"></div>
+      </router-link>
 
-      <div class="scarle box"></div>
+      <router-link :to="{ name: 'ScarleYonaguni'}">
+        <div class="scarle box"></div>
+      </router-link>
     </div>
 
     <div class="bio-text">

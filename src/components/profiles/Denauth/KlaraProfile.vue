@@ -11,33 +11,33 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
     </router-link>
     <div class="intro">
       <h1>Klara Charmwood</h1>
-      <h1>ベンタクロウ ブリンガー</h1>
-      <p>A trusted ace who executes his work with care and precision.
-        Famous in the underworld for his business card that reads, "Leave no trace,
-        but leave results."</p>
+      <h1>クララ・チャームウッド</h1>
+      <p>A Maid who occasionally works at the manor that is rumored to be haunted.
+        Her teapot spirit companion contributes to the rumors, but she’s carefree and
+        enjoys streaming games on her days off.</p>
 
-      <p>丁寧かつ正確に仕事をこなす、信頼されるエース。
-        「痕跡は残さないが、結果は残す」という名刺で裏社会では有名。</p>
+      <p>幽霊が出ると噂される邸宅で時々働くメイド。彼女の仲間であるティーポットの精霊が噂の一
+        因となっていますが、彼女は気ままで、休日にはゲームのストリーミングを楽しんでいます。</p>
     </div>
     <div class="half-body"></div>
   </section>
 
   <section class="information">
     <ul>
-      <li><b>Gender:</b> Male</li>
+      <li><b>Gender:</b> Female</li>
       <li><b>Age:</b> CLASSIFIED</li>
-      <li><b>Birthday:</b> February 6</li>
-      <li><b>Height:</b> 180 cm/5'10"</li>
-      <li><b>Color:</b> #8728E1</li>
-      <li><b>Fan name:</b> Vantacrew</li>
+      <li><b>Birthday:</b> November 20</li>
+      <li><b>Height:</b> 157.5 cm/5'2"</li>
+      <li><b>Color:</b> #DFCDBF</li>
+      <li><b>Fan name:</b> Kouchamas</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/mG7GHEgGEMw?si=HArCdIB5NEMSSY3b"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/-crvcfEtOl0?si=7LEiQhsu2qQNq1VW"></iframe>
 
     <div class="social-icons">
-      <span><a href="https://x.com/Tyrant_Vanta"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@VantacrowBringer"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="twitch.tv/vantacrow_bringer"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="https://twitter.com/KlaraCharmwood"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@KlaraCharmwood"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
       <h2>Gallery</h2>
@@ -49,7 +49,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #8728E1;
+  background-color: #DFCDBF;
   padding-top: 20px;
 }
 
@@ -61,7 +61,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #8728E1;
+  background-color: #DFCDBF;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -72,8 +72,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #8728E1;
-  background-image: url("/src/assets/niji_pics/krisis/vantacrow/vanta full body background remove.png");
+  background-color: #DFCDBF;
+  background-image: url("/src/assets/niji_pics/denauth/klara/klara full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -146,7 +146,7 @@ h2 {
   }
 
   p {
-    background-color: #8728E1;
+    background-color: #DFCDBF;
     color: white;
     float: left;
     width: 300px;

@@ -26,9 +26,13 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     <h2>TTT</h2>
 
     <div class="headshots">
-      <div class="vivi box"></div>
+      <router-link :to="{ name: 'VictoriaBrightshield'}">
+        <div class="vivi box"></div>
+      </router-link>
 
-      <div class="claude box"></div>
+      <router-link :to="{ name: 'ClaudeClawmark'}">
+        <div class="claude box"></div>
+      </router-link>
     </div>
 
     <div class="bio-text">

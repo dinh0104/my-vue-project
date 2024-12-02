@@ -26,13 +26,21 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     <h2>Xsoleil</h2>
 
     <div class="headshots">
-      <div class="doppio box"></div>
+      <router-link :to="{ name: 'DoppioDropscythe'}">
+        <div class="doppio box"></div>
+      </router-link>
 
-      <div class="kotoka box"></div>
+      <router-link :to="{ name: 'KotokaTorahime'}">
+        <div class="kotoka box"></div>
+      </router-link>
 
-      <div class="meloco box"></div>
+      <router-link :to="{ name: 'MelocoKyoran'}">
+        <div class="meloco box"></div>
+      </router-link>
 
-      <div class="ver box"></div>
+      <router-link :to="{ name: 'VerVermillion'}">
+        <div class="ver box"></div>
+      </router-link>
     </div>
 
     <div class="bio-text">
