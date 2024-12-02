@@ -10,35 +10,34 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Vox Akuma</h1>
-      <h1>ヴォックス・アクマ</h1>
-      <p>A Demon from the past who held great power
-        Though confident in his superhuman abilities, he
-        looks after those who are loyal to him.</p>
+      <h1>Twisty Amanozako</h1>
+      <h1>トゥイスティー・アマノザコ</h1>
+      <p>A Young Lady who lives in a manor that is rumored to be haunted.
+        She tends to attract mischievous spirits, but she easily forgets her troubles
+        in favor of cute things.</p>
 
-      <p>過去からやってきた最強の鬼
-        人間離れした身体能力に絶対的な自信を持っている
-        が、仲間や部下のことを常に気にかけている</p>
+      <p>幽霊が出ると噂される邸宅に住むお嬢様。イタズラ心を引き寄せやすい性格ですが、
+        かわいいものには悩みもすぐ忘れてしまいます。</p>
     </div>
     <div class="half-body"></div>
   </section>
 
   <section class="information">
     <ul>
-      <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> 460-500 years old</li>
-      <li><b>Birthday:</b> April 25</li>
-      <li><b>Height:</b> 178 cm/5'10"</li>
-      <li><b>Color:</b> #960018</li>
-      <li><b>Fan name:</b> Kindred</li>
+      <li><b>Gender:</b> Female</li>
+      <li><b>Age:</b> young (lady)</li>
+      <li><b>Birthday:</b> January 10</li>
+      <li><b>Height:</b> 145.5 cm/4'9"</li>
+      <li><b>Color:</b> #78ECD5</li>
+      <li><b>Fan name:</b> Capricorn</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/nqMp1vooavM?si=_2rfRX6dqAii1650"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/mG7GHEgGEMw?si=HArCdIB5NEMSSY3b"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/Vox_Akuma"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@VoxAkuma"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="https://x.com/Tyrant_Vanta"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@VantacrowBringer"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitch.tv/vantacrow_bringer"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
       <h2>Gallery</h2>
@@ -50,7 +49,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #960018;
+  background-color: #78ECD5;
   padding-top: 20px;
 }
 
@@ -62,7 +61,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #960018;
+  background-color: #78ECD5;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -73,8 +72,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #960018;
-  background-image: url("/src/assets/niji_pics/luxiem/vox/vox full body background remove.png");
+  background-color: #78ECD5;
+  background-image: url("/src/assets/niji_pics/krisis/vantacrow/vanta full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -89,14 +88,18 @@ p {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
+.information {
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    font-family: 'raleway', sans-serif;
+    padding: 5px;
+  }
 }
 
-li {
-  font-family: 'raleway', sans-serif;
-  padding: 5px;
-}
 
 span {
   padding-left: 58px;
@@ -143,7 +146,7 @@ h2 {
   }
 
   p {
-    background-color: #960018;
+    background-color: #78ECD5;
     color: white;
     float: left;
     width: 300px;

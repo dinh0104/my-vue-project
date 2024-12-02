@@ -10,34 +10,34 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Vox Akuma</h1>
-      <h1>ヴォックス・アクマ</h1>
-      <p>A Demon from the past who held great power
-        Though confident in his superhuman abilities, he
-        looks after those who are loyal to him.</p>
+      <h1>Meloco Kyoran</h1>
+      <h1>狂蘭 メロコ</h1>
+      <p>XSOLEIL Institute of Infinity 2nd Year.
+        Event coordinator of the Student Council who is an exorcist by night.
+        She casts out ghosts and demons with her trusty umbrella.</p>
 
-      <p>過去からやってきた最強の鬼
-        人間離れした身体能力に絶対的な自信を持っている
-        が、仲間や部下のことを常に気にかけている</p>
+      <p>XSOLEILインフィニティ研究所2年目。
+        生徒会のイベントコーディネーターで、夜は祓魔師。
+        彼女は信頼できる傘で幽霊や悪魔を追い出します。</p>
     </div>
     <div class="half-body"></div>
   </section>
 
   <section class="information">
     <ul>
-      <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> 460-500 years old</li>
-      <li><b>Birthday:</b> April 25</li>
-      <li><b>Height:</b> 178 cm/5'10"</li>
-      <li><b>Color:</b> #960018</li>
-      <li><b>Fan name:</b> Kindred</li>
+      <li><b>Gender:</b> Female</li>
+      <li><b>Age:</b> CLASSIFIED</li>
+      <li><b>Birthday:</b> October 29</li>
+      <li><b>Height:</b> 164 cm/5'4"</li>
+      <li><b>Color:</b> #A09BD8</li>
+      <li><b>Fan name:</b> Meloves</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/nqMp1vooavM?si=_2rfRX6dqAii1650"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/fpCqw3C8KSg?si=qVtk7v-Cl-rEgIsa"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/Vox_Akuma"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@VoxAkuma"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitter.com/MelocoKyoran"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@MelocoKyoran"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
@@ -50,7 +50,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #960018;
+  background-color: #A09BD8;
   padding-top: 20px;
 }
 
@@ -62,7 +62,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #960018;
+  background-color: #A09BD8;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -73,8 +73,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #960018;
-  background-image: url("/src/assets/niji_pics/luxiem/vox/vox full body background remove.png");
+  background-color: #A09BD8;
+  background-image: url("/src/assets/niji_pics/xsoleil/meloco/meloco full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -89,14 +89,18 @@ p {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
+.information {
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    font-family: 'raleway', sans-serif;
+    padding: 5px;
+  }
 }
 
-li {
-  font-family: 'raleway', sans-serif;
-  padding: 5px;
-}
 
 span {
   padding-left: 58px;
@@ -143,7 +147,7 @@ h2 {
   }
 
   p {
-    background-color: #960018;
+    background-color: #A09BD8;
     color: white;
     float: left;
     width: 300px;

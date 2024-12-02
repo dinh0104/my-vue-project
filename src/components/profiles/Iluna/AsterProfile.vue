@@ -10,15 +10,14 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Vox Akuma</h1>
-      <h1>ヴォックス・アクマ</h1>
-      <p>A Demon from the past who held great power
-        Though confident in his superhuman abilities, he
-        looks after those who are loyal to him.</p>
+      <h1>Aster Arcadia</h1>
+      <h1>アスター アルカディア</h1>
+      <p>ILUNA Institute of the Mystics 2nd Year. A celestial born from a Supernova
+        long ago. His memories are faint, but his wish to spread happiness across the
+        universe remains strong.</p>
 
-      <p>過去からやってきた最強の鬼
-        人間離れした身体能力に絶対的な自信を持っている
-        が、仲間や部下のことを常に気にかけている</p>
+      <p>ILUNA神秘学研究所2年目。遠い昔、超新星から生まれた天人。
+        彼の記憶は薄れていますが、宇宙に幸せを広げたいという彼の願いは強く残っています。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -26,18 +25,18 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> 460-500 years old</li>
-      <li><b>Birthday:</b> April 25</li>
-      <li><b>Height:</b> 178 cm/5'10"</li>
-      <li><b>Color:</b> #960018</li>
-      <li><b>Fan name:</b> Kindred</li>
+      <li><b>Age:</b> 1,000,071</li>
+      <li><b>Birthday:</b> September 25</li>
+      <li><b>Height:</b> 170 cm/5'6"</li>
+      <li><b>Color:</b> #6662A4</li>
+      <li><b>Fan name:</b> Arcadians</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/nqMp1vooavM?si=_2rfRX6dqAii1650"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/VeOS0CuF0FE?si=rklCS2Fyn-yIKOyK"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/Vox_Akuma"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@VoxAkuma"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitter.com/AsterArcadia"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@AsterArcadia"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
@@ -50,7 +49,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #960018;
+  background-color: #6662A4;
   padding-top: 20px;
 }
 
@@ -62,7 +61,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #960018;
+  background-color: #6662A4;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -73,8 +72,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #960018;
-  background-image: url("/src/assets/niji_pics/luxiem/vox/vox full body background remove.png");
+  background-color: #6662A4;
+  background-image: url("/src/assets/niji_pics/iluna/aster/aster full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -143,7 +142,7 @@ h2 {
   }
 
   p {
-    background-color: #960018;
+    background-color: #6662A4;
     color: white;
     float: left;
     width: 300px;

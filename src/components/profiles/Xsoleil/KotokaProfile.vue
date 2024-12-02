@@ -10,34 +10,34 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Vox Akuma</h1>
-      <h1>ヴォックス・アクマ</h1>
-      <p>A Demon from the past who held great power
-        Though confident in his superhuman abilities, he
-        looks after those who are loyal to him.</p>
+      <h1>Kotoka Torahime</h1>
+      <h1>虎姫 コトカ</h1>
+      <p>XSOLEIL Institute of Infinity 3rd Year.
+        Vice President of the Student Council who is as fashionable as she is dependable.
+        She specializes in glamouring as anyone she touches.</p>
 
-      <p>過去からやってきた最強の鬼
-        人間離れした身体能力に絶対的な自信を持っている
-        が、仲間や部下のことを常に気にかけている</p>
+      <p>XSOLEIL Institute of Infinity 3年目。
+        おしゃれで頼りになる生徒会副会長。
+        彼女は触れた人を魅了することに特化しています。</p>
     </div>
     <div class="half-body"></div>
   </section>
 
   <section class="information">
     <ul>
-      <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> 460-500 years old</li>
-      <li><b>Birthday:</b> April 25</li>
-      <li><b>Height:</b> 178 cm/5'10"</li>
-      <li><b>Color:</b> #960018</li>
-      <li><b>Fan name:</b> Kindred</li>
+      <li><b>Gender:</b> Female</li>
+      <li><b>Age:</b> CLASSIFIED</li>
+      <li><b>Birthday:</b> August 14</li>
+      <li><b>Height:</b> 166 cm/5'5"</li>
+      <li><b>Color:</b> #DC6B9A</li>
+      <li><b>Fan name:</b> Kotocats</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/nqMp1vooavM?si=_2rfRX6dqAii1650"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/xHJ75r16XNE?si=L19GGlu-O2ftiKBd"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/Vox_Akuma"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@VoxAkuma"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitter.com/KotokaTorahime"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@KotokaTorahime"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
@@ -50,7 +50,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #960018;
+  background-color: #DC6B9A;
   padding-top: 20px;
 }
 
@@ -62,7 +62,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #960018;
+  background-color: #DC6B9A;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -73,8 +73,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #960018;
-  background-image: url("/src/assets/niji_pics/luxiem/vox/vox full body background remove.png");
+  background-color: #DC6B9A;
+  background-image: url("/src/assets/niji_pics/xsoleil/kotoka/kotoka full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -89,14 +89,18 @@ p {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
+.information {
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    font-family: 'raleway', sans-serif;
+    padding: 5px;
+  }
 }
 
-li {
-  font-family: 'raleway', sans-serif;
-  padding: 5px;
-}
 
 span {
   padding-left: 58px;
@@ -143,7 +147,7 @@ h2 {
   }
 
   p {
-    background-color: #960018;
+    background-color: #DC6B9A;
     color: white;
     float: left;
     width: 300px;

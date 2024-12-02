@@ -10,34 +10,34 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Vox Akuma</h1>
-      <h1>ヴォックス・アクマ</h1>
-      <p>A Demon from the past who held great power
-        Though confident in his superhuman abilities, he
-        looks after those who are loyal to him.</p>
+      <h1>Aia Amare</h1>
+      <h1>アイア アマレ</h1>
+      <p>ILUNA Institute of the Mystics 2nd Year.
+        An angelic maiden who descended from Heaven to observe mankind.
+        Her gentle appearance hides a rather mischievous disposition.</p>
 
-      <p>過去からやってきた最強の鬼
-        人間離れした身体能力に絶対的な自信を持っている
-        が、仲間や部下のことを常に気にかけている</p>
+      <p>ILUNA神秘学研究所2年目。
+        人類を観察するために天から降臨した天使のような乙女。
+        穏やかな見た目の裏に、ちょっとお茶目な性格を隠している。</p>
     </div>
     <div class="half-body"></div>
   </section>
 
   <section class="information">
     <ul>
-      <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> 460-500 years old</li>
-      <li><b>Birthday:</b> April 25</li>
-      <li><b>Height:</b> 178 cm/5'10"</li>
-      <li><b>Color:</b> #960018</li>
-      <li><b>Fan name:</b> Kindred</li>
+      <li><b>Gender:</b> Female</li>
+      <li><b>Age:</b> REDACTED</li>
+      <li><b>Birthday:</b> May 27</li>
+      <li><b>Height:</b> 158 cm/5'2"</li>
+      <li><b>Color:</b> #FFFEF7</li>
+      <li><b>Fan name:</b> Aiadmirers</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/nqMp1vooavM?si=_2rfRX6dqAii1650"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/Vvdpzduo4eQ?si=g0-SJ_CWIDHLuGdj"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/Vox_Akuma"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@VoxAkuma"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://x.com/AiaAmare"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@AiaAmare"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
@@ -50,7 +50,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #960018;
+  background-color: #FFFEF7;
   padding-top: 20px;
 }
 
@@ -62,8 +62,8 @@ img {
 
 h1 {
   display: flex;
-  background-color: #960018;
-  color: white;
+  background-color: #FFFEF7;
+  color: black;
   font-size: 35px;
   margin: 0;
   justify-content: center;
@@ -73,8 +73,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #960018;
-  background-image: url("/src/assets/niji_pics/luxiem/vox/vox full body background remove.png");
+  background-color: #FFFEF7;
+  background-image: url("/src/assets/niji_pics/iluna/aia/aia full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -84,7 +84,7 @@ p {
   display: flex;
   margin: 20px;
   font-family: 'raleway', sans-serif;
-  color: white;
+  color: black;
   justify-content: center;
   text-align: center;
 }
@@ -143,8 +143,8 @@ h2 {
   }
 
   p {
-    background-color: #960018;
-    color: white;
+    background-color: #FFFEF7;
+    color: black;
     float: left;
     width: 300px;
   }

@@ -10,15 +10,13 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Vox Akuma</h1>
-      <h1>ヴォックス・アクマ</h1>
-      <p>A Demon from the past who held great power
-        Though confident in his superhuman abilities, he
-        looks after those who are loyal to him.</p>
+      <h1>Claude Clawmark</h1>
+      <h1>クロード クローマーク</h1>
+      <p>A cleric who studies magic while providing healing to visitors. His gigantic
+        magical gloves are the tools of his trade, which he wields with great skill.</p>
 
-      <p>過去からやってきた最強の鬼
-        人間離れした身体能力に絶対的な自信を持っている
-        が、仲間や部下のことを常に気にかけている</p>
+      <p>訪れる人々に癒しを与えながら魔術を研究する聖職者。彼の巨大な魔法の手袋は彼の商売道具であり、
+        彼はそれを巧みに扱います。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -26,18 +24,18 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> 460-500 years old</li>
-      <li><b>Birthday:</b> April 25</li>
-      <li><b>Height:</b> 178 cm/5'10"</li>
-      <li><b>Color:</b> #960018</li>
-      <li><b>Fan name:</b> Kindred</li>
+      <li><b>Age:</b> old enough</li>
+      <li><b>Birthday:</b> January 22</li>
+      <li><b>Height:</b> 171 cm/5'7"</li>
+      <li><b>Color:</b> #7D3CAF</li>
+      <li><b>Fan name:</b> Outclaws</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/nqMp1vooavM?si=_2rfRX6dqAii1650"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/6gEDug4mUp0?si=ZwaPQaSAqz22PmXL"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/Vox_Akuma"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@VoxAkuma"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitter.com/ClaudeClawmark"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@ClaudeClawmark"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
@@ -50,7 +48,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #960018;
+  background-color: #7D3CAF;
   padding-top: 20px;
 }
 
@@ -62,7 +60,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #960018;
+  background-color: #7D3CAF;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -73,8 +71,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #960018;
-  background-image: url("/src/assets/niji_pics/luxiem/vox/vox full body background remove.png");
+  background-color: #7D3CAF;
+  background-image: url("/src/assets/niji_pics/ttt/claude/claude full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -89,14 +87,18 @@ p {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
+.information {
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    font-family: 'raleway', sans-serif;
+    padding: 5px;
+  }
 }
 
-li {
-  font-family: 'raleway', sans-serif;
-  padding: 5px;
-}
 
 span {
   padding-left: 58px;
@@ -143,7 +145,7 @@ h2 {
   }
 
   p {
-    background-color: #960018;
+    background-color: #7D3CAF;
     color: white;
     float: left;
     width: 300px;

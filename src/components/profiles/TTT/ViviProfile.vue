@@ -10,35 +10,34 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Vox Akuma</h1>
-      <h1>ヴォックス・アクマ</h1>
-      <p>A Demon from the past who held great power
-        Though confident in his superhuman abilities, he
-        looks after those who are loyal to him.</p>
+      <h1>Victoria Brightshield</h1>
+      <h1>ヴィクトリア ブライトシールド</h1>
+      <p>A swordmaster who set out on an adventure by herself.
+        Donning the magical armor she inherited from her family,
+        she helps those in need while polishing her skills with the sword.</p>
 
-      <p>過去からやってきた最強の鬼
-        人間離れした身体能力に絶対的な自信を持っている
-        が、仲間や部下のことを常に気にかけている</p>
+      <p>一人で冒険に出た剣豪。
+        家族から受け継いだ魔法の鎧を身に着け、剣の腕を磨きながら、困っている人たちを助けている。</p>
     </div>
     <div class="half-body"></div>
   </section>
 
   <section class="information">
     <ul>
-      <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> 460-500 years old</li>
-      <li><b>Birthday:</b> April 25</li>
-      <li><b>Height:</b> 178 cm/5'10"</li>
-      <li><b>Color:</b> #960018</li>
-      <li><b>Fan name:</b> Kindred</li>
+      <li><b>Gender:</b> Female</li>
+      <li><b>Age:</b> CLASSIFIED</li>
+      <li><b>Birthday:</b> March 18</li>
+      <li><b>Height:</b> 157 cm/5'1"</li>
+      <li><b>Color:</b> #D7D2EB</li>
+      <li><b>Fan name:</b> Paladins</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/nqMp1vooavM?si=_2rfRX6dqAii1650"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/mG7GHEgGEMw?si=HArCdIB5NEMSSY3b"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/Vox_Akuma"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@VoxAkuma"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="https://x.com/Tyrant_Vanta"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@VantacrowBringer"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitch.tv/vantacrow_bringer"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
       <h2>Gallery</h2>
@@ -50,7 +49,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #960018;
+  background-color: #D7D2EB;
   padding-top: 20px;
 }
 
@@ -62,8 +61,8 @@ img {
 
 h1 {
   display: flex;
-  background-color: #960018;
-  color: white;
+  background-color: #D7D2EB;
+  color: black;
   font-size: 35px;
   margin: 0;
   justify-content: center;
@@ -73,8 +72,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #960018;
-  background-image: url("/src/assets/niji_pics/luxiem/vox/vox full body background remove.png");
+  background-color: #D7D2EB;
+  background-image: url("/src/assets/niji_pics/ttt/victoria/vivi full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -84,19 +83,23 @@ p {
   display: flex;
   margin: 20px;
   font-family: 'raleway', sans-serif;
-  color: white;
+  color: black;
   justify-content: center;
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
+.information {
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    font-family: 'raleway', sans-serif;
+    padding: 5px;
+  }
 }
 
-li {
-  font-family: 'raleway', sans-serif;
-  padding: 5px;
-}
 
 span {
   padding-left: 58px;
@@ -143,8 +146,8 @@ h2 {
   }
 
   p {
-    background-color: #960018;
-    color: white;
+    background-color: #D7D2EB;
+    color: black;
     float: left;
     width: 300px;
   }

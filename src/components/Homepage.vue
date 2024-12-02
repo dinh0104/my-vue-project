@@ -78,29 +78,53 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
         <div class="uki box"></div>
       </router-link>
 
+      <router-link :to="{ name: 'AiaAmare'}">
       <div class="aia box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'AsterArcadia'}">
       <div class="aster box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'MariaMarionette'}">
       <div class="maria box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'RenZotto'}">
       <div class="ren box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'ScarleYonaguni'}">
       <div class="scarle box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'DoppioDropscythe'}">
       <div class="doppio box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'KotokaTorahime'}">
       <div class="kotoka box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'MelocoKyoran'}">
       <div class="meloco box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'VerVermillion'}">
       <div class="ver box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'VantacrowBringer'}">
       <div class="vanta box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'VezaliusBandage'}">
       <div class="zali box"></div>
+      </router-link>
 
+      <router-link :to="{ name: 'YuQWilson'}">
       <div class="wilson box"></div>
+      </router-link>
 
       <div class="vivi box"></div>
 

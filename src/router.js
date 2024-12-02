@@ -30,6 +30,20 @@ import AlbanProfile from "./components/profiles/Noctyx/AlbanProfile.vue";
 import FulgurProfile from "./components/profiles/Noctyx/FulgurProfile.vue";
 import SonnyProfile from "./components/profiles/Noctyx/SonnyProfile.vue";
 import UkiProfile from "./components/profiles/Noctyx/UkiProfile.vue";
+import AiaProfile from "./components/profiles/Iluna/AiaProfile.vue";
+import AsterProfile from "./components/profiles/Iluna/AsterProfile.vue";
+import ScarleProfile from "./components/profiles/Iluna/ScarleProfile.vue";
+import RenProfile from "./components/profiles/Iluna/RenProfile.vue";
+import MariaProfile from "./components/profiles/Iluna/MariaProfile.vue";
+import DoppioProfile from "./components/profiles/Xsoleil/DoppioProfile.vue";
+import KotokaProfile from "./components/profiles/Xsoleil/KotokaProfile.vue";
+import MelocoProfile from "./components/profiles/Xsoleil/MelocoProfile.vue";
+import VerProfile from "./components/profiles/Xsoleil/VerProfile.vue";
+import VantaProfile from "./components/profiles/Krisis/VantaProfile.vue";
+import ZaliProfile from "./components/profiles/Krisis/ZaliProfile.vue";
+import WilsonProfile from "./components/profiles/Krisis/WilsonProfile.vue";
+import ClaudeProfile from "./components/profiles/TTT/ClaudeProfile.vue";
+import ViviProfile from "./components/profiles/TTT/ViviProfile.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -189,7 +203,77 @@ const router = createRouter({
             path: '/uki-violeta',
             name: 'UkiVioleta',
             component: UkiProfile
-        }
+        },
+        {
+            path: '/maria-marionette',
+            name: 'MariaMarionette',
+            component: MariaProfile
+        },
+        {
+            path: '/aia-amare',
+            name: 'AiaAmare',
+            component: AiaProfile
+        },
+        {
+            path: '/aster-arcadia',
+            name: 'AsterArcadia',
+            component: AsterProfile
+        },
+        {
+            path: '/scarle-yonaguni',
+            name: 'ScarleYonaguni',
+            component: ScarleProfile
+        },
+        {
+            path: '/ren-zotto',
+            name: 'RenZotto',
+            component: RenProfile
+        },
+        {
+            path: '/doppio-dropscythe',
+            name: 'DoppioDropscythe',
+            component: DoppioProfile
+        },
+        {
+            path: '/kotoka-torahime',
+            name: 'KotokaTorahime',
+            component: KotokaProfile
+        },
+        {
+            path: '/meloco-kyoran',
+            name: 'MelocoKyoran',
+            component: MelocoProfile
+        },
+        {
+            path: '/ver-vermillion',
+            name: 'VerVermillion',
+            component: VerProfile
+        },
+        {
+            path: '/vantacrow-bringer',
+            name: 'VantacrowBringer',
+            component: VantaProfile
+        },
+        {
+            path: '/vezalius-bandage',
+            name: 'VezaliusBandage',
+            component: ZaliProfile
+        },
+        {
+            path: '/yu-q-wilson',
+            name: 'YuQWilson',
+            component: WilsonProfile
+        },
+        {
+            path: '/claude-clawmark',
+            name: 'ClaudeClawmark',
+            component: ClaudeProfile
+        },
+        {
+            path: '/victoria-brightshield',
+            name: 'VictoriaBrightshield',
+            component: ViviProfile
+        },
     ]
 })
 

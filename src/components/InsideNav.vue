@@ -31,7 +31,7 @@
 
     <div class="socials">
       <h2>Socials</h2>
-      <a href="https://x.com/NIJISANJI_World?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">twitter</a>
+      <a href="https://x.com/NIJISANJI_World?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">X (formerly Twitter)</a>
       <a href="https://www.youtube.com/c/nijisanji_en">Youtube</a>
       <a href="https://www.reddit.com/r/Nijisanji/">Reddit</a>
     </div>

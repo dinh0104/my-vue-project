@@ -10,15 +10,13 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Vox Akuma</h1>
-      <h1>ヴォックス・アクマ</h1>
-      <p>A Demon from the past who held great power
-        Though confident in his superhuman abilities, he
-        looks after those who are loyal to him.</p>
+      <h1>Ren Zotto</h1>
+      <h1>レン ゾット</h1>
+      <p>ILUNA Institute of the Mystics 3rd Year. A deadly alien prince from
+        another world. He has resolved to conquer Earth, using his unique sound.</p>
 
-      <p>過去からやってきた最強の鬼
-        人間離れした身体能力に絶対的な自信を持っている
-        が、仲間や部下のことを常に気にかけている</p>
+      <p>ILUNA神秘学研究所3年目。異世界から来た危険なエイリアン王子。
+        彼は独特のサウンドを使って地球を征服することを決意しました。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -26,18 +24,18 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Male</li>
-      <li><b>Age:</b> 460-500 years old</li>
-      <li><b>Birthday:</b> April 25</li>
-      <li><b>Height:</b> 178 cm/5'10"</li>
-      <li><b>Color:</b> #960018</li>
-      <li><b>Fan name:</b> Kindred</li>
+      <li><b>Age:</b> idk</li>
+      <li><b>Birthday:</b> March 25</li>
+      <li><b>Height:</b> 180 cm/5'10"</li>
+      <li><b>Color:</b> #429B76</li>
+      <li><b>Fan name:</b> Renvaderz</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/nqMp1vooavM?si=_2rfRX6dqAii1650"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/vgmvwsTzaaQ?si=QvHtB2ftGIK_yjB8"></iframe>
 
     <div class="social-icons">
-      <span><a href="twitter.com/Vox_Akuma"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@VoxAkuma"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="twitter.com/renzott0"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@RenZotto"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'PetraGallery' }">
@@ -50,7 +48,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #960018;
+  background-color: #429B76;
   padding-top: 20px;
 }
 
@@ -62,7 +60,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #960018;
+  background-color: #429B76;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -73,8 +71,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #960018;
-  background-image: url("/src/assets/niji_pics/luxiem/vox/vox full body background remove.png");
+  background-color: #429B76;
+  background-image: url("/src/assets/niji_pics/iluna/ren/ren full body background remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -143,7 +141,7 @@ h2 {
   }
 
   p {
-    background-color: #960018;
+    background-color: #429B76;
     color: white;
     float: left;
     width: 300px;
