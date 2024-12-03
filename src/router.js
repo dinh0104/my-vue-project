@@ -50,6 +50,7 @@ import ViviProfile from "./components/profiles/TTT/ViviProfile.vue";
 import RyomaProfile from "./components/profiles/Denauth/RyomaProfile.vue";
 import TwistyProfile from "./components/profiles/Denauth/TwistyProfile.vue";
 import KlaraProfile from "./components/profiles/Denauth/KlaraProfile.vue";
+import CharacterProfile from "./components/CharacterProfile.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -61,9 +62,14 @@ const router = createRouter({
             component: Homepage
         },
         {
-            path: '/home',
+            path: '/navbar',
             name: 'Navbar',
             component: Navbar
+        },
+        {
+            path: '/streamer/:name',
+            name: 'StreamerDetails',
+            component: CharacterProfile
         },
         {
             path: '/lazulight',

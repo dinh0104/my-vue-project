@@ -36,7 +36,7 @@ import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
         <img src="/src/assets/niji_pics/lazulight/FinaRef1.webp" alt="reference sheet1">
       </a>
       <a href="#img8">
-        <img src="/src/assets/niji_pics/lazulight/FinaRef2.webp" alt="reference sheet2">
+        <img src alt="reference sheet2">
       </a>
     </div>
       <!--lightbox-->
