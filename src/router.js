@@ -51,6 +51,7 @@ import RyomaProfile from "./components/profiles/Denauth/RyomaProfile.vue";
 import TwistyProfile from "./components/profiles/Denauth/TwistyProfile.vue";
 import KlaraProfile from "./components/profiles/Denauth/KlaraProfile.vue";
 import CharacterProfile from "./components/CharacterProfile.vue";
+import GroupProfile from "./components/GroupProfile.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -70,6 +71,11 @@ const router = createRouter({
             path: '/streamer/:name',
             name: 'StreamerDetails',
             component: CharacterProfile
+        },
+        {
+            path: '/group/:name',
+            name: 'GroupDetails',
+            component: GroupProfile
         },
         {
             path: '/lazulight',

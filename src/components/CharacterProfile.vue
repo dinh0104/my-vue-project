@@ -22,7 +22,8 @@ onMounted(() => {
 
 <template>
 <primary-template>
-  <section class="top">
+
+  <section class="top" :style="'background-color: ' + character.color + ';'">
     <router-link :to="{ name: 'Home' }">
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
@@ -33,7 +34,8 @@ onMounted(() => {
 
       <p>{{ character.JPbio }}</p>
     </div>
-    <div class="half-body"></div>
+    <div class="half-body" :style="'background-image: url(' + character.image + ');'"></div>
+
   </section>
 
   <section class="information">
@@ -46,12 +48,12 @@ onMounted(() => {
       <li><b>Fan name:</b> {{ character.fanName }}</li>
     </ul>
 
-    <iframe width="348" height="176" src="{{ character.videoUrl }}"></iframe>
+    <iframe width="348" height="176" src=" {{ character.videoUrl }} "></iframe>
 
     <div class="social-icons">
-      <span><a href="{{ character.twitter }}"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="{{ character.youtube }}"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="{{ character.twitch }}"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href=" {{ character.twitter }} "><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href=" {{ character.youtube }} "><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href=" {{ character.twitch }} "><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'EliraGallery' }">
       <h2>Gallery</h2>
@@ -63,7 +65,7 @@ onMounted(() => {
 <style scoped>
 
 section.top {
-  background-color: #95c8d8;
+  //background-color: #95c8d8;
   padding-top: 20px;
 }
 
@@ -75,7 +77,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #95c8d8;
+  //background-color: #95c8d8;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -86,8 +88,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #95C8D8;
-  background-image: url("/src/assets/niji_pics/lazulight/background remove fullbody.png");
+  //background-color: #95C8D8;
+  //background-image: url("/src/assets/niji_pics/lazulight/background-remove-fullbody.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -156,7 +158,6 @@ h2 {
   }
 
   p {
-    background-color: #95c8d8;
     color: white;
     float: left;
     width: 300px;

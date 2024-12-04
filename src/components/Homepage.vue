@@ -1,5 +1,7 @@
 <script setup xmlns="http://www.w3.org/1999/html">
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
+
+import characters from "./characters.js";
 </script>
 
 <template>
@@ -17,134 +19,14 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
       <router-link :to="{ name: 'TTT'}">TTT</router-link>
       <router-link :to="{ name: 'Denauth'}">Denauth</router-link>
     </div>
+
+
     <div class="headshots">
-      <router-link :to="{ name: 'EliraPendora' }">
-        <div class="elira box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'FinanaRyugu' }">
-        <div class="finana box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'RosemiLovelock' }">
-        <div class="rosemi box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'PetraGurin' }">
-        <div class="petra box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'EnnaAlouette' }">
-        <div class="enna box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'MillieParfait' }">
-        <div class="millie box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'ReimuEndou' }">
-        <div class="reimu box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'IkeEveland' }">
-      <div class="ike box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'LucaKaneshiro' }">
-        <div class="luca box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'ShuYamino'}">
-        <div class="shu box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'VoxAkuma'}">
-        <div class="vox box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'AlbanKnox'}">
-        <div class="alban box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'FulgurOvid'}">
-        <div class="fulgur box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'SonnyBrisko'}">
-        <div class="sonny box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'UkiVioleta'}">
-        <div class="uki box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'AiaAmare'}">
-      <div class="aia box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'AsterArcadia'}">
-      <div class="aster box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'MariaMarionette'}">
-      <div class="maria box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'RenZotto'}">
-      <div class="ren box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'ScarleYonaguni'}">
-      <div class="scarle box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'DoppioDropscythe'}">
-      <div class="doppio box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'KotokaTorahime'}">
-      <div class="kotoka box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'MelocoKyoran'}">
-      <div class="meloco box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'VerVermillion'}">
-      <div class="ver box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'VantacrowBringer'}">
-      <div class="vanta box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'VezaliusBandage'}">
-      <div class="zali box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'YuQWilson'}">
-      <div class="wilson box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'VictoriaBrightshield'}">
-      <div class="vivi box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'ClaudeClawmark'}">
-      <div class="claude box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'KlaraCharmwood'}">
-      <div class="klara box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'RyomaBarrenwort'}">
-      <div class="ryoma box"></div>
-      </router-link>
-
-      <router-link :to="{ name: 'TwistyAmanozako'}">
-      <div class="twisty box"></div>
-      </router-link>
+      <div v-for="(character, index) in characters.data" :key="index">
+        <router-link :to="{ name: 'StreamerDetails', params: { name: character.name.split(' ')[0].toLowerCase() } }">
+          <div class="box" :class="character.name.split(' ')[0].toLowerCase()"></div>
+        </router-link>
+      </div>
 
     </div>
   </primary-template>
@@ -165,7 +47,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #95c8d8;
-    background-image: url("src/assets/niji_pics/lazulight/background remove.png");
+    background-image: url("../assets/niji_pics/lazulight/background-remove.png");
     background-size: 90% 100%;
     background-repeat: no-repeat;
     background-position: right;
@@ -410,7 +292,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .vanta {
+  .vantacrow {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -420,7 +302,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .zali {
+  .vezalius {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -430,7 +312,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .wilson {
+  .yu {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;
@@ -440,7 +322,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     background-repeat: no-repeat;
   }
 
-  .vivi {
+  .victoria {
     width: 131px;
     height: 125px;
     margin: 10px 0 10px 0;

@@ -10,7 +10,7 @@ const data = [
         height: "160 cm/5 foot 2 inches",
         color: "#95C8D8",
         fanName: "FamElira",
-        image: "/src/assets/niji_pics/lazulight/background remove fullbody.png",
+        image: "/src/assets/niji_pics/lazulight/background-remove-fullbody.png",
         videoUrl: "https://www.youtube.com/embed/nQb5s3QXFGA?si=6wfZNSsDxDEORhVW",
         twitter: "https://x.com/EliraPendora",
         youtube: "https://www.youtube.com/channel/UCIeSUTOTkF9Hs7q3SGcO-Ow",
@@ -25,7 +25,8 @@ const data = [
             "/src/assets/niji_pics/lazulight/Elira_Pendora_-_October_2023_outfit.webp",
             "/src/assets/niji_pics/lazulight/Eliref1.webp",
             "/src/assets/niji_pics/lazulight/Eliref2.webp"
-        ]
+        ],
+        group: "LazuLight"
     },
     {
         name: "Finana Ryugu",
@@ -38,7 +39,7 @@ const data = [
         height: "140 cm/4 foot 7 inches",
         color: "#79CFB8",
         fanName: "Ryuguards",
-        image: "/src/assets/niji_pics/lazulight/finana full body background remove.png",
+        image: "/src/assets/niji_pics/lazulight/finana-full-body-background-remove.png",
         videoUrl: "https://www.youtube.com/embed/3JAXcwDydNI?si=jlzBwjrFJl2cOMxU",
         twitter: "https://twitter.com/FinanaRyugu",
         youtube: "https://www.youtube.com/@FinanaRyugu",
@@ -52,7 +53,8 @@ const data = [
             "/src/assets/niji_pics/lazulight/Finana_Ryugu_-_February_2023_Outfit.webp",
             "/src/assets/niji_pics/lazulight/FinaRef1.webp",
             "/src/assets/niji_pics/lazulight/FinaRef2.webp"
-        ]
+        ],
+        group: "LazuLight"
     },
     {
         name: "Petra Gurin",
@@ -65,21 +67,22 @@ const data = [
         height: "152 cm/4 foot 11 inches",
         color: "#FFAE42",
         fanName: "PenTomo",
-        image: "/src/assets/niji_pics/obsydia/petra full body background remove.png",
+        image: "/src/assets/niji_pics/obsydia/petra full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/o1M8YeJzdVg?si=xpwvKhD-HQu4OBz9",
         twitter: "https://www.twitter.com/Petra_Gurin/",
         youtube: "https://www.youtube.com/@petragurin",
         twitch: "https://www.twitch.tv/petragurin/",
         gallery: [
             "/src/assets/niji_pics/obsydia/Petra_Gurin_Portrait.webp",
-            "/src/assets/niji_pics/obsydia/petra full body background remove.png",
+            "/src/assets/niji_pics/obsydia/petra full body background-remove.png",
             "/src/assets/niji_pics/obsydia/background remove petra.png",
             "/src/assets/niji_pics/obsydia/petra%20full%20body%20background%20remove2.png",
             "/src/assets/niji_pics/obsydia/petra%20full%20body%20background%20remove3.png",
             "/src/assets/niji_pics/obsydia/Petra_Gurin_August_2022_Outfit_2.webp",
             "/src/assets/niji_pics/obsydia/petra-reference-sheet.jpg",
             "/src/assets/niji_pics/obsydia/petra-reference-sheet2.jpg"
-        ]
+        ],
+        group: "Obsydia"
     },
     {
         name: "Rosemi Lovelock",
@@ -92,14 +95,14 @@ const data = [
         height: "150 cm/4 foot 11 inches",
         color: "#DC3753",
         fanName: "Rosebuds",
-        image: "/src/assets/niji_pics/obsydia/rosemi full body background remove.png",
+        image: "/src/assets/niji_pics/obsydia/rosemi full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/7GJMOUyrHzs?si=4VyjH31vinikt0NM",
         twitter: "https://twitter.com/Rosemi_Lovelock",
         youtube: "https://www.youtube.com/@Rosemi_Lovelock",
         twitch: "https://www.twitch.tv/rosemilovelock",
         gallery: [
             "/src/assets/niji_pics/obsydia/Rosemi_Lovelock_Portrait.webp",
-            "/src/assets/niji_pics/obsydia/rosemi full body background remove.png",
+            "/src/assets/niji_pics/obsydia/rosemi full body background-remove.png",
             "/src/assets/niji_pics/obsydia/background remove rosemi.png",
             "/src/assets/niji_pics/obsydia/rosemi full body background remove3.png",
             "/src/assets/niji_pics/obsydia/rosemi full body background remove2.png",
@@ -107,7 +110,8 @@ const data = [
             "/src/assets/niji_pics/obsydia/Rosemi_Lovelock_-_Key_Visual.webp",
             "/src/assets/niji_pics/obsydia/Rosemi_Lovelock_-_August_2022_outfit_29.webp",
             "/src/assets/niji_pics/obsydia/rosemi-reference-sheet.jpg"
-        ]
+        ],
+        group: "Obsydia"
     },
     {
         name: "Enna Alouette",
@@ -120,14 +124,14 @@ const data = [
         height: "under 150 cm/4 foot 11 inches",
         color: "#858ED1",
         fanName: "Aloupeeps",
-        image: "/src/assets/niji_pics/ethyria/enna/enna full body background remove.png",
+        image: "/src/assets/niji_pics/ethyria/enna/enna full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/Xfj3erGrHXU?si=tJojes8gehEOhynM",
         twitter: "https://twitter.com/EnnaAlouette",
         youtube: "https://www.youtube.com/@EnnaAlouette",
         twitch: "https://www.twitch.tv/ennaalouette",
         gallery: [
             "/src/assets/niji_pics/ethyria/enna/Enna_Alouette_Portrait.webp",
-            "/src/assets/niji_pics/ethyria/enna/enna full body background remove.png",
+            "/src/assets/niji_pics/ethyria/enna/enna full body background-remove.png",
             "/src/assets/niji_pics/ethyria/enna/background remove enna.png",
             "/src/assets/niji_pics/ethyria/enna/Enna_Alouette_-_Key_Visual.webp",
             "/src/assets/niji_pics/ethyria/enna/enna full body background remove2.png",
@@ -135,7 +139,8 @@ const data = [
             "/src/assets/niji_pics/ethyria/enna/Enna_Alouette_Ref_Sheet_New_1.webp",
             "/src/assets/niji_pics/ethyria/enna/Enna_Alouette_Ref_Sheet_New_2.webp",
             "/src/assets/niji_pics/ethyria/enna/Enna_Alouette_Reference_Sheet.webp"
-        ]
+        ],
+        group: "Ethyria"
     },
     {
         name: "Millie Parfait",
@@ -148,14 +153,14 @@ const data = [
         height: "150 cm/4 foot 11 inches",
         color: "#FEBC87",
         fanName: "FaMillie",
-        image: "/src/assets/niji_pics/ethyria/millie/millie full body background remove.png",
+        image: "/src/assets/niji_pics/ethyria/millie/millie full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/mNx_uGgu2rY?si=BaZ6nyxi7eE0Av2P",
         twitter: "twitter.com/MillieParfait",
         youtube: "https://www.youtube.com/@MillieParfait",
         twitch: "https://www.twitch.tv/millieparfait",
         gallery: [
             "/src/assets/niji_pics/ethyria/millie/Millie_Parfait_Portrait.webp",
-            "/src/assets/niji_pics/ethyria/millie/millie full body background remove.png",
+            "/src/assets/niji_pics/ethyria/millie/millie full body background-remove.png",
             "/src/assets/niji_pics/ethyria/millie/background remove millie.png",
             "/src/assets/niji_pics/ethyria/millie/Millie_Parfait_-_Key_Visual.webp",
             "/src/assets/niji_pics/ethyria/millie/Millie_Parfait_Zutto%253Fo_Winter_by_Nanna_Fujimi.webp",
@@ -163,7 +168,8 @@ const data = [
             "/src/assets/niji_pics/ethyria/millie/Millie_Parfait_Reference_Sheet.webp",
             "/src/assets/niji_pics/ethyria/millie/Millie_Zuttomo_Outfit_Reference_Sheet.webp",
             "/src/assets/niji_pics/ethyria/millie/Millie_Multiverse_Merchant_Reference_Sheet.webp"
-        ]
+        ],
+        group: "Ethyria"
     },
     {
         name: "Reimu Endou",
@@ -176,21 +182,22 @@ const data = [
         height: "155 cm/5 foot 5 inches",
         color: "#B90B4A",
         fanName: "Phantomos",
-        image: "/src/assets/niji_pics/ethyria/reimu/reimu full body background remove.png",
+        image: "/src/assets/niji_pics/ethyria/reimu/reimu full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/74E0i-EZ_s0?si=fR8q-5kfgR0nf2fz",
         twitter: "https://twitter.com/ReimuEndou",
         youtube: "https://www.youtube.com/@ReimuEndou",
         twitch: "https://www.twitch.tv/reimuendou",
         gallery: [
             "/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_Portrait.webp",
-            "/src/assets/niji_pics/ethyria/reimu/reimu full body background remove.png",
+            "/src/assets/niji_pics/ethyria/reimu/reimu full body background-remove.png",
             "/src/assets/niji_pics/ethyria/reimu/background remove reimu.png",
             "/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_Queen_of_Hearts_Outfit.webp",
             "/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_Reference_Sheet.webp",
             "/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_Queen_of_Heart_Outfit_Reference_Sheet.webp",
             "/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_Lace_Nightwear_Ghost_Reference_Sheet.webp",
             "/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_zutto%253Fo_Summer_Ghost_Outfit_Reference_Sheet.webp"
-        ]
+        ],
+        group: "Ethyria"
     },
     {
         name: "Ike Eveland",
@@ -203,14 +210,15 @@ const data = [
         height: "173 cm/5 foot 8 inches",
         color: "#348EC7",
         fanName: "Quilldren",
-        image: "/src/assets/niji_pics/luxiem/ike/ike full body background remove.png",
+        image: "/src/assets/niji_pics/luxiem/ike/ike full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/EEiJdPflxR4?si=XdoAOW8SKDKe9xA9",
         twitter: "twitter.com/ike_eveland",
         youtube: "https://www.youtube.com/@IkeEveland",
         twitch: "https://www.twitch.tv/nijisanji_en",
         gallery: [
             ""
-        ]
+        ],
+        group: "Luxiem"
     },
     {
         name: "Luca Kaneshiro",
@@ -223,14 +231,15 @@ const data = [
         height: "178 cm/5 foot 10 inches",
         color: "#D4AF37",
         fanName: "Lucubs",
-        image: "/src/assets/niji_pics/ethyria/reimu/reimu full body background remove.png",
+        image: "/src/assets/niji_pics/ethyria/reimu/reimu full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/zniC34tfjrU?si=rs112aZqP5ul1_Sz",
         twitter: "twitter.com/luca_kaneshiro",
         youtube: "https://www.youtube.com/@LucaKaneshiro",
         twitch: "https://www.twitch.tv/nijisanji_en",
         gallery: [
             ""
-        ]
+        ],
+        group: "Luxiem"
     },
     {
         name: "Shu Yamino",
@@ -243,14 +252,15 @@ const data = [
         height: "173 cm/5 foot 8 inches",
         color: "#A660A7",
         fanName: "Yaminions",
-        image: "/src/assets/niji_pics/luxiem/shu/shu full body background remove.png",
+        image: "/src/assets/niji_pics/luxiem/shu/shu full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/Lmdz1C1rzXM?si=N0H1lPG7HPtDUkMm",
         twitter: "twitter.com/shu_yamino",
         youtube: "https://www.youtube.com/@ShuYamino",
         twitch: "https://www.twitch.tv/nijisanji_en",
         gallery: [
             ""
-        ]
+        ],
+        group: "Luxiem"
     },
     {
         name: "Vox Akuma",
@@ -263,14 +273,15 @@ const data = [
         height: "178 cm/5 foot 10 inches",
         color: "#960018",
         fanName: "Kindred",
-        image: "/src/assets/niji_pics/luxiem/vox/vox full body background remove.png",
+        image: "/src/assets/niji_pics/luxiem/vox/vox full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/nqMp1vooavM?si=_2rfRX6dqAii1650",
         twitter: "twitter.com/Vox_Akuma",
         youtube: "https://www.youtube.com/@VoxAkuma",
         twitch: "https://www.twitch.tv/nijisanji_en",
         gallery: [
             ""
-        ]
+        ],
+        group: "Luxiem"
     },
     {
         name: "Alban Knox",
@@ -283,14 +294,15 @@ const data = [
         height: "175 cm/5 foot 8 inches",
         color: "#FF5F00",
         fanName: "Takaradachi",
-        image: "/src/assets/niji_pics/noctyx/alban/alban full body background remove.png",
+        image: "/src/assets/niji_pics/noctyx/alban/alban full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/SFIoMzCIcaE?si=hSD6LzV3cRMEZwuo",
         twitter: "twitter.com/alban_knox",
         youtube: "https://www.youtube.com/@AlbanKnox",
         twitch: "twitch.tv/albanknox",
         gallery: [
             ""
-        ]
+        ],
+        group: "Noctyx"
     },
     {
         name: "Fulgur Ovid",
@@ -303,14 +315,15 @@ const data = [
         height: "178 cm/5 foot 10 inches",
         color: "#FF0000",
         fanName: "Comfydants",
-        image: "/src/assets/niji_pics/noctyx/fulgur/fulgur full body background remove.png",
+        image: "/src/assets/niji_pics/noctyx/fulgur/fulgur full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/WJI7t6MFWUI?si=U2nDLtBlW38fj06B",
         twitter: "twitter.com/Fulgur_Ovid",
         youtube: "https://www.youtube.com/@FulgurOvid",
         twitch: "https://www.twitch.tv/nijisanji_en",
         gallery: [
             ""
-        ]
+        ],
+        group: "Noctyx"
     },
     {
         name: "Sonny Brisko",
@@ -323,14 +336,15 @@ const data = [
         height: "180 cm/5 foot 10 inches",
         color: "#FFF321",
         fanName: "Briskadets",
-        image: "/src/assets/niji_pics/noctyx/sonny/sonny full body background remove.png",
+        image: "/src/assets/niji_pics/noctyx/sonny/sonny full body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/Tt6RAjao8xs?si=KsrT6R6nqbBi8ODG",
         twitter: "twitter.com/sonny_brisko",
         youtube: "https://www.youtube.com/@SonnyBrisko",
         twitch: "https://www.twitch.tv/nijisanji_en",
         gallery: [
             ""
-        ]
+        ],
+        group: "Noctyx"
     },
     {
         name: "Uki Violeta",
@@ -343,15 +357,373 @@ const data = [
         height: "169 cm/5 foot 6 inches",
         color: "#B600FF",
         fanName: "Stargazers",
-        image: "/src/assets/niji_pics/noctyx/uki/uki fuull body background remove.png",
+        image: "/src/assets/niji_pics/noctyx/uki/uki fuull body background-remove.png",
         videoUrl: "https://www.youtube.com/embed/2X39X6ln3BE?si=87_h3_fiOVpFcj-R",
         twitter: "twitter.com/uki_violeta",
         youtube: "https://www.youtube.com/@UkiVioleta",
         twitch: "https://www.twitch.tv/nijisanji_en",
         gallery: [
             ""
-        ]
+        ],
+        group: "Noctyx"
     },
+    {
+        name: "Aia Amare",
+        JPname: "アイア アマレ",
+        bio: "ILUNA Institute of the Mystics 2nd Year. An angelic maiden who descended from Heaven to observe mankind. Her gentle appearance hides a rather mischievous disposition.",
+        JPbio: "ILUNA神秘学研究所2年目。人類を観察するために天から降臨した天使のような乙女。穏やかな見た目の裏に、ちょっとお茶目な性格を隠している。",
+        gender: "Female",
+        age: "REDACTED",
+        birthday: "May 27",
+        height: "158 cm/5 foot 2 inches",
+        color: "#FFFEF7",
+        fanName: "Aiadmirers",
+        image: "/src/assets/niji_pics/iluna/aia/aia full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/Vvdpzduo4eQ?si=g0-SJ_CWIDHLuGdj",
+        twitter: "https://x.com/AiaAmare",
+        youtube: "https://www.youtube.com/@AiaAmare",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Iluna"
+    },
+    {
+        name: "Aster Arcadia",
+        JPname: "アスター アルカディア",
+        bio: "ILUNA Institute of the Mystics 2nd Year. A celestial born from a Supernova long ago. His memories are faint, but his wish to spread happiness across the universe remains strong.",
+        JPbio: "ILUNA神秘学研究所2年目。遠い昔、超新星から生まれた天人。彼の記憶は薄れていますが、宇宙に幸せを広げたいという彼の願いは強く残っています。",
+        gender: "Male",
+        age: "1,000,071",
+        birthday: "September 25",
+        height: "170 cm/5 foot 6 inches",
+        color: "#6662A4",
+        fanName: "Arcadians",
+        image: "/src/assets/niji_pics/iluna/aster/aster full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/VeOS0CuF0FE?si=rklCS2Fyn-yIKOyK",
+        twitter: "twitter.com/AsterArcadia",
+        youtube: "https://www.youtube.com/@AsterArcadia",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Iluna"
+    },
+    {
+        name: "Maria Marionette",
+        JPname: "マリア マリオネット",
+        bio: "ILUNA Institute of the Mystics 1st Year. A doll who was turned human after centuries of loneliness. Easily influenced by her surroundings, her actions are often strange, but she means well.",
+        JPbio: "ILUNA神秘学研究所1年目。何世紀もの孤独を経て人間に生まれ変わった人形。周囲の影響を受けやすく、行動が奇妙になることも多いが、善意ではある。",
+        gender: "Female",
+        age: "???",
+        birthday: "December 7",
+        height: "152 cm/4 foot 11 inches",
+        color: "#E55A9B",
+        fanName: "Marippets",
+        image: "/src/assets/niji_pics/iluna/maria/maria full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/KeP98_LYL-U?si=C7v7VviQh4PMNT9N",
+        twitter: "twitter.com/MariaMari0nette",
+        youtube: "https://www.youtube.com/@MariaMarionette",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Iluna"
+    },
+    {
+        name: "Ren Zotto",
+        JPname: "レン ゾット",
+        bio: "ILUNA Institute of the Mystics 3rd Year. A deadly alien prince from another world. He has resolved to conquer Earth, using his unique sound.",
+        JPbio: "ILUNA神秘学研究所3年目。異世界から来た危険なエイリアン王子。彼は独特のサウンドを使って地球を征服することを決意しました。",
+        gender: "Male",
+        age: "idk",
+        birthday: "March 25",
+        height: "180 cm/5 foot 10 inches",
+        color: "#429B76",
+        fanName: "Renvaderz",
+        image: "/src/assets/niji_pics/iluna/ren/ren full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/vgmvwsTzaaQ?si=QvHtB2ftGIK_yjB8",
+        twitter: "twitter.com/renzott0",
+        youtube: "https://www.youtube.com/@RenZotto",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Iluna"
+    },
+    {
+        name: "Scarle Yonaguni",
+        JPname: "スカーレ ヨナグニ",
+        bio: "ILUNA Institute of the Mystics 3rd Year. An elegant and mature Enchantress. Her captivating beauty glows as radiant as her scarlet staff.",
+        JPbio: "ILUNA神秘学研究所3年目。エレガントで大人なエンチャントレス。彼女の魅惑的な美しさは、緋色の杖と同じくらい輝いています。",
+        gender: "Female",
+        age: "???",
+        birthday: "February 16",
+        height: "165 cm/5 foot 4 inches",
+        color: "#E60012",
+        fanName: "Scarlings",
+        image: "/src/assets/niji_pics/iluna/scarle/scarle full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/v5fJlz3MxTY?si=msEUCPVVA-98HDRP",
+        twitter: "twitter.com/ScarleYonaguni",
+        youtube: "https://www.youtube.com/@ScarleYonaguni",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Iluna"
+    },
+    {
+        name: "Doppio Dropscythe",
+        JPname: "ドッピオ ドロップサイト",
+        bio: "XSOLEIL Institute of Infinity 1st Year. Enforcer of the Student Council who is true to himself. He’s a delinquent turned disciplinarian, so can order really be expected?",
+        JPbio: "XSOLEIL Institute of Infinity 1年目。自分に忠実な生徒会の執行者。彼は不良から風紀委員になった人物だが、果たして秩序は期待できるのだろうか？",
+        gender: "Male",
+        age: "CLASSIFIED",
+        birthday: "187 cm/6 foot 1 inch",
+        height: "165 cm/5 foot 4 inches",
+        color: "#A50082",
+        fanName: "Scythekicks",
+        image: "/src/assets/niji_pics/xsoleil/doppio/doppio full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/UmASg4svodc?si=VFkQ4HB9x7vIk-Ez",
+        twitter: "twitter.com/D_Dropscythe",
+        youtube: "https://www.youtube.com/@DoppioDropscythe",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Xsoleil"
+    },
+    {
+        name: "Kotoka Torihime",
+        JPname: "虎姫 コトカ",
+        bio: "XSOLEIL Institute of Infinity 3rd Year. Vice President of the Student Council who is as fashionable as she is dependable. She specializes in glamouring as anyone she touches.",
+        JPbio: "XSOLEIL Institute of Infinity 3年目。おしゃれで頼りになる生徒会副会長。彼女は触れた人を魅了することに特化しています。",
+        gender: "Female",
+        age: "CLASSIFIED",
+        birthday: "August 14",
+        height: "166 cm/5 foot 5 inches",
+        color: "#DC6B9A",
+        fanName: "Kotocats",
+        image: "/src/assets/niji_pics/xsoleil/kotoka/kotoka full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/xHJ75r16XNE?si=L19GGlu-O2ftiKBd",
+        twitter: "twitter.com/KotokaTorahime",
+        youtube: "https://www.youtube.com/@KotokaTorahime",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Xsoleil"
+    },
+    {
+        name: "Meloco Kyoran",
+        JPname: "狂蘭 メロコ",
+        bio: "XSOLEIL Institute of Infinity 2nd Year. Event coordinator of the Student Council who is an exorcist by night. She casts out ghosts and demons with her trusty umbrella.",
+        JPbio: "XSOLEILインフィニティ研究所2年目。生徒会のイベントコーディネーターで、夜は祓魔師。彼女は信頼できる傘で幽霊や悪魔を追い出します。",
+        gender: "Female",
+        age: "CLASSIFIED",
+        birthday: "October 29",
+        height: "164 cm/5 foot 4 inches",
+        color: "#A09BD8",
+        fanName: "Meloves",
+        image: "/src/assets/niji_pics/xsoleil/meloco/meloco full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/fpCqw3C8KSg?si=qVtk7v-Cl-rEgIsa",
+        twitter: "twitter.com/MelocoKyoran",
+        youtube: "https://www.youtube.com/@MelocoKyoran",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Xsoleil"
+    },
+    {
+        name: "Ver Vermillion",
+        JPname: "ヴェール ヴァーミリオン",
+        bio: "XSOLEIL Institute of Infinity 3rd Year. President of the Student Council who is veiled in charisma and mystery. He can look into your very soul and read your future.",
+        JPbio: "XSOLEIL Institute of Infinity 3年目。カリスマ性と謎に包まれた生徒会長。神はあなたの魂そのものを調べ、あなたの未来を読むことができます。",
+        gender: "Male",
+        age: "94",
+        birthday: "August 25",
+        height: "173 cm/5 foot 8 inches",
+        color: "#D5345E",
+        fanName: "Villions",
+        image: "/src/assets/niji_pics/xsoleil/ver/ver full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/UmASg4svodc?si=VFkQ4HB9x7vIk-Ez",
+        twitter: "twitter.com/ver_vermillion",
+        youtube: "https://www.youtube.com/@VerVermillion",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Xsoleil"
+    },
+    {
+        name: "Vantacrow Bringer",
+        JPname: "ベンタクロウ ブリンガー",
+        bio: "A trusted ace who executes his work with care and precision. Famous in the underworld for his business card that reads, Leave no trace, but leave results.",
+        JPbio: "丁寧かつ正確に仕事をこなす、信頼されるエース。「痕跡は残さないが、結果は残す」という名刺で裏社会では有名。",
+        gender: "Male",
+        age: "CLASSIFIED",
+        birthday: "February 6",
+        height: "180 cm/5 foot 10 inches",
+        color: "#8728E1",
+        fanName: "Vantacrew",
+        image: "/src/assets/niji_pics/krisis/vantacrow/vanta full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/mG7GHEgGEMw?si=HArCdIB5NEMSSY3b",
+        twitter: "https://x.com/Tyrant_Vanta",
+        youtube: "https://www.youtube.com/@VantacrowBringer",
+        twitch: "twitch.tv/vantacrow_bringer",
+        gallery: [
+            ""
+        ],
+        group: "krisis"
+    },
+    {
+        name: "Yu Q Wilson",
+        JPname: "ユウ Q ウィルソン",
+        bio: "A playful but skilled hitman, he greets both friend and foe with enthusiasm. Proficient with any weapon, there's no job he can't do!",
+        JPbio: "陽気だが熟練した殺し屋である彼は、敵味方問わず熱意を持って接します。あらゆる武器を使いこなす彼に出来ない仕事はない！",
+        gender: "Male",
+        age: "old enough to drink",
+        birthday: "September 4",
+        height: "171 cm/5 foot 7 inches",
+        color: "#F5EB28",
+        fanName: "Wilsoneers",
+        image: "/src/assets/niji_pics/krisis/wilson/wilson full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/6jgFDM1JmEs?si=ORCuBKkYXUd2mPf-",
+        twitter: "https://twitter.com/YuQWilson",
+        youtube: "https://www.youtube.com/@YuQ.Wilson",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "krisis"
+    },
+    {
+        name: "Vezalius Bandage",
+        JPname: "ヴェザリウス バンデージ",
+        bio: "A medical soldier who turned even his own body into an experimental subject in his efforts to save others. The true meaning of his eccentric healing lies behind the bandages",
+        JPbio: "他者を救うために自らの肉体さえも実験台とした医療戦士。彼の風変わりな治療の本当の意味は包帯の裏にある",
+        gender: "Male",
+        age: "Healthy",
+        birthday: "November 17",
+        height: "172 cm/5 foot 7 inches",
+        color: "#C34196",
+        fanName: "VezKits",
+        image: "/src/assets/niji_pics/krisis/vezalius/zali full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/wgjXe_f5-iE?si=rIy-qWj99kXFKquq",
+        twitter: "twitter.com/VezaliusBandage",
+        youtube: "https://www.youtube.com/@VezaliusBandage",
+        twitch: "twitch.tv/vezalius_bandage",
+        gallery: [
+            ""
+        ],
+        group: "krisis"
+    },
+    {
+        name: "Claude Clawmark",
+        JPname: "クロード クローマーク",
+        bio: "A cleric who studies magic while providing healing to visitors. His gigantic magical gloves are the tools of his trade, which he wields with great skill.",
+        JPbio: "訪れる人々に癒しを与えながら魔術を研究する聖職者。彼の巨大な魔法の手袋は彼の商売道具であり、彼はそれを巧みに扱います。",
+        gender: "Male",
+        age: "old enough",
+        birthday: "January 22",
+        height: "171 cm/5 foot 7 inches",
+        color: "#7D3CAF",
+        fanName: "Outclaws",
+        image: "/src/assets/niji_pics/ttt/claude/claude full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/6gEDug4mUp0?si=ZwaPQaSAqz22PmXL",
+        twitter: "witter.com/ClaudeClawmark",
+        youtube: "https://www.youtube.com/@ClaudeClawmark",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "TTT"
+    },
+    {
+        name: "Victoria Brightshield",
+        JPname: "ヴィクトリア ブライトシールド",
+        bio: "A swordmaster who set out on an adventure by herself. Donning the magical armor she inherited from her family, she helps those in need while polishing her skills with the sword.",
+        JPbio: "一人で冒険に出た剣豪。家族から受け継いだ魔法の鎧を身に着け、剣の腕を磨きながら、困っている人たちを助けている。",
+        gender: "Female",
+        age: "CLASSIFIED",
+        birthday: "March 18",
+        height: "157 cm/5 foot 1 inch",
+        color: "#D7D2EB",
+        fanName: "Paladins",
+        image: "/src/assets/niji_pics/ttt/victoria/vivi full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/ix_bRaooqDA?si=OfY77h3Mgl7TiiSF",
+        twitter: "twitter.com/VBrightshield",
+        youtube: "https://www.youtube.com/@VictoriaBrightshield",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "TTT"
+    },
+    {
+        name: "Klara Charmwood",
+        JPname: "クララ・チャームウッド",
+        bio: "A Maid who occasionally works at the manor that is rumored to be haunted. Her teapot spirit companion contributes to the rumors, but she’s carefree and enjoys streaming games on her days off.",
+        JPbio: "幽霊が出ると噂される邸宅で時々働くメイド。彼女の仲間であるティーポットの精霊が噂の一因となっていますが、彼女は気ままで、休日にはゲームのストリーミングを楽しんでいます。",
+        gender: "Female",
+        age: "CLASSIFIED",
+        birthday: "November 20",
+        height: "157.5 cm/5 foot 2 inches",
+        color: "#DFCDBF",
+        fanName: "Kouchamas",
+        image: "/src/assets/niji_pics/denauth/klara/klara full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/-crvcfEtOl0?si=7LEiQhsu2qQNq1VW",
+        twitter: "https://twitter.com/KlaraCharmwood",
+        youtube: "https://www.youtube.com/@KlaraCharmwood",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Denauth"
+    },
+    {
+        name: "Ryoma Barrenwort",
+        JPname: "凉舞・バレンウォート",
+        bio: "A Ronin who occasionally works at the manor that is rumored to be haunted. Though he’s mistaken for a ghost of a fleeing soldier due to his attire, he’s a modern young man who likes latest tech and games.",
+        JPbio: "幽霊が出ると噂される邸宅で時々働く浪人。その服装から逃亡兵の幽霊と間違われるが、最新テクノロジーやゲームが好きな現代的な青年。",
+        gender: "Male",
+        age: "Older than Fulgur",
+        birthday: "September 13",
+        height: "173 cm/5 foot 8 inches",
+        color: "#952D22",
+        fanName: "Ryonins",
+        image: "/src/assets/niji_pics/denauth/ryoma/ryoma full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/KY6Lhn0cinI?si=k17P5mD9JUAUO1e5",
+        twitter: "twitter.com/RyomaBarrenwort",
+        youtube: "https://www.youtube.com/@RyomaBarrenwort",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Denauth"
+    },
+    {
+        name: "Twisty Amanozako",
+        JPname: "トゥイスティー・アマノザコ",
+        bio: "A Young Lady who lives in a manor that is rumored to be haunted. She tends to attract mischievous spirits, but she easily forgets her troubles in favor of cute things.",
+        JPbio: "幽霊が出ると噂される邸宅に住むお嬢様。イタズラ心を引き寄せやすい性格ですが、かわいいものには悩みもすぐ忘れてしまいます。",
+        gender: "Female",
+        age: "young (lady)",
+        birthday: "January 10",
+        height: "145.5 cm/4 foot 9 inches",
+        color: "#78ECD5",
+        fanName: "Capricorn",
+        image: "/src/assets/niji_pics/denauth/twisty/twisty full body background-remove.png",
+        videoUrl: "https://www.youtube.com/embed/2WPhsOlXV-U?si=REjFTVxescACatn-",
+        twitter: "https://twitter.com/TwistyAmanozako",
+        youtube: "https://www.youtube.com/@TwistyAmanozako",
+        twitch: "https://www.twitch.tv/nijisanji_en",
+        gallery: [
+            ""
+        ],
+        group: "Denauth"
+    }
 ]
 
 export default { data }

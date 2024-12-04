@@ -1,5 +1,24 @@
 <script setup xmlns="http://www.w3.org/1999/html">
-import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
+import {onMounted} from "vue";
+import groupFile from "./groups.js"
+import characters from "./characters.js";
+import {useRoute, useRouter} from 'vue-router';
+import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
+
+const route = useRoute();
+const router = useRouter();
+const groupName = route.params.name;
+const group = groupFile.data.filter(group => group.name.toLowerCase().includes(groupName))[0]
+
+console.log('group: ', group)
+
+onMounted(() => {
+  if (!group) {
+    router.push({
+      name: 'Home'
+    })
+  }
+})
 </script>
 
 <template>
@@ -22,7 +41,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back button">
     </router-link>
 
-    <h2>LazuLight</h2>
+    <h2>{{ group.name }}</h2>
 
     <div class="headshots">
       <router-link :to="{ name: 'EliraPendora' }">
@@ -32,19 +51,15 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
       <router-link :to="{ name: 'FinanaRyugu' }">
         <div class="finana box"></div>
       </router-link>
+
+
     </div>
 
     <div class="bio-text">
-      <p>Debuted on 16 May 2021, LazuLight is the first wave of NIJISANJI EN.
-        Each member is a fantasy creature associated with a different part of nature:
-        earth, sea, or sky.</p>
-
-      <p>LazuLight's name is derived from lazulite, a blue-green gemstone, and light.
-          The use of lazulite comes from LazuLight's blue and green color schemes, as well
-        as to indicate that LazuLight's members are "precious" like gemstones.</p>
+      <p>{{ group.bio }}</p>
     </div>
     <div class="vid-content">
-      <iframe width="325" height="164" src="https://www.youtube.com/embed/ZnP0cKNPE04?si=cc0X4Q8ZUHsFRcdD"></iframe>
+      <iframe width="325" height="164" src="{{ group.videoUrl }}"></iframe>
     </div>
   </primary-template>
 </template>
@@ -84,7 +99,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #95c8d8;
-    background-image: url("../../assets/niji_pics/lazulight/background-remove.png");
+    background-image: url("../assets/niji_pics/lazulight/background-remove.png");
     background-size: 90% 100%;
     background-repeat: no-repeat;
     background-position: right;
@@ -95,7 +110,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #79CFB8;
-    background-image: url("../../assets/niji_pics/lazulight/background remove finana.png");
+    background-image: url("../assets/niji_pics/lazulight/background remove finana.png");
     background-size: 100% 110%;
     background-repeat: no-repeat;
     background-position: bottom;
