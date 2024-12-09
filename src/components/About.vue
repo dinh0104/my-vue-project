@@ -5,9 +5,10 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 
 <template>
   <primary-template>
-    <h1>this is the about page</h1>
-  </primary-template>
+    <h1>ABOUT</h1>
 
+
+  </primary-template>
 </template>
 
 <style scoped>

@@ -15,9 +15,6 @@ import EliraGallery from "./components/gallery/EliraGallery.vue";
 import FinanaGallery from "./components/gallery/FinanaGallery.vue";
 import RosemiGallery from "./components/gallery/RosemiGallery.vue";
 import PetraGallery from "./components/gallery/PetraGallery.vue";
-import EnnaGallery from "./components/profiles/Ethyria/gallery/EnnaGallery.vue";
-import MillieGallery from "./components/profiles/Ethyria/gallery/MillieGallery.vue";
-import ReimuGallery from "./components/profiles/Ethyria/gallery/ReimuGallery.vue";
 import CharacterProfile from "./components/CharacterProfile.vue";
 import GroupProfile from "./components/GroupProfile.vue";
 
@@ -114,21 +111,6 @@ const router = createRouter({
             path: '/petra-gurin/gallery',
             name: 'PetraGallery',
             component: PetraGallery
-        },
-        {
-            path: '/enna-alouette/gallery',
-            name: 'EnnaGallery',
-            component: EnnaGallery
-        },
-        {
-            path: '/millie-parfait/gallery',
-            name: 'MillieGallery',
-            component: MillieGallery
-        },
-        {
-            path: '/reimu-endou/gallery',
-            name: 'ReimuGallery',
-            component: ReimuGallery
         }
     ]
 })
