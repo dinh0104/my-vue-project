@@ -14,6 +14,9 @@ const group = groups.data.find(group => group.name.toLowerCase().includes(groupN
 console.log('groupName from route:', groupName);
 console.log('group:', group)
 
+const groupCharacters = characters.data.filter(character => character.group === groupName)
+console.log('groupCharacters:', groupCharacters)
+
 onMounted(() => {
   if (!group) {
     router.push({
@@ -35,13 +38,13 @@ onMounted(() => {
     </div>
 
     <router-link :to="{ name: 'Home' }">
-      <img src="/src/assets/icons8-back-64.png" alt="back button">
+      <img src="/src/assets/svg%20icons/icons8-back-64.png" alt="back button">
     </router-link>
 
     <h2>{{ group.name }}</h2>
 
     <div class="headshots">
-      <div v-for="(character, index) in characters.data" :key="index">
+      <div v-for="(character, index) in groupCharacters" :key="index">
         <router-link :to="{ name: 'StreamerDetails', params: { name: character.name.split(' ')[0].toLowerCase() } }">
           <div class="box" :class="character.name.split(' ')[0].toLowerCase()"></div>
         </router-link>
@@ -86,28 +89,6 @@ h2 {
   column-gap: 40px;
   justify-content: center;
   margin-top: 30px;
-}
-
-.elira {
-  width: 131px;
-  height: 125px;
-  margin: 10px 0 10px 0;
-  background-color: #95c8d8;
-  background-image: url("../assets/niji_pics/lazulight/background-remove.png");
-  background-size: 90% 100%;
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
-.finana {
-  width: 131px;
-  height: 125px;
-  margin: 10px 0 10px 0;
-  background-color: #79CFB8;
-  background-image: url("../assets/niji_pics/lazulight/background-remove-finana.png");
-  background-size: 100% 110%;
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
 
 

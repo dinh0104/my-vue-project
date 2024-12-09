@@ -1,46 +1,29 @@
 <script setup>
 
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
+import {useRoute, useRouter} from "vue-router";
+import characterFile from "./characters.js";
+
+const route = useRoute();
+const router = useRouter();
+const characterName = route.params.name;
+const character = characterFile.data.filter(character => character.name.toLowerCase().includes(characterName))[0]
+const gallery = character.gallery
+
 </script>
 
 <template>
   <primary-template>
     <div class="back-button">
-      <router-link :to="{ name: 'EliraPendora' }">
-        <img src="/src/assets/icons8-back-64.png" alt="back icon">
+      <router-link :to="{ name: 'AboutUs' }">
+        <img src="/src/assets/svg%20icons/icons8-back-64.png" alt="back icon">
       </router-link>
     </div>
 
-    <h1>Gallery</h1>
+    <h1>{{ character.name }} Gallery</h1>
 
     <div class="gallery">
-      <a href="#img1">
-        <img src="/src/assets/niji_pics/lazulight/background%20remove%20elira%20portrait.png" alt="elira portrait">
-      </a>
-      <a href="#img2">
-        <img src="/src/assets/niji_pics/lazulight/background%20remove%20fullbody.png" alt="elira full body">
-      </a>
-      <a href="#img3">
-        <img src="/src/assets/niji_pics/lazulight/background%20remove.png" alt="elira headshot">
-      </a>
-      <a href="#img4">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pandora_-_Key_Visual.webp" alt="elira key visual">
-      </a>
-      <a href="#img5">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pendora_-_April_2023_Costume.webp" alt="elira outfit4">
-      </a>
-      <a href="#img6">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pendora_-_January_2022_Costume.webp" alt="elira outfit2">
-      </a>
-      <a href="#img7">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pendora_-_October_2023_outfit.webp" alt="elira outfit3">
-      </a>
-      <a href="#img8">
-        <img src="/src/assets/niji_pics/lazulight/Eliref1.webp" alt="reference sheet1">
-      </a>
-      <a href="#img9">
-        <img src="/src/assets/niji_pics/lazulight/Eliref2.webp" alt="reference sheet2">
-      </a>
+      <img v-for="image in gallery" :src="image" alt="" />
     </div>
       <!--lightbox-->
       <a href="#" class="lightbox" id="img1">
@@ -95,13 +78,17 @@ h1 {
 
 .gallery {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 80%;
+  //flex-flow: row wrap;
   /*justify-content: center;*/
-  padding: 30px;
+  gap: 1rem;
 
   img {
-    width: 100%;
-    height: 100%;
+    width: 23%;
+    height: 23%;
+    //height: 100%;
   }
 
   a {

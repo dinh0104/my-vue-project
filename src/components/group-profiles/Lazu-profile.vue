@@ -19,7 +19,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     </div>
 
     <router-link :to="{ name: 'Home' }">
-      <img src="/src/assets/icons8-back-64.png" alt="back button">
+      <img src="/src/assets/svg%20icons/icons8-back-64.png" alt="back button">
     </router-link>
 
     <h2>LazuLight</h2>

@@ -16,9 +16,9 @@ const data = [
         youtube: "https://www.youtube.com/channel/UCIeSUTOTkF9Hs7q3SGcO-Ow",
         twitch: "https://www.twitch.tv/elirapendora",
         gallery: [
-            "/src/assets/niji_pics/lazulight/background%20remove%20elira%20portrait.png",
-            "/src/assets/niji_pics/lazulight/background%20remove%20fullbody.png",
-            "/src/assets/niji_pics/lazulight/background%20remove.png",
+            "/src/assets/niji_pics/lazulight/background-remove-elira-portrait.png",
+            "/src/assets/niji_pics/lazulight/background-remove-fullbody.png",
+            "/src/assets/niji_pics/lazulight/background-remove.png",
             "/src/assets/niji_pics/lazulight/Elira_Pandora_-_Key_Visual.webp",
             "/src/assets/niji_pics/lazulight/Elira_Pendora_-_April_2023_Costume.webp",
             "/src/assets/niji_pics/lazulight/Elira_Pendora_-_January_2022_Costume.webp",
@@ -46,8 +46,8 @@ const data = [
         twitch: "https://www.twitch.tv/finanaryugu",
         gallery: [
             "/src/assets/niji_pics/lazulight/Finana_Ryugu_Portrait.webp",
-            "/src/assets/niji_pics/lazulight/finana%20full%20body%20background%20remove.png",
-            "/src/assets/niji_pics/lazulight/background%20remove%20finana.png",
+            "/src/assets/niji_pics/lazulight/finana-full-body-background-remove.png",
+            "/src/assets/niji_pics/lazulight/background-remove-finana.png",
             "/src/assets/niji_pics/lazulight/Finana_Ryugu_-_Key_Visual.webp",
             "/src/assets/niji_pics/lazulight/Finana_Ryugu_-_January_2022_Costume.webp",
             "/src/assets/niji_pics/lazulight/Finana_Ryugu_-_February_2023_Outfit.webp",

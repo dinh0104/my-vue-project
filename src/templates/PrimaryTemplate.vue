@@ -9,7 +9,7 @@
     </router-link>
     <div class="nav-icon">
       <router-link :to="{ name: 'Navbar' }">
-        <img src="/src/assets/icons8-menu.svg" alt="back arrow">
+        <img src="/src/assets/svg%20icons/icons8-menu.svg" alt="back arrow">
       </router-link>
     </div>
 
@@ -19,12 +19,14 @@
     </section>
     <footer>
       <div class="footer-border"></div>
+      <h1>Learn more about the company</h1>
+      <router-link :to="{ name: 'AboutUs' }">About Us</router-link>
+
       <h1>Nijisanji EN Socials</h1>
-        <ul>
-          <li><a href="https://x.com/NIJISANJI_World?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">X (formerly Twitter)</a></li>
-          <li><a href="https://www.youtube.com/c/nijisanji_en">YouTube</a></li>
-          <li><a href="https://www.reddit.com/r/Nijisanji/">Reddit</a></li>
-        </ul>
+      <a href="https://x.com/NIJISANJI_World?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">X (formerly
+        Twitter)</a>
+      <a href="https://www.youtube.com/c/nijisanji_en">YouTube</a>
+      <a href="https://www.reddit.com/r/Nijisanji/">Reddit</a>
 
     </footer>
   </section>
@@ -49,6 +51,8 @@ div.footer-border {
 a {
   text-decoration: none;
   color: #0065B0;
+  font-family: 'raleway', sans-serif;
+  padding: 40px 0 40px 40px;
 }
 
 div.nav-icon {
@@ -61,6 +65,7 @@ h1 {
   font-family: "raleway bold", sans-serif;
 }
 
+/*
 ul > li {
   display: inline-block;
 }
@@ -73,7 +78,7 @@ li {
   margin: 0;
   padding: 0 10px 0 10px;
   font-family: 'raleway', sans-serif;
-}
+}*/
 
 @media screen and (width > 530px) {
   img {
@@ -96,6 +101,7 @@ li {
     max-height: 85px;
     margin-left: 20px;
   }
+
   div.header-border, div.footer-border {
     border-top: 7px solid #0065B0;
   }

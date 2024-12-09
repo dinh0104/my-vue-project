@@ -1,5 +1,6 @@
 <script setup>
 
+import groups from "./groups.js";
 </script>
 
 <template>
@@ -10,23 +11,17 @@
       </div>
       <div class="close-icon">
         <router-link :to="{name: 'Home'}">
-          <img src="/src/assets/close-x-svgrepo-com.svg" alt="close icon">
+          <img src="/src/assets/svg%20icons/close-x-svgrepo-com.svg" alt="close icon">
         </router-link>
       </div>
       </div>
 
     <div class="main-links">
       <router-link :to="{ name: 'Home'}">All</router-link>
-      <router-link :to="{ name: 'LazuLight'}">LazuLight</router-link>
-      <router-link :to="{ name: 'Obsydia'}">Obsydia</router-link>
-      <router-link :to="{ name: 'Ethyria'}">Ethyria</router-link>
-      <router-link :to="{ name: 'Luxiem'}">Luxiem</router-link>
-      <router-link :to="{ name: 'Noctyx'}">Noctyx</router-link>
-      <router-link :to="{ name: 'Iluna'}">Iluna</router-link>
-      <router-link :to="{ name: 'Xsoleil'}">Xsoleil</router-link>
-      <router-link :to="{ name: 'Krisis'}">Krisis</router-link>
-      <router-link :to="{ name: 'TTT'}">TTT</router-link>
-      <router-link :to="{ name: 'Denauth'}">Denauth</router-link>
+      <router-link v-for="group in groups.data" :key="group.name"
+                   :to="{ name: 'GroupDetails', params: { name: group.name } }">
+        {{ group.name }}
+      </router-link>
     </div>
 
     <div class="socials">

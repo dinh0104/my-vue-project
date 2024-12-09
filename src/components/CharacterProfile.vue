@@ -25,7 +25,7 @@ onMounted(() => {
 
   <section class="top" :style="'background-color: ' + character.color + ';'">
     <router-link :to="{ name: 'Home' }">
-      <img src="/src/assets/icons8-back-64.png" alt="back arrow">
+      <img src="/src/assets/svg%20icons/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
       <h1>{{ character.name }}</h1>
@@ -51,11 +51,11 @@ onMounted(() => {
     <iframe width="348" height="176" :src="character.videoUrl"></iframe>
 
     <div class="social-icons">
-      <span><a href="{{ character.twitter }} "><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href=" {{ character.youtube }} "><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href=" {{ character.twitch }} "><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="{{ character.twitter }} "><img src="/src/assets/svg%20icons/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href=" {{ character.youtube }} "><img src="/src/assets/svg%20icons/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href=" {{ character.twitch }} "><img src="/src/assets/svg%20icons/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
-    <router-link :to="{ name: 'EliraGallery' }">
+    <router-link :to="{ name: 'StreamerGallery', params: { name: characterName } }">
       <h2>Gallery</h2>
     </router-link>
   </section>

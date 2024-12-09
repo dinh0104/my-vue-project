@@ -7,7 +7,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
   <primary-template>
     <div class="back-button">
       <router-link :to="{ name: 'PetraGurin' }">
-        <img src="/src/assets/icons8-back-64.png" alt="back icon">
+        <img src="/src/assets/svg%20icons/icons8-back-64.png" alt="back icon">
       </router-link>
     </div>
 
