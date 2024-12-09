@@ -18,19 +18,19 @@ import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
         <img src="/src/assets/niji_pics/ethyria/enna/Enna_Alouette_Portrait.webp" alt="enna portrait">
       </a>
       <a href="#img2">
-        <img src="/src/assets/niji_pics/ethyria/enna/enna full body background remove.png" alt="enna full body">
+        <img src="/src/assets/niji_pics/ethyria/enna/enna-full-body-background-remove.png" alt="enna full body">
       </a>
       <a href="#img3">
-        <img src="/src/assets/niji_pics/ethyria/enna/background remove enna.png" alt="enna headshot">
+        <img src="/src/assets/niji_pics/ethyria/enna/background-remove-enna.png" alt="enna headshot">
       </a>
       <a href="#img4">
         <img src="/src/assets/niji_pics/ethyria/enna/Enna_Alouette_-_Key_Visual.webp" alt="enna key visual">
       </a>
       <a href="#img5">
-        <img src="/src/assets/niji_pics/ethyria/enna/enna full body background remove2.png" alt="enna outfit3">
+        <img src="/src/assets/niji_pics/ethyria/enna/enna-full-body-background-remove2.png" alt="enna outfit3">
       </a>
       <a href="#img6">
-        <img src="/src/assets/niji_pics/ethyria/enna/enna full body background remove3.png" alt="enna outfit2">
+        <img src="/src/assets/niji_pics/ethyria/enna/enna-full-body-background-remove3.png" alt="enna outfit2">
       </a>
       <a href="#img7">
         <img src="/src/assets/niji_pics/ethyria/enna/Enna_Alouette_Ref_Sheet_New_1.webp" alt="reference sheet 3">
@@ -47,19 +47,19 @@ import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
         <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/Enna_Alouette_Portrait.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img2">
-        <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/enna full body background remove.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/enna-full-body-background-remove.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img3">
-        <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/background remove enna.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/background-remove-enna.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img4">
         <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/Enna_Alouette_-_Key_Visual.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img5">
-        <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/enna full body background remove2.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/enna-full-body-background-remove2.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img6">
-        <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/enna full body background remove3.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/enna-full-body-background-remove3.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img7">
         <span style="background-image:url('/src/assets/niji_pics/ethyria/enna/Enna_Alouette_Ref_Sheet_New_1.webp')"></span>

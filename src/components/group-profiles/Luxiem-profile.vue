@@ -92,7 +92,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #348EC7;
-  background-image: url("src/assets/niji_pics/luxiem/ike/background remove ike.png");
+  background-image: url("../../assets/niji_pics/luxiem/ike/background-remove-ike.png");
   background-size: 100% 110%;
   background-repeat: no-repeat;
 }
@@ -102,7 +102,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #D4AF37;
-  background-image: url("src/assets/niji_pics/luxiem/luca/background remove luca.png");
+  background-image: url("../../assets/niji_pics/luxiem/luca/background-remove-luca.png");
   background-size: 100% 110%;
   background-repeat: no-repeat;
 }
@@ -112,7 +112,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #A660A7;
-  background-image: url("src/assets/niji_pics/luxiem/shu/background remove shu.png");
+  background-image: url("../../assets/niji_pics/luxiem/shu/background-remove-shu.png");
   background-size: 100% 110%;
   background-repeat: no-repeat;
 }
@@ -122,7 +122,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #960018;
-  background-image: url("src/assets/niji_pics/luxiem/vox/background remove vox.png");
+  background-image: url("../../assets/niji_pics/luxiem/vox/background-remove-vox.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }

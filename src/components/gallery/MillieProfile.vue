@@ -1,6 +1,6 @@
 <script setup>
 
-import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
+import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 </script>
 
 <template>
@@ -10,14 +10,12 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Twisty Amanozako</h1>
-      <h1>トゥイスティー・アマノザコ</h1>
-      <p>A Young Lady who lives in a manor that is rumored to be haunted.
-        She tends to attract mischievous spirits, but she easily forgets her troubles
-        in favor of cute things.</p>
+      <h1>Millie Parfait</h1>
+      <h1>ミリー・パフェ</h1>
+      <p>A monster cat creeping through hell. A bit aggressive, but maybe she
+        just needs some attention.</p>
 
-      <p>幽霊が出ると噂される邸宅に住むお嬢様。イタズラ心を引き寄せやすい性格ですが、
-        かわいいものには悩みもすぐ忘れてしまいます。</p>
+      <p>地獄を這う化け猫。少し攻撃的ですが、おそらく彼女は少し注意が必要です。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -25,21 +23,21 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Female</li>
-      <li><b>Age:</b> young (lady)</li>
-      <li><b>Birthday:</b> January 10</li>
-      <li><b>Height:</b> 145.5 cm/4'9"</li>
-      <li><b>Color:</b> #78ECD5</li>
-      <li><b>Fan name:</b> Capricorn</li>
+      <li><b>Age:</b> 500+++</li>
+      <li><b>Birthday:</b> December 12</li>
+      <li><b>Height:</b> 150 cm/4'11"</li>
+      <li><b>Color:</b> #FEBC87</li>
+      <li><b>Fan name:</b> FaMillie</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/2WPhsOlXV-U?si=REjFTVxescACatn-"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/mNx_uGgu2rY?si=BaZ6nyxi7eE0Av2P"></iframe>
 
     <div class="social-icons">
-      <span><a href="https://twitter.com/TwistyAmanozako"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@TwistyAmanozako"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="twitter.com/MillieParfait"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@MillieParfait"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/millieparfait"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
-    <router-link :to="{ name: 'PetraGallery' }">
+    <router-link :to="{ name: 'MillieGallery' }">
       <h2>Gallery</h2>
     </router-link>
   </section>
@@ -49,7 +47,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #78ECD5;
+  background-color: #FEBC87;
   padding-top: 20px;
 }
 
@@ -61,7 +59,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #78ECD5;
+  background-color: #FEBC87;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -72,8 +70,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #78ECD5;
-  background-image: url("/src/assets/niji_pics/denauth/twisty/twisty full body background remove.png");
+  background-color: #FEBC87;
+  background-image: url("/src/assets/niji_pics/ethyria/millie/millie-full-body-background-remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -88,18 +86,14 @@ p {
   text-align: center;
 }
 
-.information {
-
-  ul {
-    list-style-type: none;
-  }
-
-  li {
-    font-family: 'raleway', sans-serif;
-    padding: 5px;
-  }
+ul {
+  list-style-type: none;
 }
 
+li {
+  font-family: 'raleway', sans-serif;
+  padding: 5px;
+}
 
 span {
   padding-left: 58px;
@@ -146,7 +140,7 @@ h2 {
   }
 
   p {
-    background-color: #78ECD5;
+    background-color: #FEBC87;
     color: white;
     float: left;
     width: 300px;
@@ -186,7 +180,7 @@ h2 {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   p {

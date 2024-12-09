@@ -74,7 +74,7 @@ h1 {
   width: 430px;
   height: 499px;
   background-color: #A660A7;
-  background-image: url("/src/assets/niji_pics/luxiem/shu/shu full body background remove.png");
+  background-image: url("/src/assets/niji_pics/luxiem/shu/shu-full-body-background-remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }

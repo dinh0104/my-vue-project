@@ -48,10 +48,10 @@ onMounted(() => {
       <li><b>Fan name:</b> {{ character.fanName }}</li>
     </ul>
 
-    <iframe width="348" height="176" src=" {{ character.videoUrl }} "></iframe>
+    <iframe width="348" height="176" :src="character.videoUrl"></iframe>
 
     <div class="social-icons">
-      <span><a href=" {{ character.twitter }} "><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="{{ character.twitter }} "><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
       <span><a href=" {{ character.youtube }} "><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
       <span><a href=" {{ character.twitch }} "><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>

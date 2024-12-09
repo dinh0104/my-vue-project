@@ -1,6 +1,6 @@
 <script setup>
 
-import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
+import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 </script>
 
 <template>
@@ -10,14 +10,12 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
       <img src="/src/assets/icons8-back-64.png" alt="back arrow">
     </router-link>
     <div class="intro">
-      <h1>Klara Charmwood</h1>
-      <h1>クララ・チャームウッド</h1>
-      <p>A Maid who occasionally works at the manor that is rumored to be haunted.
-        Her teapot spirit companion contributes to the rumors, but she’s carefree and
-        enjoys streaming games on her days off.</p>
+      <h1>Reimu Endou</h1>
+      <h1>遠藤霊夢</h1>
+      <p>A ghost wandering in hell. The more she thinks of her beloved,
+        the more she becomes sad and haunted.</p>
 
-      <p>幽霊が出ると噂される邸宅で時々働くメイド。彼女の仲間であるティーポットの精霊が噂の一
-        因となっていますが、彼女は気ままで、休日にはゲームのストリーミングを楽しんでいます。</p>
+      <p>地獄をさまよう幽霊。愛する人のことを考えれば考えるほど、彼女は悲しくなり、取り憑かれてしまいます。</p>
     </div>
     <div class="half-body"></div>
   </section>
@@ -25,21 +23,22 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
   <section class="information">
     <ul>
       <li><b>Gender:</b> Female</li>
-      <li><b>Age:</b> CLASSIFIED</li>
-      <li><b>Birthday:</b> November 20</li>
-      <li><b>Height:</b> 157.5 cm/5'2"</li>
-      <li><b>Color:</b> #DFCDBF</li>
-      <li><b>Fan name:</b> Kouchamas</li>
+      <li><b>Age:</b> ??? </li>
+      <li><b>Birthday:</b> November 2</li>
+      <li><b>Height:</b> 155 cm/5'5"</li>
+      <li><b>Color:</b> #B90B4A</li>
+      <li><b>Fan name:</b> Phantomos</li>
     </ul>
 
-    <iframe width="348" height="176" src="https://www.youtube.com/embed/-crvcfEtOl0?si=7LEiQhsu2qQNq1VW"></iframe>
+    <iframe width="348" height="176" src="https://www.youtube.com/embed/74E0i-EZ_s0?si=fR8q-5kfgR0nf2fz"></iframe>
 
     <div class="social-icons">
-      <span><a href="https://twitter.com/KlaraCharmwood"><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href="https://www.youtube.com/@KlaraCharmwood"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href="https://www.twitch.tv/nijisanji_en"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a href="https://twitter.com/ReimuEndou "><img src="/src/assets/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a href="https://www.youtube.com/@ReimuEndou"><img src="/src/assets/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a href="https://www.twitch.tv/reimuendou"><img src="/src/assets/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
-    <router-link :to="{ name: 'PetraGallery' }">
+
+    <router-link :to="{ name: 'ReimuGallery' }">
       <h2>Gallery</h2>
     </router-link>
   </section>
@@ -49,7 +48,7 @@ import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
 <style scoped>
 
 section.top {
-  background-color: #DFCDBF;
+  background-color: #B90B4A;
   padding-top: 20px;
 }
 
@@ -61,7 +60,7 @@ img {
 
 h1 {
   display: flex;
-  background-color: #DFCDBF;
+  background-color: #B90B4A;
   color: white;
   font-size: 35px;
   margin: 0;
@@ -72,8 +71,8 @@ h1 {
 .half-body {
   width: 430px;
   height: 499px;
-  background-color: #DFCDBF;
-  background-image: url("/src/assets/niji_pics/denauth/klara/klara full body background remove.png");
+  background-color: #B90B4A;
+  background-image: url("/src/assets/niji_pics/ethyria/reimu/reimu-full-body-background-remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }
@@ -88,18 +87,14 @@ p {
   text-align: center;
 }
 
-.information {
-
-  ul {
-    list-style-type: none;
-  }
-
-  li {
-    font-family: 'raleway', sans-serif;
-    padding: 5px;
-  }
+ul {
+  list-style-type: none;
 }
 
+li {
+  font-family: 'raleway', sans-serif;
+  padding: 5px;
+}
 
 span {
   padding-left: 58px;
@@ -146,7 +141,7 @@ h2 {
   }
 
   p {
-    background-color: #DFCDBF;
+    background-color: #B90B4A;
     color: white;
     float: left;
     width: 300px;

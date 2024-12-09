@@ -18,10 +18,10 @@ import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
         <img src="/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_Portrait.webp" alt="enna portrait">
       </a>
       <a href="#img2">
-        <img src="/src/assets/niji_pics/ethyria/reimu/reimu full body background remove.png" alt="enna full body">
+        <img src="/src/assets/niji_pics/ethyria/reimu/reimu-full-body-background-remove.png" alt="enna full body">
       </a>
       <a href="#img3">
-        <img src="/src/assets/niji_pics/ethyria/reimu/background remove reimu.png" alt="enna headshot">
+        <img src="/src/assets/niji_pics/ethyria/reimu/background-remove-reimu.png" alt="enna headshot">
       </a>
       <a href="#img4">
         <img src="/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_Queen_of_Hearts_Outfit.webp" alt="outfit1">
@@ -47,7 +47,7 @@ import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
         <span style="background-image:url('/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_Portrait.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img2">
-        <span style="background-image:url('/src/assets/niji_pics/ethyria/reimu/background remove reimu.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/ethyria/reimu/background-remove-reimu.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img3">
         <span style="background-image:url('/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_Queen_of_Hearts_Outfit.webp')"></span>

@@ -95,7 +95,7 @@ import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #79CFB8;
-    background-image: url("../../assets/niji_pics/lazulight/background remove finana.png");
+    background-image: url("../../assets/niji_pics/lazulight/background-remove-finana.png");
     background-size: 100% 110%;
     background-repeat: no-repeat;
     background-position: bottom;

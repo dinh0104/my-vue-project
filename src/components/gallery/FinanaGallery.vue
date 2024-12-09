@@ -1,12 +1,12 @@
 <script setup>
 
-import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
+import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 </script>
 
 <template>
   <primary-template>
     <div class="back-button">
-      <router-link :to="{ name: 'PetraGurin' }">
+      <router-link :to="{ name: 'FinanaRyugu' }">
         <img src="/src/assets/icons8-back-64.png" alt="back icon">
       </router-link>
     </div>
@@ -15,55 +15,56 @@ import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
 
     <div class="gallery">
       <a href="#img1">
-        <img src="/src/assets/niji_pics/obsydia/Petra_Gurin_Portrait.webp" alt="petra portrait">
+        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_Portrait.webp" alt="finana portrait">
       </a>
       <a href="#img2">
-        <img src="/src/assets/niji_pics/obsydia/petra full body background remove.png" alt="petra full body">
+        <img src="/src/assets/niji_pics/lazulight/finana-full-body-background-remove.png" alt="finana full body">
       </a>
       <a href="#img3">
-        <img src="/src/assets/niji_pics/obsydia/background remove petra.png" alt="petra headshot">
+        <img src="/src/assets/niji_pics/lazulight/background-remove-finana.png" alt="finana headshot">
       </a>
       <a href="#img4">
-        <img src="/src/assets/niji_pics/obsydia/petra%20full%20body%20background%20remove2.png" alt="petra outfit1">
+        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_-_Key_Visual.webp" alt="finana key visual">
       </a>
       <a href="#img5">
-        <img src="/src/assets/niji_pics/obsydia/petra%20full%20body%20background%20remove3.png" alt="petra outfit2">
+        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_-_January_2022_Costume.webp" alt="finana outfit1">
       </a>
       <a href="#img6">
-        <img src="/src/assets/niji_pics/obsydia/Petra_Gurin_August_2022_Outfit_2.webp" alt="petra outfit3">
+        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_-_February_2023_Outfit.webp" alt="finana outfit2">
       </a>
       <a href="#img7">
-        <img src="/src/assets/niji_pics/obsydia/petra-reference-sheet.jpg" alt="reference sheet1">
+        <img src="/src/assets/niji_pics/lazulight/FinaRef1.webp" alt="reference sheet1">
       </a>
       <a href="#img8">
-        <img src="/src/assets/niji_pics/obsydia/petra-reference-sheet2.jpg" alt="reference sheet2">
+        <img src alt="reference sheet2">
       </a>
     </div>
       <!--lightbox-->
       <a href="#" class="lightbox" id="img1">
-        <span style="background-image:url('/src/assets/niji_pics/obsydia/Petra_Gurin_Portrait.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_Portrait.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img2">
-        <span style="background-image:url('/src/assets/niji_pics/obsydia/petra full body background remove.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/finana-full-body-background-remove.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img3">
-        <span style="background-image:url('/src/assets/niji_pics/obsydia/background remove petra.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/background-remove-finana.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img4">
-        <span style="background-image:url('/src/assets/niji_pics/obsydia/petra full body background remove2.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_-_Key_Visual.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img5">
-        <span style="background-image:url('/src/assets/niji_pics/obsydia/petra full body background remove3.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_-_January_2022_Costume.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img6">
-        <span style="background-image:url('/src/assets/niji_pics/obsydia/Petra_Gurin_August_2022_Outfit_2.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_-_February_2023_Outfit.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img7">
-        <span style="background-image:url('/src/assets/niji_pics/obsydia/petra-reference-sheet.jpg')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/FinaRef1.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img8">
-        <span style="background-image:url('/src/assets/niji_pics/obsydia/petra-reference-sheet2.jpg')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/FinaRef2.webp')"></span>
       </a>
+
 
   </primary-template>
 </template>

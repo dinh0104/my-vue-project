@@ -81,7 +81,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #FFAE42;
-  background-image: url("src/assets/niji_pics/obsydia/background remove petra.png");
+  background-image: url("../../assets/niji_pics/obsydia/background-remove-petra.png");
   background-size: 90% 110%;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -92,7 +92,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #DC3753;
-  background-image: url("src/assets/niji_pics/obsydia/background remove rosemi.png");
+  background-image: url("../../assets/niji_pics/obsydia/background-remove-rosemi.png");
   background-size: 100% 110%;
   background-repeat: no-repeat;
   background-position: bottom;

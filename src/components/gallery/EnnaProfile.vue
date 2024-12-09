@@ -1,6 +1,6 @@
 <script setup>
 
-import PrimaryTemplate from "../../../templates/PrimaryTemplate.vue";
+import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 </script>
 
 <template>
@@ -71,7 +71,7 @@ h1 {
   width: 430px;
   height: 499px;
   background-color: #858ED1;
-  background-image: url("/src/assets/niji_pics/ethyria/enna/enna full body background remove.png");
+  background-image: url("/src/assets/niji_pics/ethyria/enna/enna-full-body-background-remove.png");
   background-size: 901px 1159px;
   background-position: top;
 }

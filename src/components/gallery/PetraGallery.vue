@@ -1,12 +1,12 @@
 <script setup>
 
-import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
+import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 </script>
 
 <template>
   <primary-template>
     <div class="back-button">
-      <router-link :to="{ name: 'EliraPendora' }">
+      <router-link :to="{ name: 'PetraGurin' }">
         <img src="/src/assets/icons8-back-64.png" alt="back icon">
       </router-link>
     </div>
@@ -15,60 +15,54 @@ import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
 
     <div class="gallery">
       <a href="#img1">
-        <img src="/src/assets/niji_pics/lazulight/background%20remove%20elira%20portrait.png" alt="elira portrait">
+        <img src="/src/assets/niji_pics/obsydia/Petra_Gurin_Portrait.webp" alt="petra portrait">
       </a>
       <a href="#img2">
-        <img src="/src/assets/niji_pics/lazulight/background-remove-fullbody.png" alt="elira full body">
+        <img src="/src/assets/niji_pics/obsydia/petra-full-body-background-remove.png" alt="petra full body">
       </a>
       <a href="#img3">
-        <img src="/src/assets/niji_pics/lazulight/background-remove.png" alt="elira headshot">
+        <img src="/src/assets/niji_pics/obsydia/background-remove-petra.png" alt="petra headshot">
       </a>
       <a href="#img4">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pandora_-_Key_Visual.webp" alt="elira key visual">
+        <img src="/src/assets/niji_pics/obsydia/petra-full-body-background-remove2.png" alt="petra outfit1">
       </a>
       <a href="#img5">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pendora_-_April_2023_Costume.webp" alt="elira outfit4">
+        <img src="/src/assets/niji_pics/obsydia/petra-full-body-background-remove3.png" alt="petra outfit2">
       </a>
       <a href="#img6">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pendora_-_January_2022_Costume.webp" alt="elira outfit2">
+        <img src="/src/assets/niji_pics/obsydia/Petra_Gurin_August_2022_Outfit_2.webp" alt="petra outfit3">
       </a>
       <a href="#img7">
-        <img src="/src/assets/niji_pics/lazulight/Elira_Pendora_-_October_2023_outfit.webp" alt="elira outfit3">
+        <img src="/src/assets/niji_pics/obsydia/petra-reference-sheet.jpg" alt="reference sheet1">
       </a>
       <a href="#img8">
-        <img src="/src/assets/niji_pics/lazulight/Eliref1.webp" alt="reference sheet1">
-      </a>
-      <a href="#img9">
-        <img src="/src/assets/niji_pics/lazulight/Eliref2.webp" alt="reference sheet2">
+        <img src="/src/assets/niji_pics/obsydia/petra-reference-sheet2.jpg" alt="reference sheet2">
       </a>
     </div>
       <!--lightbox-->
       <a href="#" class="lightbox" id="img1">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background remove elira portrait.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/Petra_Gurin_Portrait.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img2">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background-remove-fullbody.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/petra-full-body-background-remove.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img3">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background-remove.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/background-remove-petra.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img4">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pandora_-_Key_Visual.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/petra-full-body-background-remove2.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img5">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pendora_-_April_2023_Costume.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/petra-full-body-background-remove3.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img6">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pendora_-_January_2022_Costume.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/Petra_Gurin_August_2022_Outfit_2.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img7">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pendora_-_October_2023_outfit.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/petra-reference-sheet.jpg')"></span>
       </a>
       <a href="#" class="lightbox" id="img8">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Eliref1.webp')"></span>
-      </a>
-      <a href="#" class="lightbox" id="img9">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Eliref2.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/petra-reference-sheet2.jpg')"></span>
       </a>
 
   </primary-template>

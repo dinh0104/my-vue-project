@@ -2,22 +2,18 @@
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 
 import characters from "./characters.js";
+import groups from "./groups.js";
+
 </script>
 
 <template>
   <primary-template>
     <div class="big-nav">
       <router-link :to="{ name: 'Home'}">All</router-link>
-      <router-link :to="{ name: 'LazuLight'}">LazuLight</router-link>
-      <router-link :to="{ name: 'Obsydia'}">Obsydia</router-link>
-      <router-link :to="{ name: 'Ethyria'}">Ethyria</router-link>
-      <router-link :to="{ name: 'Luxiem'}">Luxiem</router-link>
-      <router-link :to="{ name: 'Noctyx'}">Noctyx</router-link>
-      <router-link :to="{ name: 'Iluna'}">Iluna</router-link>
-      <router-link :to="{ name: 'Xsoleil'}">Xsoleil</router-link>
-      <router-link :to="{ name: 'Krisis'}">Krisis</router-link>
-      <router-link :to="{ name: 'TTT'}">TTT</router-link>
-      <router-link :to="{ name: 'Denauth'}">Denauth</router-link>
+      <router-link v-for="group in groups.data" :key="group.name"
+                   :to="{ name: 'GroupDetails', params: { name: group.name } }">
+        {{ group.name }}
+      </router-link>
     </div>
 
 
@@ -58,7 +54,7 @@ import characters from "./characters.js";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #79CFB8;
-    background-image: url("src/assets/niji_pics/lazulight/background remove finana.png");
+    background-image: url("../assets/niji_pics/lazulight/background-remove-finana.png");
     background-size: 100% 110%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -69,7 +65,7 @@ import characters from "./characters.js";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #DC3753;
-    background-image: url("src/assets/niji_pics/obsydia/background remove rosemi.png");
+    background-image: url("../assets/niji_pics/obsydia/background-remove-rosemi.png");
     background-size: 100% 110%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -80,7 +76,7 @@ import characters from "./characters.js";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #FFAE42;
-    background-image: url("src/assets/niji_pics/obsydia/background remove petra.png");
+    background-image: url("../assets/niji_pics/obsydia/background-remove-petra.png");
     background-size: 90% 110%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -91,7 +87,7 @@ import characters from "./characters.js";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #858ED1;
-    background-image: url("src/assets/niji_pics/ethyria/enna/background remove enna.png");
+    background-image: url("../assets/niji_pics/ethyria/enna/background-remove-enna.png");
     background-size: 100% 110%;
     background-repeat: no-repeat;
   }
@@ -101,7 +97,7 @@ import characters from "./characters.js";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #858ED1;
-    background-image: url("src/assets/niji_pics/ethyria/millie/background remove millie.png");
+    background-image: url("../assets/niji_pics/ethyria/millie/background-remove-millie.png");
     background-size: 100% 140%;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,7 +108,7 @@ import characters from "./characters.js";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #B90B4A;
-    background-image: url("src/assets/niji_pics/ethyria/reimu/background remove reimu.png");
+    background-image: url("../assets/niji_pics/ethyria/reimu/background-remove-reimu.png");
     background-size: 100% 110%;
     background-repeat: no-repeat;
   }
@@ -122,7 +118,7 @@ import characters from "./characters.js";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #348EC7;
-    background-image: url("src/assets/niji_pics/luxiem/ike/background remove ike.png");
+    background-image: url("../assets/niji_pics/luxiem/ike/background-remove-ike.png");
     background-size: 100% 110%;
     background-repeat: no-repeat;
   }
@@ -132,7 +128,7 @@ import characters from "./characters.js";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #D4AF37;
-    background-image: url("src/assets/niji_pics/luxiem/luca/background remove luca.png");
+    background-image: url("../assets/niji_pics/luxiem/luca/background-remove-luca.png");
     background-size: 100% 110%;
     background-repeat: no-repeat;
   }
@@ -142,7 +138,7 @@ import characters from "./characters.js";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #A660A7;
-    background-image: url("src/assets/niji_pics/luxiem/shu/background remove shu.png");
+    background-image: url("../assets/niji_pics/luxiem/shu/background-remove-shu.png");
     background-size: 100% 110%;
     background-repeat: no-repeat;
   }
@@ -152,7 +148,7 @@ import characters from "./characters.js";
     height: 125px;
     margin: 10px 0 10px 0;
     background-color: #960018;
-    background-image: url("src/assets/niji_pics/luxiem/vox/background remove vox.png");
+    background-image: url("../assets/niji_pics/luxiem/vox/background-remove-vox.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }

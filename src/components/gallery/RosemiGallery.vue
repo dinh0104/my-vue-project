@@ -1,12 +1,12 @@
 <script setup>
 
-import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
+import PrimaryTemplate from "../../templates/PrimaryTemplate.vue";
 </script>
 
 <template>
   <primary-template>
     <div class="back-button">
-      <router-link :to="{ name: 'FinanaRyugu' }">
+      <router-link :to="{ name: 'RosemiLovelock' }">
         <img src="/src/assets/icons8-back-64.png" alt="back icon">
       </router-link>
     </div>
@@ -15,56 +15,61 @@ import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
 
     <div class="gallery">
       <a href="#img1">
-        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_Portrait.webp" alt="finana portrait">
+        <img src="/src/assets/niji_pics/obsydia/Rosemi_Lovelock_Portrait.webp" alt="rosemi portrait">
       </a>
       <a href="#img2">
-        <img src="/src/assets/niji_pics/lazulight/finana-full-body-background-remove.png" alt="finana full body">
+        <img src="/src/assets/niji_pics/obsydia/rosemi-full-body-background-remove.png" alt="rosemi full body">
       </a>
       <a href="#img3">
-        <img src="/src/assets/niji_pics/lazulight/background%20remove%20finana.png" alt="finana headshot">
+        <img src="/src/assets/niji_pics/obsydia/background-remove-rosemi.png" alt="rosemi headshot">
       </a>
       <a href="#img4">
-        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_-_Key_Visual.webp" alt="finana key visual">
+        <img src="/src/assets/niji_pics/obsydia/rosemi-full-body-background-remove3.png" alt="rosemi outfit1">
       </a>
       <a href="#img5">
-        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_-_January_2022_Costume.webp" alt="finana outfit1">
+        <img src="/src/assets/niji_pics/obsydia/rosemi-full-body-background-remove2.png" alt="rosemi outfit2">
       </a>
       <a href="#img6">
-        <img src="/src/assets/niji_pics/lazulight/Finana_Ryugu_-_February_2023_Outfit.webp" alt="finana outfit2">
+        <img src="/src/assets/niji_pics/obsydia/Rosemi_Lovelock_August_2023_Outfit.webp" alt="rosemi outfit3">
       </a>
       <a href="#img7">
-        <img src="/src/assets/niji_pics/lazulight/FinaRef1.webp" alt="reference sheet1">
+        <img src="/src/assets/niji_pics/obsydia/Rosemi_Lovelock_-_Key_Visual.webp" alt="key visual">
       </a>
       <a href="#img8">
-        <img src alt="reference sheet2">
+        <img src="/src/assets/niji_pics/obsydia/Rosemi_Lovelock_-_August_2022_outfit_29.webp" alt="rosemi outfit4">
+      </a>
+      <a href="#img9">
+        <img src="/src/assets/niji_pics/obsydia/rosemi-reference-sheet.jpg" alt="reference sheet">
       </a>
     </div>
       <!--lightbox-->
       <a href="#" class="lightbox" id="img1">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_Portrait.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/Rosemi_Lovelock_Portrait.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img2">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/finana-full-body-background-remove.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/rosemi-full-body-background-remove.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img3">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background remove finana.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/background-remove-rosemi.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img4">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_-_Key_Visual.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/rosemi-full-body-background-remove3.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img5">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_-_January_2022_Costume.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/rosemi-full-body-background-remove2.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img6">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Finana_Ryugu_-_February_2023_Outfit.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/Rosemi_Lovelock_August_2023_Outfit.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img7">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/FinaRef1.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/Rosemi_Lovelock_-_Key_Visual.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img8">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/FinaRef2.webp')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/obsydia/Rosemi_Lovelock_-_August_2022_outfit_29.webp')"></span>
       </a>
-
+    <a href="#" class="lightbox" id="img9">
+      <span style="background-image:url('/src/assets/niji_pics/obsydia/rosemi-reference-sheet.jpg')"></span>
+    </a>
 
   </primary-template>
 </template>

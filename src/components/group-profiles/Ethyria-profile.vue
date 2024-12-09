@@ -86,7 +86,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #858ED1;
-  background-image: url("src/assets/niji_pics/ethyria/enna/background remove enna.png");
+  background-image: url("../../assets/niji_pics/ethyria/enna/background-remove-enna.png");
   background-size: 100% 110%;
   background-repeat: no-repeat;
 }
@@ -96,7 +96,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #858ED1;
-  background-image: url("src/assets/niji_pics/ethyria/millie/background remove millie.png");
+  background-image: url("../../assets/niji_pics/ethyria/millie/background-remove-millie.png");
   background-size: 100% 140%;
   background-repeat: no-repeat;
   background-position: center;
@@ -107,7 +107,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #B90B4A;
-  background-image: url("src/assets/niji_pics/ethyria/reimu/background remove reimu.png");
+  background-image: url("../../assets/niji_pics/ethyria/reimu/background-remove-reimu.png");
   background-size: 100% 110%;
   background-repeat: no-repeat;
 }

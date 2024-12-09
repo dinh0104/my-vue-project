@@ -19,10 +19,10 @@ import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
         <img src="/src/assets/niji_pics/ethyria/millie/Millie_Parfait_Portrait.webp" alt="millie portrait">
       </a>
       <a href="#img2">
-        <img src="/src/assets/niji_pics/ethyria/millie/millie full body background remove.png" alt="millie full body">
+        <img src="/src/assets/niji_pics/ethyria/millie/millie-full-body-background-remove.png" alt="millie full body">
       </a>
       <a href="#img3">
-        <img src="/src/assets/niji_pics/ethyria/millie/background remove millie.png" alt="millie headshot">
+        <img src="/src/assets/niji_pics/ethyria/millie/background-remove-millie.png" alt="millie headshot">
       </a>
       <a href="#img4">
         <img src="/src/assets/niji_pics/ethyria/millie/Millie_Parfait_-_Key_Visual.webp" alt="millie key visual">
@@ -48,10 +48,10 @@ import PrimaryTemplate from "../../../../templates/PrimaryTemplate.vue";
         <span style="background-image:url('/src/assets/niji_pics/ethyria/millie/Millie_Parfait_Portrait.webp')"></span>
       </a>
       <a href="#" class="lightbox" id="img2">
-        <span style="background-image:url('/src/assets/niji_pics/ethyria/millie/millie full body background remove.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/ethyria/millie/millie-full-body-background-remove.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img3">
-        <span style="background-image:url('/src/assets/niji_pics/ethyria/millie/background remove millie.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/ethyria/millie/background-remove-millie.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img4">
         <span style="background-image:url('/src/assets/niji_pics/ethyria/millie/Millie_Parfait_-_Key_Visual.webp')"></span>

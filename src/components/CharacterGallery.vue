@@ -44,7 +44,7 @@ import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
     </div>
       <!--lightbox-->
       <a href="#" class="lightbox" id="img1">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background remove elira portrait.png')"></span>
+        <span style="background-image:url('/src/assets/niji_pics/lazulight/background-remove-elira-portrait.png')"></span>
       </a>
       <a href="#" class="lightbox" id="img2">
         <span style="background-image:url('/src/assets/niji_pics/lazulight/background-remove-fullbody.png')"></span>
