@@ -158,7 +158,10 @@ onMounted(() => {
 
 @media screen and (width > 530px) {
   .about-information {
+    margin: 0;
+    padding: 0;
     .mission {
+      padding-left: 20px;
       .mission-info {
         float: left;
         width: 50%;
@@ -175,7 +178,7 @@ onMounted(() => {
     }
 
     .values {
-      padding: 20px 0 30px 0;
+      padding: 20px 0 60px 0;
       background-color: #0065B0;
       h1 {
         color: white;
@@ -183,6 +186,7 @@ onMounted(() => {
       .values-info {
         display: flex;
         color: white;
+        padding: 0 20px;
         .value1 {
           width: 90%;
           padding: 0 5px 0 0;
@@ -201,6 +205,7 @@ onMounted(() => {
     }
 
     .message {
+      height: 37rem;
       .message-info {
         padding: 0 10px;
         float: right;
@@ -209,17 +214,69 @@ onMounted(() => {
           padding: 0;
         }
         p {
-          width: 100%;
+          width: 90%;
         }
       }
       img {
         display: flex;
+        padding-top: 40px;
+        width: 50%;
+        height: 75%;
       }
     }
   }
 }
 
 @media screen and (width > 1000px) {
+  .about-information {
+    h1 {
+      font-size: 3rem;
+    }
+    .mission {
+      h2 {
+        font-size: 30px;
+      }
+      .mission-info {
+        p {
+          font-size: 20px;
+        }
+        img {
+          width: 20%;
+          height: 20%;
+        }
+      }
+    }
+    .values {
+      .values-info {
+        .value1 {
+          h2 {
+            font-size: 25px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+        .value2 {
+          padding: 0 10px;
+          h2 {
+            font-size: 25px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+        .value3 {
+          padding: 0 0 0 10px;
+          h2 {
+            font-size: 25px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
 
 }
 
