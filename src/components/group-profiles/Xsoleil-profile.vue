@@ -90,7 +90,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #A50082;
-  background-image: url("src/assets/niji_pics/xsoleil/doppio/background remove doppio.png");
+  background-image: url("../../assets/niji_pics/xsoleil/doppio/background-remove-doppio.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -100,7 +100,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #DC6B9A;
-  background-image: url("src/assets/niji_pics/xsoleil/kotoka/background remove kotoka.png");
+  background-image: url("../../assets/niji_pics/xsoleil/kotoka/background-remove-kotoka.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -110,7 +110,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #A09BD8;
-  background-image: url("src/assets/niji_pics/xsoleil/meloco/background remove meloco.png");
+  background-image: url("../../assets/niji_pics/xsoleil/meloco/background-remove-meloco.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -120,7 +120,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #D5345E;
-  background-image: url("src/assets/niji_pics/xsoleil/ver/background remove ver.png");
+  background-image: url("../../assets/niji_pics/xsoleil/ver/background-remove-ver.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }

@@ -91,7 +91,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #8728E1;
-  background-image: url("src/assets/niji_pics/krisis/vantacrow/background remove vanta.png");
+  background-image: url("../../assets/niji_pics/krisis/vantacrow/background-remove-vanta.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -101,7 +101,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #C34196;
-  background-image: url("src/assets/niji_pics/krisis/vezalius/background remove zali.png");
+  background-image: url("../../assets/niji_pics/krisis/vezalius/background-remove-zali.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -111,7 +111,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #F5EB28;
-  background-image: url("src/assets/niji_pics/krisis/wilson/background remove wilson.png");
+  background-image: url("../../assets/niji_pics/krisis/wilson/background-remove-wilson.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }

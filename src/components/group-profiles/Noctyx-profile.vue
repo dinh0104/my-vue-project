@@ -90,7 +90,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #FF5F00;
-  background-image: url("src/assets/niji_pics/noctyx/alban/background remove alban.png");
+  background-image: url("../../assets/niji_pics/noctyx/alban/background-remove-alban.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -101,7 +101,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #FF0000;
-  background-image: url("src/assets/niji_pics/noctyx/fulgur/background remove fulgur.png");
+  background-image: url("../../assets/niji_pics/noctyx/fulgur/background-remove-fulgur.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -112,7 +112,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #FFF321;
-  background-image: url("src/assets/niji_pics/noctyx/sonny/background remove sonny.png");
+  background-image: url("../../assets/niji_pics/noctyx/sonny/background-remove-sonny.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -123,7 +123,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #B600FF;
-  background-image: url("src/assets/niji_pics/noctyx/uki/background remove uki.png");
+  background-image: url("../../assets/niji_pics/noctyx/uki/background-remove-uki.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;

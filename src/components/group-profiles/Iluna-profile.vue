@@ -94,7 +94,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #FFFEF7;
-  background-image: url("src/assets/niji_pics/iluna/aia/background remove aia.png");
+  background-image: url("../../assets/niji_pics/iluna/aia/background-remove-aia.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   outline: 1px solid darkgray;
@@ -105,7 +105,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #6662A4;
-  background-image: url("src/assets/niji_pics/iluna/aster/background remove aster.png");
+  background-image: url("../../assets/niji_pics/iluna/aster/background-remove-aster.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -115,7 +115,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #E55A9B;
-  background-image: url("src/assets/niji_pics/iluna/maria/background remove maria.png");
+  background-image: url("../../assets/niji_pics/iluna/maria/background-remove-maria.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -125,7 +125,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #429B76;
-  background-image: url("src/assets/niji_pics/iluna/ren/background remove ren.png");
+  background-image: url("../../assets/niji_pics/iluna/ren/background-remove-ren.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -135,7 +135,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #E60012;
-  background-image: url("src/assets/niji_pics/iluna/scarle/background remove scarle.png");
+  background-image: url("../../assets/niji_pics/iluna/scarle/background-remove-scarle.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }

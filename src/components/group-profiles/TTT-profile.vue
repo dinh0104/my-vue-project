@@ -85,7 +85,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #D7D2EB;
-  background-image: url("src/assets/niji_pics/ttt/victoria/background remove vivi.png");
+  background-image: url("../../assets/niji_pics/ttt/victoria/background-remove-vivi.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -95,7 +95,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #7D3CAF;
-  background-image: url("src/assets/niji_pics/ttt/claude/background remove claude.png");
+  background-image: url("../../assets/niji_pics/ttt/claude/background-remove-claude.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }

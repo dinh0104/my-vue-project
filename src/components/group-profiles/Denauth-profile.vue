@@ -85,7 +85,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #DFCDBF;
-  background-image: url("src/assets/niji_pics/denauth/klara/background remove klara.png");
+  background-image: url("../../assets/niji_pics/denauth/klara/background-remove-klara.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -95,7 +95,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #952D22;
-  background-image: url("src/assets/niji_pics/denauth/ryoma/background remove ryoma.png");
+  background-image: url("../../assets/niji_pics/denauth/ryoma/background-remove-ryoma.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -105,7 +105,7 @@ h2 {
   height: 125px;
   margin: 10px 0 10px 0;
   background-color: #78ECD5;
-  background-image: url("src/assets/niji_pics/denauth/twisty/background remove twisty.png");
+  background-image: url("../../assets/niji_pics/denauth/twisty/background-remove-twisty.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
