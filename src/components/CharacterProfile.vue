@@ -51,9 +51,9 @@ onMounted(() => {
     <iframe width="348" height="176" :src="character.videoUrl"></iframe>
 
     <div class="social-icons">
-      <span><a href="{{ character.twitter }} "><img src="/src/assets/svg%20icons/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
-      <span><a href=" {{ character.youtube }} "><img src="/src/assets/svg%20icons/icons8-youtube.svg" alt="youtube icon"></a></span>
-      <span><a href=" {{ character.twitch }} "><img src="/src/assets/svg%20icons/icons8-twitch.svg" alt="twitch icon"></a></span>
+      <span><a :href=" character.twitter "><img src="/src/assets/svg%20icons/icons8-twitterx.svg" alt="twitter/x icon"></a></span>
+      <span><a :href=" character.youtube "><img src="/src/assets/svg%20icons/icons8-youtube.svg" alt="youtube icon"></a></span>
+      <span><a :href=" character.twitch "><img src="/src/assets/svg%20icons/icons8-twitch.svg" alt="twitch icon"></a></span>
     </div>
     <router-link :to="{ name: 'StreamerGallery', params: { name: characterName } }">
       <h2>Gallery</h2>

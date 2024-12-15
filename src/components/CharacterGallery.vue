@@ -3,6 +3,7 @@
 import PrimaryTemplate from "../templates/PrimaryTemplate.vue";
 import {useRoute, useRouter} from "vue-router";
 import characterFile from "./characters.js";
+import {ref} from "vue";
 
 const route = useRoute();
 const router = useRouter();
@@ -10,49 +11,34 @@ const characterName = route.params.name;
 const character = characterFile.data.filter(character => character.name.toLowerCase().includes(characterName))[0]
 const gallery = character.gallery
 
+const currentImage = ref(null); // Holds the current image being displayed
+const isLightboxVisible = ref(false); // Toggle for lightbox visibility
+
+const openLightbox = (image) => {
+  currentImage.value = image;
+  isLightboxVisible.value = true;
+};
+
+const closeLightbox = () => {
+  isLightboxVisible.value = false;
+  currentImage.value = null;
+};
+
 </script>
 
 <template>
   <primary-template>
-    <div class="back-button">
-      <router-link :to="{ name: 'AboutUs' }">
-        <img src="/src/assets/svg%20icons/icons8-back-64.png" alt="back icon">
-      </router-link>
-    </div>
+
 
     <h1>{{ character.name }} Gallery</h1>
 
     <div class="gallery">
-      <img v-for="image in gallery" :src="image" alt="" />
+      <img v-for="image in gallery" :src="image" alt="gallery image" @click="openLightbox(image)"/>
     </div>
       <!--lightbox-->
-      <a href="#" class="lightbox" id="img1">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background-remove-elira-portrait.png')"></span>
-      </a>
-      <a href="#" class="lightbox" id="img2">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background-remove-fullbody.png')"></span>
-      </a>
-      <a href="#" class="lightbox" id="img3">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/background-remove.png')"></span>
-      </a>
-      <a href="#" class="lightbox" id="img4">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pandora_-_Key_Visual.webp')"></span>
-      </a>
-      <a href="#" class="lightbox" id="img5">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pendora_-_April_2023_Costume.webp')"></span>
-      </a>
-      <a href="#" class="lightbox" id="img6">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pendora_-_January_2022_Costume.webp')"></span>
-      </a>
-      <a href="#" class="lightbox" id="img7">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Elira_Pendora_-_October_2023_outfit.webp')"></span>
-      </a>
-      <a href="#" class="lightbox" id="img8">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Eliref1.webp')"></span>
-      </a>
-      <a href="#" class="lightbox" id="img9">
-        <span style="background-image:url('/src/assets/niji_pics/lazulight/Eliref2.webp')"></span>
-      </a>
+    <div v-if="isLightboxVisible" class="lightbox" @click.self="closeLightbox">
+      <span :style="{ backgroundImage: 'url(' + currentImage + ')' }"></span>
+    </div>
 
   </primary-template>
 </template>
@@ -101,38 +87,29 @@ h1 {
 /*lightbox*/
 
 .lightbox {
-  /* make hidden */
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  /* Overlay entire screen */
+  /* Full-screen overlay */
   position: fixed;
-  z-index: 999;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
 
-  /* padding around image */
-  padding: 1em;
-
-  /* background */
   background: rgba(0, 0, 0, 0.8);
-}
-
-/* Unhide the lightbox */
-.lightbox:target {
-  display: flex;
+  cursor: pointer;
 }
 
 .lightbox span {
-  /* Full width and height */
   display: flex;
-  width: 100%;
-  height: 100%;
-
-  /* Size and position background image */
-  background: no-repeat center;
+  width: 80%;
+  height: 80%;
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media screen and (width > 530px) {

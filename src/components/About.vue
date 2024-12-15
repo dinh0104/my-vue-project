@@ -20,7 +20,7 @@ onMounted(() => {
 <template>
   <primary-template>
     <div class="about-information">
-    <h1>ABOUT</h1>
+    <!--<h1>ABOUT</h1>-->
     <div class="mission">
       <h2>MISSION</h2>
       <h1>A NEW MAGICAL EXPERIENCE</h1>
@@ -218,10 +218,10 @@ onMounted(() => {
         }
       }
       img {
-        display: flex;
         padding-top: 40px;
-        width: 50%;
-        height: 75%;
+        object-fit: contain;
+        width: 45%;
+        height: 65%;
       }
     }
   }
@@ -229,21 +229,22 @@ onMounted(() => {
 
 @media screen and (width > 1000px) {
   .about-information {
-    h1 {
-      font-size: 3rem;
+    h2 {
+      font-size: 5rem;
     }
     .mission {
-      h2 {
-        font-size: 30px;
+      h1 {
+        font-size: 50px;
       }
       .mission-info {
         p {
           font-size: 20px;
         }
-        img {
-          width: 20%;
-          height: 20%;
-        }
+      }
+      img {
+        padding-left: 141px;
+        width: 40%;
+        height: 40%;
       }
     }
     .values {
@@ -274,6 +275,21 @@ onMounted(() => {
             font-size: 18px;
           }
         }
+      }
+    }
+    .message {
+      padding-bottom: 20px;
+      .message-info {
+        h2 {
+          font-size: 50px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+      img {
+        width: 40%;
+        height: 95%;
       }
     }
   }
