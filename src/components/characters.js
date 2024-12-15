@@ -26,7 +26,8 @@ const data = [
             "/src/assets/niji_pics/lazulight/Eliref1.webp",
             "/src/assets/niji_pics/lazulight/Eliref2.webp"
         ],
-        group: "LazuLight"
+        group: "LazuLight",
+        textColor: "white"
     },
     {
         name: "Finana Ryugu",
@@ -54,7 +55,8 @@ const data = [
             "/src/assets/niji_pics/lazulight/FinaRef1.webp",
             "/src/assets/niji_pics/lazulight/FinaRef2.webp"
         ],
-        group: "LazuLight"
+        group: "LazuLight",
+        textColor: "white"
     },
     {
         name: "Petra Gurin",
@@ -82,7 +84,8 @@ const data = [
             "/src/assets/niji_pics/obsydia/petra-reference-sheet.jpg",
             "/src/assets/niji_pics/obsydia/petra-reference-sheet2.jpg"
         ],
-        group: "Obsydia"
+        group: "Obsydia",
+        textColor: "white"
     },
     {
         name: "Rosemi Lovelock",
@@ -111,7 +114,8 @@ const data = [
             "/src/assets/niji_pics/obsydia/Rosemi_Lovelock_-_August_2022_outfit_29.webp",
             "/src/assets/niji_pics/obsydia/rosemi-reference-sheet.jpg"
         ],
-        group: "Obsydia"
+        group: "Obsydia",
+        textColor: "white"
     },
     {
         name: "Enna Alouette",
@@ -140,7 +144,8 @@ const data = [
             "/src/assets/niji_pics/ethyria/enna/Enna_Alouette_Ref_Sheet_New_2.webp",
             "/src/assets/niji_pics/ethyria/enna/Enna_Alouette_Reference_Sheet.webp"
         ],
-        group: "Ethyria"
+        group: "Ethyria",
+        textColor: "white"
     },
     {
         name: "Millie Parfait",
@@ -169,7 +174,8 @@ const data = [
             "/src/assets/niji_pics/ethyria/millie/Millie_Zuttomo_Outfit_Reference_Sheet.webp",
             "/src/assets/niji_pics/ethyria/millie/Millie_Multiverse_Merchant_Reference_Sheet.webp"
         ],
-        group: "Ethyria"
+        group: "Ethyria",
+        textColor: "white"
     },
     {
         name: "Reimu Endou",
@@ -197,7 +203,8 @@ const data = [
             "/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_Lace_Nightwear_Ghost_Reference_Sheet.webp",
             "/src/assets/niji_pics/ethyria/reimu/Reimu_Endou_zutto%3Fo_Summer_Ghost_Outfit_Reference_Sheet.webp"
         ],
-        group: "Ethyria"
+        group: "Ethyria",
+        textColor: "white"
     },
     {
         name: "Ike Eveland",
@@ -223,7 +230,8 @@ const data = [
             "/src/assets/niji_pics/luxiem/ike/Ike_Eveland_-_Reference_sheet_3.webp",
             "/src/assets/niji_pics/luxiem/ike/Ike_Eveland_Portrait.webp"
         ],
-        group: "Luxiem"
+        group: "Luxiem",
+        textColor: "white"
     },
     {
         name: "Luca Kaneshiro",
@@ -242,20 +250,21 @@ const data = [
         youtube: "https://www.youtube.com/@LucaKaneshiro",
         twitch: "https://www.twitch.tv/nijisanji_en",
         gallery: [
-            "/src/assets/niji-pics/luxiem/luca/Luca_Kaneshiro_Portrait.webp",
-            "/src/assets/niji-pics/luxiem/luca/luca-full-body-background-remove.png",
-            "/src/assets/niji-pics/luxiem/luca/background-remove-luca.png",
-            "/src/assets/niji-pics/luxiem/luca/Luca_Kaneshiro_August_2023_Costume.webp",
-            "/src/assets/niji-pics/luxiem/luca/Luca_Kaneshiro_Second_Costume.webp",
-            "/src/assets/niji-pics/luxiem/luca/Luca_Kaneshiro_Fourth_Costume.webp",
-            "/src/assets/niji-pics/luxiem/luca/Luca_reference_1.webp",
-            "/src/assets/niji-pics/luxiem/luca/Luca_reference_2.webp",
-            "/src/assets/niji-pics/luxiem/luca/Luca_reference_3.webp",
-            "/src/assets/niji-pics/luxiem/luca/Luca_reference_4.webp",
-            "/src/assets/niji-pics/luxiem/luca/Luca_reference_5.webp",
-            "/src/assets/niji-pics/luxiem/luca/Luca_reference_6.webp"
+            "/src/assets/niji_pics/luxiem/luca/background-remove-luca.png",
+            "/src/assets/niji_pics/luxiem/luca/luca-full-body-background-remove.png",
+            "/src/assets/niji_pics/luxiem/luca/Luca_Kaneshiro_August_2023_Costume.webp",
+            "/src/assets/niji_pics/luxiem/luca/Luca_Kaneshiro_Fourth_Costume.webp",
+            "/src/assets/niji_pics/luxiem/luca/Luca_Kaneshiro_Portrait.webp",
+            "/src/assets/niji_pics/luxiem/luca/Luca_Kaneshiro_Second_Costume.webp",
+            "/src/assets/niji_pics/luxiem/luca/Luca_reference_1.webp",
+            "/src/assets/niji_pics/luxiem/luca/Luca_reference_2.webp",
+            "/src/assets/niji_pics/luxiem/luca/Luca_reference_3.webp",
+            "/src/assets/niji_pics/luxiem/luca/Luca_reference_4.webp",
+            "/src/assets/niji_pics/luxiem/luca/Luca_reference_5.webp",
+            "/src/assets/niji_pics/luxiem/luca/Luca_reference_6.webp"
         ],
-        group: "Luxiem"
+        group: "Luxiem",
+        textColor: "white"
     },
     {
         name: "Shu Yamino",
@@ -274,14 +283,15 @@ const data = [
         youtube: "https://www.youtube.com/@ShuYamino",
         twitch: "https://www.twitch.tv/nijisanji_en",
         gallery: [
-            "/src/assets/niji-pics/luxiem/shu/Shu_Yamino_Portrait.webp",
-            "/src/assets/niji-pics/luxiem/shu/shu-full-body-background-remove.png",
-            "/src/assets/niji-pics/luxiem/shu/background-remove-shu.png",
-            "/src/assets/niji-pics/luxiem/shu/Shu_Yamino_-_April_2023_Costume.webp",
-            "/src/assets/niji-pics/luxiem/shu/Shu_Yamino_May_2024_Outfit.webp",
-            "/src/assets/niji-pics/luxiem/shu/Shu_Yamino_-_Reference_sheet.webp"
+            "/src/assets/niji_pics/luxiem/shu/background-remove-shu.png",
+            "/src/assets/niji_pics/luxiem/shu/shu-full-body-background-remove.png",
+            "/src/assets/niji_pics/luxiem/shu/Shu_Yamino_-_April_2023_Costume.webp",
+            "/src/assets/niji_pics/luxiem/shu/Shu_Yamino_-_Reference_Sheet.webp",
+            "/src/assets/niji_pics/luxiem/shu/Shu_Yamino_May_2024_Outfit.webp",
+            "/src/assets/niji_pics/luxiem/shu/Shu_Yamino_Portrait.webp"
         ],
-        group: "Luxiem"
+        group: "Luxiem",
+        textColor: "white"
     },
     {
         name: "Vox Akuma",
@@ -300,15 +310,16 @@ const data = [
         youtube: "https://www.youtube.com/@VoxAkuma",
         twitch: "https://www.twitch.tv/nijisanji_en",
         gallery: [
-            "/src/assets/niji-pics/luxiem/vox/Vox_Akuma_Portrait.webp",
-            "/src/assets/niji-pics/luxiem/vox/vox-full-body-background-remove.png",
-            "/src/assets/niji-pics/luxiem/vox/background-remove-vox.png",
-            "/src/assets/niji-pics/luxiem/vox/Vox_Akuma_Demon_Model.webp",
-            "/src/assets/niji-pics/luxiem/vox/Vox_Akuma_Second_Outfit_Illustration.webp",
-            "/src/assets/niji-pics/luxiem/vox/Vox_Fourth_outfit.webp",
-            "/src/assets/niji-pics/luxiem/vox/Vox_Akuma_-_Reference_sheet.webp",
+            "/src/assets/niji_pics/luxiem/vox/background-remove-vox.png",
+            "/src/assets/niji_pics/luxiem/vox/vox-full-body-background-remove.png",
+            "/src/assets/niji_pics/luxiem/vox/Vox_Akuma_-_Reference_sheet.webp",
+            "/src/assets/niji_pics/luxiem/vox/Vox_Akuma_Demon_Model.webp",
+            "/src/assets/niji_pics/luxiem/vox/Vox_Akuma_Portrait.webp",
+            "/src/assets/niji_pics/luxiem/vox/Vox_Akuma_Second_Outfit_Illustration.webp",
+            "/src/assets/niji_pics/luxiem/vox/Vox_Fourth_Outfit.webp"
         ],
-        group: "Luxiem"
+        group: "Luxiem",
+        textColor: "white"
     },
     {
         name: "Alban Knox",
@@ -327,16 +338,20 @@ const data = [
         youtube: "https://www.youtube.com/@AlbanKnox",
         twitch: "twitch.tv/albanknox",
         gallery: [
-            "/src/assets/niji-pics/noctyx/alban/alban-full-body-background-remove.png",
-            "/src/assets/niji-pics/noctyx/alban/Alban_knox_Key_Visual.webp",
-            "/src/assets/niji-pics/noctyx/alban/Alban_knox_portrait.webp",
-            "/src/assets/niji-pics/noctyx/alban/background-remove-alban.png",
-            "/src/assets/niji-pics/noctyx/alban/Alban_knox_December_2023_Outfit.webp",
-            "/src/assets/niji-pics/noctyx/alban/Alban_knox_June_2023_Outfit.webp",
-            "/src/assets/niji-pics/noctyx/alban/Alban_knox_June_2023_Outfit_2.webp",
-            "/src/assets/niji-pics/noctyx/alban/Alban_Knox_-_Reference_sheet1.webp"
+            "/src/assets/niji_pics/noctyx/alban/alban-full-body-background-remove.png",
+            "/src/assets/niji_pics/noctyx/alban/Alban_Knox_-_Reference_sheet_1.webp",
+            "/src/assets/niji_pics/noctyx/alban/Alban_Knox_-_Reference_sheet_2.webp",
+            "/src/assets/niji_pics/noctyx/alban/Alban_Knox_-_Reference_sheet_3.webp",
+            "/src/assets/niji_pics/noctyx/alban/Alban_Knox_-_Reference_sheet_4.webp",
+            "/src/assets/niji_pics/noctyx/alban/Alban_Knox_December_2023_Outfit.webp",
+            "/src/assets/niji_pics/noctyx/alban/Alban_Knox_June_2023_Outfit.webp",
+            "/src/assets/niji_pics/noctyx/alban/Alban_Knox_June_2023_Outfit_2.webp",
+            "/src/assets/niji_pics/noctyx/alban/Alban_Knox_Key_Visual.webp",
+            "/src/assets/niji_pics/noctyx/alban/Alban_Knox_portrait.webp",
+            "/src/assets/niji_pics/noctyx/alban/background-remove-alban.png"
         ],
-        group: "Noctyx"
+        group: "Noctyx",
+        textColor: "white"
     },
     {
         name: "Fulgur Ovid",
@@ -365,7 +380,8 @@ const data = [
             "/src/assets/niji_pics/noctyx/fulgur/Fulgur_Ovid_Shepherd.webp",
             "/src/assets/niji_pics/noctyx/fulgur/Fulgur_Ovid_Shepherd_29.webp"
         ],
-        group: "Noctyx"
+        group: "Noctyx",
+        textColor: "white"
     },
     {
         name: "Sonny Brisko",
@@ -393,7 +409,8 @@ const data = [
             "/src/assets/niji_pics/noctyx/sonny/Sonny_Brisko_Key_Visual.webp",
             "/src/assets/niji_pics/noctyx/sonny/Sonny_Brisko_portrait.webp"
         ],
-        group: "Noctyx"
+        group: "Noctyx",
+        textColor: "black"
     },
     {
         name: "Uki Violeta",
@@ -421,7 +438,8 @@ const data = [
             "/src/assets/niji_pics/noctyx/uki/Uki_Violeta_reference_sheet_1.webp",
             "/src/assets/niji_pics/noctyx/uki/Uki_Violeta_reference_sheet_2.webp"
         ],
-        group: "Noctyx"
+        group: "Noctyx",
+        textColor: "white"
     },
     {
         name: "Aia Amare",
@@ -449,7 +467,8 @@ const data = [
             "/src/assets/niji_pics/iluna/aia/Aia_Amare_Key_Art_by_ohyg3.webp",
             "/src/assets/niji_pics/iluna/aia/background-remove-aia.png"
         ],
-        group: "Iluna"
+        group: "Iluna",
+        textColor: "black"
     },
     {
         name: "Aster Arcadia",
@@ -479,7 +498,8 @@ const data = [
             "/src/assets/niji_pics/iluna/aster/Aster_Arcadia_Second_Outfit_Ref_Sheet.webp",
             "/src/assets/niji_pics/iluna/aster/background-remove-aster.png"
         ],
-        group: "Iluna"
+        group: "Iluna",
+        textColor: "white"
     },
     {
         name: "Maria Marionette",
@@ -510,7 +530,8 @@ const data = [
             "/src/assets/niji_pics/iluna/maria/Maria_Marionette_Three_View.webp",
             "/src/assets/niji_pics/iluna/maria/Maria_Marionette_Three_View_No_Jacket.webp"
         ],
-        group: "Iluna"
+        group: "Iluna",
+        textColor: "white"
     },
     {
         name: "Ren Zotto",
@@ -537,7 +558,8 @@ const data = [
             "/src/assets/niji_pics/iluna/ren/Ren_Zotto_-_Reference_sheet_2.webp",
             "/src/assets/niji_pics/iluna/ren/Ren_Zotto_-_Reference_sheet_3.webp"
         ],
-        group: "Iluna"
+        group: "Iluna",
+        textColor: "white"
     },
     {
         name: "Scarle Yonaguni",
@@ -567,7 +589,8 @@ const data = [
             "/src/assets/niji_pics/iluna/scarle/Scarle_Yonaguni_Enchantress_Dress_Reference_Sheet_1.webp",
             "/src/assets/niji_pics/iluna/scarle/Scarle_Yonaguni_Enchantress_Dress_Reference_Sheet_2.webp"
         ],
-        group: "Iluna"
+        group: "Iluna",
+        textColor: "white"
     },
     {
         name: "Doppio Dropscythe",
@@ -597,7 +620,8 @@ const data = [
             "/src/assets/niji_pics/xsoleil/doppio/Doppio_Dropscythe_Three_View_Reference_With_Jacket.webp",
             "/src/assets/niji_pics/xsoleil/doppio/Doppio_Key_Visual.webp"
         ],
-        group: "Xsoleil"
+        group: "Xsoleil",
+        textColor: "white"
     },
     {
         name: "Kotoka Torihime",
@@ -624,7 +648,8 @@ const data = [
             "/src/assets/niji_pics/xsoleil/kotoka/Kotoka_Torahime_second_outfit.webp",
             "/src/assets/niji_pics/xsoleil/kotoka/Screenshot-2024-10-27-204836.png"
         ],
-        group: "Xsoleil"
+        group: "Xsoleil",
+        textColor: "white"
     },
     {
         name: "Meloco Kyoran",
@@ -655,7 +680,8 @@ const data = [
             "/src/assets/niji_pics/xsoleil/meloco/Meloco_Kyoran_Turnaround_Sheet_without_Jacket.webp",
             "/src/assets/niji_pics/xsoleil/meloco/Screenshot-2024-10-27-204956.png"
         ],
-        group: "Xsoleil"
+        group: "Xsoleil",
+        textColor: "white"
     },
     {
         name: "Ver Vermillion",
@@ -669,7 +695,7 @@ const data = [
         color: "#D5345E",
         fanName: "Villions",
         image: "/src/assets/niji_pics/xsoleil/ver/ver-full-body-background-remove.png",
-        videoUrl: "https://www.youtube.com/embed/UmASg4svodc?si=VFkQ4HB9x7vIk-Ez",
+        videoUrl: "https://www.youtube.com/embed/3DpVWbGNMFk?si=QB1QxiYukpNLsbLW",
         twitter: "twitter.com/ver_vermillion",
         youtube: "https://www.youtube.com/@VerVermillion",
         twitch: "https://www.twitch.tv/nijisanji_en",
@@ -684,7 +710,8 @@ const data = [
             "/src/assets/niji_pics/xsoleil/ver/Ver_Vermillion_Three_View.webp",
             "/src/assets/niji_pics/xsoleil/ver/Ver_Vermillion_Three_View_Reference_No_Coat.webp"
         ],
-        group: "Xsoleil"
+        group: "Xsoleil",
+        textColor: "white"
     },
     {
         name: "Vantacrow Bringer",
@@ -711,7 +738,8 @@ const data = [
             "/src/assets/niji_pics/krisis/vantacrow/Vantacrow_Bringer_reference_sheet_pic_3.webp",
             "/src/assets/niji_pics/krisis/vantacrow/Vantacrow_Bringer_reference_sheet_pic_4.webp"
         ],
-        group: "krisis"
+        group: "krisis",
+        textColor: "white"
     },
     {
         name: "Yu Q Wilson",
@@ -738,7 +766,8 @@ const data = [
             "/src/assets/niji_pics/krisis/wilson/Yu_Q._Wilson_reference_sheet_pic_2.webp",
             "/src/assets/niji_pics/krisis/wilson/Yu_Q._Wilson_reference_sheet_pic_3.webp"
         ],
-        group: "krisis"
+        group: "krisis",
+        textColor: "black"
     },
     {
         name: "Vezalius Bandage",
@@ -767,7 +796,8 @@ const data = [
             "/src/assets/niji_pics/krisis/vezalius/Vezalius_Bandage_reference_sheet_pic_5.webp",
             "/src/assets/niji_pics/krisis/vezalius/zali-full-body-background-remove.png"
         ],
-        group: "krisis"
+        group: "krisis",
+        textColor: "white"
     },
     {
         name: "Claude Clawmark",
@@ -793,7 +823,8 @@ const data = [
             "/src/assets/niji_pics/ttt/claude/Claude_Clawmark_Reference_Sheet_pic_2.webp",
             "/src/assets/niji_pics/ttt/claude/Claude_Clawmark_Reference_Sheet_pic_3.webp"
         ],
-        group: "TTT"
+        group: "TTT",
+        textColor: "white"
     },
     {
         name: "Victoria Brightshield",
@@ -821,7 +852,8 @@ const data = [
             "/src/assets/niji_pics/ttt/victoria/Victoria_Brightshield_Reference_Sheet_pic_4.webp",
             "/src/assets/niji_pics/ttt/victoria/vivi-full-body-background-remove.png"
         ],
-        group: "TTT"
+        group: "TTT",
+        textColor: "black"
     },
     {
         name: "Klara Charmwood",
@@ -846,7 +878,8 @@ const data = [
             "/src/assets/niji_pics/denauth/klara/Klara_Charmwood_reference_sheet_1.webp",
             "/src/assets/niji_pics/denauth/klara/Klara_Charmwood_reference_sheet_2.webp"
         ],
-        group: "Denauth"
+        group: "Denauth",
+        textColor: "white"
     },
     {
         name: "Ryoma Barrenwort",
@@ -870,7 +903,8 @@ const data = [
             "/src/assets/niji_pics/denauth/ryoma/Ryoma_Barrenwort_Key_Visual.webp",
             "/src/assets/niji_pics/denauth/ryoma/Ryoma_Barrenwort_reference_sheet.webp"
         ],
-        group: "Denauth"
+        group: "Denauth",
+        textColor: "white"
     },
     {
         name: "Twisty Amanozako",
@@ -897,7 +931,8 @@ const data = [
             "/src/assets/niji_pics/denauth/twisty/Twisty_Amanozako_Reference_Sheet_2.webp",
             "/src/assets/niji_pics/denauth/twisty/Twisty_Amanozako_Reference_Sheet_3.webp"
         ],
-        group: "Denauth"
+        group: "Denauth",
+        textColor: "black"
     }
 ]
 
