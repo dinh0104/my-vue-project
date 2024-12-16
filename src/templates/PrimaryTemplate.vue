@@ -22,6 +22,8 @@
       <h1>Learn more about the company</h1>
       <router-link :to="{ name: 'AboutUs' }">About Us</router-link>
 
+      <router-link :to="{ name: 'Home' }">Our Talents</router-link>
+
       <h1>Nijisanji EN Socials</h1>
       <a href="https://x.com/NIJISANJI_World?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">X (formerly
         Twitter)</a>

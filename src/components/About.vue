@@ -6,10 +6,12 @@ import WorkerBios from "./WorkerBios.js";
 
 const router = useRouter();
 
-const worker = WorkerBios.data;
+const workers = WorkerBios.data;
+
+console.log(workers);
 
 onMounted(() => {
-  if (!worker) {
+  if (!workers) {
     router.push({
       name: 'Home'
     })
@@ -89,8 +91,15 @@ onMounted(() => {
         <img src="/src/assets/ceo-img.jpg" alt="riku tazumi"/>
       </div>
 
-      <div class="workers">
-        <!--<h1>{{ firstName }}</h1>-->
+      <div class="worker-info">
+        <h1>Meet Our Team</h1>
+        <div class="worker-grid">
+          <div class="worker-card" v-for="(worker, index) in workers" :key="index">
+            <h2> {{ worker.firstName}} {{worker.lastName }} </h2>
+            <h3> {{worker.position }} </h3>
+            <p> {{ worker.bio }} </p>
+         </div>
+        </div>
       </div>
     </div>
 
@@ -152,6 +161,33 @@ onMounted(() => {
     img {
       width: 50%;
       height: 50%;
+    }
+  }
+
+  .worker-info {
+    margin-top: 90px;
+    .worker-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+
+      .worker-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        h2 {
+          font-family: 'raleway bold', sans-serif;
+        }
+        h3 {
+          font-family: "raleway bold", sans-serif;
+        }
+        p{
+          font-family: 'raleway', sans-serif;
+        }
+      }
     }
   }
 }
@@ -224,6 +260,11 @@ onMounted(() => {
         height: 65%;
       }
     }
+    .worker-info {
+      .worker-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
   }
 }
 
@@ -290,6 +331,20 @@ onMounted(() => {
       img {
         width: 40%;
         height: 95%;
+      }
+    }
+    .worker-info {
+      margin-top: 140px;
+      h1 {
+        font-size: 50px;
+      }
+      .worker-grid {
+        grid-template-columns: repeat(3, 1fr);
+        .worker-card {
+          h2 {
+            font-size: 30px;
+          }
+        }
       }
     }
   }
